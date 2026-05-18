@@ -63,6 +63,35 @@ class ThemeSetup {
       'ajaxurl' => admin_url('admin-ajax.php'),
       'nonce' => wp_create_nonce('theme_nonce'),
     ]);
+
+    // Per-case page assets — loaded based on the template selected for the current case.
+    // Template path looks like "templates/cases/{key}.php"; the bundle key is "case-{key}".
+    if (is_singular('case')) {
+      $template = get_page_template_slug(get_queried_object_id());
+      if (is_string($template) && preg_match('#^templates/cases/([a-z0-9_-]+)\.php$#', $template, $m)) {
+        $key = $m[1];
+        $handle = 'theme-case-' . $key;
+        $css = THEME_PATH . '/dist/css/case-' . $key . '.min.css';
+        if (file_exists($css)) {
+          wp_enqueue_style(
+            $handle,
+            THEME_URL . '/dist/css/case-' . $key . '.min.css',
+            ['theme-styles'],
+            THEME_VERSION
+          );
+        }
+        $js = THEME_PATH . '/dist/js/case-' . $key . '.min.js';
+        if (file_exists($js)) {
+          wp_enqueue_script(
+            $handle,
+            THEME_URL . '/dist/js/case-' . $key . '.min.js',
+            [],
+            THEME_VERSION,
+            true
+          );
+        }
+      }
+    }
   }
 
   /**

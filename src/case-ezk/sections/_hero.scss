@@ -1,0 +1,83 @@
+// Hero section — Figma node 642:48522.
+// 2 category pills + device mockup (PNG) + 2 leaf decorations (PNG).
+// Positioned at the top of the page (page-coord origin Y=0).
+
+.case-ezk-hero {
+  position: relative;
+  width: $ezk-page-width;
+  height: 1275px;
+
+  // Allow the leaves to overflow the section box (clipped by the page wrapper).
+  overflow: visible;
+
+  // Category pills (UX&UI, e-Commerce) — top-left
+  &__tags {
+    position: absolute;
+    top: 154px;
+    left: 26px;
+    display: flex;
+    gap: 15px;
+    z-index: 3;
+  }
+
+  &__tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 12px;
+    background: $ezk-card-bg;
+    border-radius: 8.806239px;
+    font-family: $ezk-font;
+    font-weight: 300;
+    font-size: 13.698594px;
+    line-height: 16px;
+    color: $ezk-text-black;
+    white-space: nowrap;
+  }
+
+  // Device + product mockup — centered
+  &__device {
+    position: absolute;
+    top: 258px;
+    left: 108px;
+    width: 1223px;
+    height: 1017px;
+    z-index: 2;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  // Decorative leaves — overflow page edges intentionally
+  &__leaves {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__leaves--top-right {
+    top: 0;
+    left: 1154px;
+    width: 559px;
+    height: 453px;
+  }
+
+  &__leaves--bottom-left {
+    top: 794px;
+    left: -130px;
+    width: 676px;
+    height: 411px;
+  }
+}

@@ -23,6 +23,7 @@ module.exports = (_, env) => {
       login: './src/js/login/index.ts',
       fonts: './src/js/fonts/index.ts',
       admin: './src/js/admin/index.ts',
+      'case-ezk': './src/case-ezk/index.ts',
     },
     output: {
       filename: 'js/[name].min.js',

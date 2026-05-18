@@ -1,0 +1,72 @@
+// SF Pro Display @font-face declarations (woff2 + woff).
+// Loaded only by the EZK case bundle.
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src:
+    url('../fonts/SFPro/SFProDisplay-Ultralight.woff2') format('woff2'),
+    url('../fonts/SFPro/SFProDisplay-Ultralight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src:
+    url('../fonts/SFPro/SFProDisplay-Thin.woff2') format('woff2'),
+    url('../fonts/SFPro/SFProDisplay-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url('../fonts/SFPro/SFProDisplay-Light.woff2') format('woff2'),
+    url('../fonts/SFPro/SFProDisplay-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('../fonts/SFPro/SFProDisplay-Regular.woff2') format('woff2'),
+    url('../fonts/SFPro/SFProDisplay-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('../fonts/SFPro/SFProDisplay-Medium.woff2') format('woff2'),
+    url('../fonts/SFPro/SFProDisplay-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url('../fonts/SFPro/SFProDisplay-Semibold.woff2') format('woff2'),
+    url('../fonts/SFPro/SFProDisplay-Semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('../fonts/SFPro/SFProDisplay-Bold.woff2') format('woff2'),
+    url('../fonts/SFPro/SFProDisplay-Bold.woff') format('woff');
+}

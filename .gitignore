@@ -51,3 +51,6 @@ uploads/
 *.tmp
 *.temp
 *~
+
+# Figma extraction working dir
+/.figma-extraction

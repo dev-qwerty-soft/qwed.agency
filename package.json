@@ -2,6 +2,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "watch": "webpack --watch --mode development",
+    "start": "webpack --watch --mode development",
     "format": "prettier --write \"**/*.{js,ts,jsx,tsx,scss,sass,php}\"",
     "zip": "node webpack/zip.js",
     "images": "node webpack/optimize-images.js"

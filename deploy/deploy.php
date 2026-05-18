@@ -1,4 +1,5 @@
 <?php
+
 /**
  * GitHub Webhook — Auto-deploy for qwed.agency (Stage)
  *
@@ -16,7 +17,7 @@
 
 // ─── CONFIG ──────────────────────────────────────────────────────────────────
 $secret    = 'qwed-stage-secret';                                          // webhook secret (set same in GitHub)
-$token     = 'GITHUB_TOKEN_HERE';                                          // Personal Access Token (repo read)
+$token = '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';                                     // Personal Access Token (repo read)
 $repoDir   = '/home/SERVER_USER/stage.qwed.agency/wp-content/themes/CustomBaseTheme';
 $logFile   = '/home/SERVER_USER/stage.qwed.agency/deploy/theme-stage.log';
 $npmPath   = '/home/SERVER_USER/.nvm/versions/node/NODE_VERSION/bin/npm';
@@ -28,7 +29,8 @@ $branch    = 'stage';
 putenv("PATH={$nodeDir}:" . getenv('PATH'));
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
-function writeLog(string $msg, bool $ok = true): void {
+function writeLog(string $msg, bool $ok = true): void
+{
     global $logFile;
     $icon   = $ok ? '✅' : '❌';
     $logDir = dirname($logFile);
@@ -38,7 +40,8 @@ function writeLog(string $msg, bool $ok = true): void {
     file_put_contents($logFile, date('c') . " {$icon} {$msg}\n", FILE_APPEND);
 }
 
-function runCmd(string $cmd): array {
+function runCmd(string $cmd): array
+{
     exec($cmd . ' 2>&1', $output, $code);
     return [$output, $code];
 }

@@ -1,0 +1,56 @@
+// Page container for the EZK case study.
+// Fixed 1440px wide; sections are absolutely positioned to match Figma.
+
+.case-ezk {
+  font-family: $ezk-font;
+  color: $ezk-text-black;
+  background: $ezk-page-bg;
+  overflow-x: hidden;
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  &__page {
+    position: relative;
+    width: $ezk-page-width;
+    // Total page height. Origin is the top of the Hero leaves (128px above the
+    // Figma frame top), so we add 128 to the original frame height of 23995.
+    height: 24123px;
+    margin: 0 auto;
+  }
+
+  // Each absolutely-positioned section block on the page
+  &__section {
+    position: absolute;
+    left: 0;
+  }
+
+  // Generic single-image section wrapper (whole-section mockup as PNG)
+  &__image-section {
+    position: absolute;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  // Decorative absolutely-positioned image (leaves, scenes, etc.)
+  &__deco {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
