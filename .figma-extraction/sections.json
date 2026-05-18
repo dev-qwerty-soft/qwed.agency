@@ -1,0 +1,482 @@
+[
+  {
+    "id": "642:48522",
+    "type": "GROUP",
+    "name": "Group 1707479405",
+    "x": -3793,
+    "y": -5226,
+    "w": 1843,
+    "h": 1275,
+    "inside": false,
+    "textCount": 87,
+    "imageCount": 10,
+    "biggestText": {
+      "chars": "$45.00",
+      "size": 33.16227722167969
+    },
+    "sampleTexts": [
+      "[33.16227722167969px] $45.00",
+      "[29.846050262451172px] Lab Results Summary ",
+      "[29.846050262451172px] What is Kratom and How \nCan It Support Your Wellness?",
+      "[29.846050262451172px] How to Use Green Borneo Kratom Powder",
+      "[23.213590621948242px] Green Borneo Kratom Powder"
+    ]
+  },
+  {
+    "id": "425:58540",
+    "type": "RECTANGLE",
+    "name": "Rectangle 40478",
+    "x": -3663,
+    "y": -4104,
+    "w": 1440,
+    "h": 23093,
+    "inside": false,
+    "textCount": 0,
+    "imageCount": 0,
+    "biggestText": null,
+    "sampleTexts": []
+  },
+  {
+    "id": "642:48521",
+    "type": "GROUP",
+    "name": "Group 1707479404",
+    "x": -3613,
+    "y": -3921,
+    "w": 1197,
+    "h": 904,
+    "inside": true,
+    "textCount": 10,
+    "imageCount": 1,
+    "biggestText": {
+      "chars": "About",
+      "size": 80
+    },
+    "sampleTexts": [
+      "[80px] About",
+      "[50px] “ Our new storefront experience \n feels cleaner, more intuitive, and easier \n to",
+      "[24px] First & Last Name",
+      "[22px] A modern e-commerce \nconcept focused on clarity, trust, \nand smoother product di",
+      "[22px] Industry / Botanical "
+    ]
+  },
+  {
+    "id": "434:898",
+    "type": "RECTANGLE",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 6",
+    "x": -2547,
+    "y": -3253,
+    "w": 575,
+    "h": 590,
+    "inside": false,
+    "textCount": 0,
+    "imageCount": 1,
+    "biggestText": null,
+    "sampleTexts": []
+  },
+  {
+    "id": "642:48535",
+    "type": "GROUP",
+    "name": "Group 1707479418",
+    "x": -3634,
+    "y": -2757,
+    "w": 1386,
+    "h": 2030,
+    "inside": true,
+    "textCount": 1,
+    "imageCount": 3,
+    "biggestText": {
+      "chars": "Identity",
+      "size": 80
+    },
+    "sampleTexts": [
+      "[80px] Identity"
+    ]
+  },
+  {
+    "id": "435:9808",
+    "type": "RECTANGLE",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 7",
+    "x": -3871,
+    "y": -882,
+    "w": 364,
+    "h": 506,
+    "inside": false,
+    "textCount": 0,
+    "imageCount": 1,
+    "biggestText": null,
+    "sampleTexts": []
+  },
+  {
+    "id": "642:48539",
+    "type": "GROUP",
+    "name": "Group 1707479422",
+    "x": -3613,
+    "y": -467,
+    "w": 916,
+    "h": 1262,
+    "inside": true,
+    "textCount": 19,
+    "imageCount": 1,
+    "biggestText": {
+      "chars": "Mobile Design",
+      "size": 80
+    },
+    "sampleTexts": [
+      "[80px] Mobile Design",
+      "[30.00555419921875px] Kratom Products",
+      "[23.820205688476562px] Strain",
+      "[21.822221755981445px] Powders",
+      "[21.822221755981445px] Capsules"
+    ]
+  },
+  {
+    "id": "451:4851",
+    "type": "RECTANGLE",
+    "name": "ChatGPT Image 21 квіт. 2026 р., 11_48_13 1",
+    "x": -3655,
+    "y": -240,
+    "w": 660,
+    "h": 1162,
+    "inside": true,
+    "textCount": 0,
+    "imageCount": 0,
+    "biggestText": null,
+    "sampleTexts": []
+  },
+  {
+    "id": "451:74335",
+    "type": "RECTANGLE",
+    "name": "ChatGPT Image 21 квіт. 2026 р., 11_48_13 3",
+    "x": -3064,
+    "y": 58,
+    "w": 224,
+    "h": 73,
+    "inside": true,
+    "textCount": 0,
+    "imageCount": 0,
+    "biggestText": null,
+    "sampleTexts": []
+  },
+  {
+    "id": "454:4371",
+    "type": "FRAME",
+    "name": "Scene #10 Light",
+    "x": -3261,
+    "y": 1065,
+    "w": 1014,
+    "h": 1017,
+    "inside": true,
+    "textCount": 0,
+    "imageCount": 4,
+    "biggestText": null,
+    "sampleTexts": []
+  },
+  {
+    "id": "642:48541",
+    "type": "GROUP",
+    "name": "Group 1707479423",
+    "x": -3639,
+    "y": 2292,
+    "w": 999,
+    "h": 1019,
+    "inside": true,
+    "textCount": 52,
+    "imageCount": 13,
+    "biggestText": {
+      "chars": "Frequently Asked Questions",
+      "size": 19.436037063598633
+    },
+    "sampleTexts": [
+      "[19.436037063598633px] Frequently Asked Questions",
+      "[19.436037063598633px] Choose EZ Kratom, \nTrusted Source for Premium Kratom",
+      "[19.436037063598633px] Free Shipping on All Kratom Orders in the United States",
+      "[19.436037063598633px] Why choose us? We make Kratom EZ.",
+      "[19.416643142700195px] Order form"
+    ]
+  },
+  {
+    "id": "642:48582",
+    "type": "GROUP",
+    "name": "Group 1707479426",
+    "x": -3613,
+    "y": 3541,
+    "w": 1329,
+    "h": 546,
+    "inside": true,
+    "textCount": 10,
+    "imageCount": 0,
+    "biggestText": {
+      "chars": "User Feedback",
+      "size": 80
+    },
+    "sampleTexts": [
+      "[80px] User Feedback",
+      "[54px] 85%",
+      "[54px] 50%",
+      "[54px] 65%",
+      "[26px] Users"
+    ]
+  },
+  {
+    "id": "642:48583",
+    "type": "GROUP",
+    "name": "Group 1707479427",
+    "x": -3639,
+    "y": 4327,
+    "w": 1392,
+    "h": 564,
+    "inside": true,
+    "textCount": 3,
+    "imageCount": 26,
+    "biggestText": {
+      "chars": "Interested\nin Bulk Orders?",
+      "size": 24.038074493408203
+    },
+    "sampleTexts": [
+      "[24.038074493408203px] Interested\nin Bulk Orders?",
+      "[10.683588027954102px] Contact us to get exclusive pricing and personalized support for large-volume pu",
+      "[10.683588027954102px] Contact us"
+    ]
+  },
+  {
+    "id": "460:96304",
+    "type": "FRAME",
+    "name": "Frame 2147239512",
+    "x": -3663,
+    "y": 5111,
+    "w": 1440,
+    "h": 1250,
+    "inside": true,
+    "textCount": 257,
+    "imageCount": 59,
+    "biggestText": {
+      "chars": "Buy Kratom Online Premium, \nLab-Tested Kratom",
+      "size": 57.5
+    },
+    "sampleTexts": [
+      "[57.5px] Buy Kratom Online Premium, \nLab-Tested Kratom",
+      "[31.94444465637207px] 48,000+",
+      "[31.94444465637207px] 2,855+",
+      "[28.75px] The ORIGINAL KRATOM STORE ",
+      "[28.75px] Explore Our Kratom by"
+    ]
+  },
+  {
+    "id": "460:96301",
+    "type": "RECTANGLE",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 8",
+    "x": -2547,
+    "y": 5399,
+    "w": 575,
+    "h": 590,
+    "inside": false,
+    "textCount": 0,
+    "imageCount": 1,
+    "biggestText": null,
+    "sampleTexts": []
+  },
+  {
+    "id": "642:48589",
+    "type": "GROUP",
+    "name": "Group 1707479430",
+    "x": -3613,
+    "y": 6592,
+    "w": 1331,
+    "h": 564,
+    "inside": true,
+    "textCount": 18,
+    "imageCount": 0,
+    "biggestText": {
+      "chars": "Design Process",
+      "size": 80
+    },
+    "sampleTexts": [
+      "[80px] Design Process",
+      "[38px] 40h",
+      "[38px] 90h",
+      "[38px] 120h",
+      "[28px] Strategy"
+    ]
+  },
+  {
+    "id": "642:48591",
+    "type": "GROUP",
+    "name": "Group 1707479432",
+    "x": -3639,
+    "y": 7392,
+    "w": 1392,
+    "h": 905,
+    "inside": true,
+    "textCount": 205,
+    "imageCount": 26,
+    "biggestText": {
+      "chars": "Subscribe\nfor FREE Kratom",
+      "size": 20.850004196166992
+    },
+    "sampleTexts": [
+      "[20.850004196166992px] Subscribe\nfor FREE Kratom",
+      "[20.850000381469727px] Our Kratom Products",
+      "[13.90000057220459px] Kratom catalog",
+      "[13.839991569519043px] Interested\nin Bulk Orders?",
+      "[11.583332061767578px] (44 results)"
+    ]
+  },
+  {
+    "id": "494:71295",
+    "type": "FRAME",
+    "name": "Frame 2147239522",
+    "x": -3639,
+    "y": 8526,
+    "w": 1392,
+    "h": 923,
+    "inside": true,
+    "textCount": 24,
+    "imageCount": 14,
+    "biggestText": {
+      "chars": "Fright Night Deals",
+      "size": 60
+    },
+    "sampleTexts": [
+      "[60px] Fright Night Deals",
+      "[60px] This Week Only!",
+      "[60px] Get 30% Off",
+      "[30px] The ORIGINAL KRATOM STORE ",
+      "[13.333333015441895px] FREE SHIPPING & TRACKING"
+    ]
+  },
+  {
+    "id": "642:48594",
+    "type": "GROUP",
+    "name": "Group 1707479435",
+    "x": -3613,
+    "y": 9679,
+    "w": 1222,
+    "h": 483,
+    "inside": true,
+    "textCount": 9,
+    "imageCount": 0,
+    "biggestText": {
+      "chars": "Typography & Colors",
+      "size": 80
+    },
+    "sampleTexts": [
+      "[80px] Typography & Colors",
+      "[22px] #0A0F17",
+      "[22px] #3B3F45",
+      "[22px] #3C9845",
+      "[22px] #9B9A9A"
+    ]
+  },
+  {
+    "id": "642:48596",
+    "type": "GROUP",
+    "name": "Group 1707479437",
+    "x": -3663,
+    "y": 10340,
+    "w": 1375,
+    "h": 715,
+    "inside": true,
+    "textCount": 8,
+    "imageCount": 1,
+    "biggestText": {
+      "chars": "Aa",
+      "size": 220
+    },
+    "sampleTexts": [
+      "[220px] Aa",
+      "[30px] Bb, C,c Dd, Ee, Ff, Gg, Hh, Ii, Jj, Kk, Ll, Mm, Nn, Oo, Pp, Qq, Rr, Ss, Tt, Uu, ",
+      "[20px] Ariel",
+      "[20px] Ariel",
+      "[20px] Ariel"
+    ]
+  },
+  {
+    "id": "496:262874",
+    "type": "FRAME",
+    "name": "Frame 2147239523",
+    "x": -3663,
+    "y": 11325,
+    "w": 1440,
+    "h": 6340,
+    "inside": true,
+    "textCount": 177,
+    "imageCount": 50,
+    "biggestText": {
+      "chars": "Certified \nfor Purity, Safety, \nand Quality Assurance",
+      "size": 59.98235321044922
+    },
+    "sampleTexts": [
+      "[59.98235321044922px] Certified \nfor Purity, Safety, \nand Quality Assurance",
+      "[30.000001907348633px] Subscribe\nfor FREE Kratom",
+      "[30px] Explore Our Kratom by",
+      "[30px] Kratom Products",
+      "[30px] Premium Kratom \nLiquid Extract – Sweet Tea"
+    ]
+  },
+  {
+    "id": "496:112920",
+    "type": "TEXT",
+    "name": "Result",
+    "x": -3603,
+    "y": 14206,
+    "w": 193,
+    "h": 95,
+    "inside": true,
+    "textCount": 1,
+    "imageCount": 0,
+    "biggestText": {
+      "chars": "Result",
+      "size": 80
+    },
+    "sampleTexts": [
+      "[80px] Result"
+    ]
+  },
+  {
+    "id": "496:112921",
+    "type": "RECTANGLE",
+    "name": "Rectangle 40530",
+    "x": -3613,
+    "y": 14277,
+    "w": 732,
+    "h": 39,
+    "inside": true,
+    "textCount": 0,
+    "imageCount": 0,
+    "biggestText": null,
+    "sampleTexts": []
+  },
+  {
+    "id": "642:48603",
+    "type": "GROUP",
+    "name": "Group 1707479444",
+    "x": -3716,
+    "y": 17895,
+    "w": 1433,
+    "h": 739,
+    "inside": false,
+    "textCount": 1,
+    "imageCount": 7,
+    "biggestText": {
+      "chars": "Social Media",
+      "size": 80
+    },
+    "sampleTexts": [
+      "[80px] Social Media"
+    ]
+  },
+  {
+    "id": "511:79680",
+    "type": "RECTANGLE",
+    "name": "ChatGPT Image 24 квіт. 2026 р., 09_31_20 2",
+    "x": -2087,
+    "y": 18110,
+    "w": 424,
+    "h": 530,
+    "inside": false,
+    "textCount": 0,
+    "imageCount": 1,
+    "biggestText": null,
+    "sampleTexts": []
+  }
+]

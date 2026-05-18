@@ -1,0 +1,95 @@
+name: Claude AI Code Review
+
+on:
+  push:
+    branches: [main, staging]
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches: [main, staging]
+
+jobs:
+  claude-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency:
+      group: claude-review-${{ github.ref }}
+      cancel-in-progress: true
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install anthropic PyGithub
+
+      - name: Get diff
+        id: diff
+        run: |
+          if [ "${{ github.event_name }}" == "pull_request" ]; then
+            echo "Getting pull request diff..."
+            git diff origin/${{ github.base_ref }}...${{ github.sha }} > /tmp/diff.txt
+          else
+            echo "Getting push diff..."
+            # Check if this is a merge commit (has more than 1 parent)
+            if [ $(git rev-list --no-walk --parents ${{ github.sha }} | wc -w) -gt 2 ]; then
+              echo "Skipping merge commit"
+              echo "skip=true" >> $GITHUB_OUTPUT
+              exit 0
+            fi
+            
+            # Check if we have a previous commit
+            if [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
+              git diff ${{ github.event.before }}..${{ github.sha }} > /tmp/diff.txt
+            else
+              # New branch - compare against base
+              git diff origin/${{ github.event.repository.default_branch }}..${{ github.sha }} > /tmp/diff.txt
+            fi
+          fi
+
+          # Check if diff is empty
+          if [ ! -s /tmp/diff.txt ]; then
+            echo "No changes detected, skipping review"
+            echo "skip=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # Truncate large diffs (by lines to preserve UTF-8)
+          DIFF_LINES=$(wc -l < /tmp/diff.txt)
+          DIFF_SIZE=$(wc -c < /tmp/diff.txt)
+          echo "Diff size: $DIFF_SIZE bytes ($DIFF_LINES lines)"
+
+          MAX_DIFF_SIZE=${MAX_DIFF_SIZE:-50000}
+          if [ $DIFF_SIZE -gt $MAX_DIFF_SIZE ]; then
+            echo "Diff too large, truncating..."
+            head -n 500 /tmp/diff.txt > /tmp/diff_truncated.txt
+            echo -e "\n\n[... diff truncated due to size - showing first 500 lines ...]" >> /tmp/diff_truncated.txt
+            mv /tmp/diff_truncated.txt /tmp/diff.txt
+          fi
+
+          echo "skip=false" >> $GITHUB_OUTPUT
+
+      - name: Run Claude review
+        if: steps.diff.outputs.skip != 'true'
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_SHA: ${{ github.sha }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          GITHUB_REF: ${{ github.ref }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          DIFF_FILE: /tmp/diff.txt
+        run: python .github/workflows/claude_review.py

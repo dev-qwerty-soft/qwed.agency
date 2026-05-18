@@ -1,0 +1,322 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  z-index: 9999;
+  padding: 8px 16px;
+  background: $color-black;
+  color: $color-white;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 0 0 4px 4px;
+
+  &:focus {
+    top: 0;
+  }
+}
+
+// ─── Header ───────────────────────────────────────────────────────────────────
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: $color-white;
+  border-bottom: 1px solid rgba($color-black, 0.08);
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    height: 72px;
+  }
+
+  &__logo {
+    flex-shrink: 0;
+
+    img {
+      width: auto;
+      height: 36px;
+      object-fit: contain;
+    }
+  }
+
+  &__nav {
+    @include respond(lg) {
+      display: none;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    a {
+      font-size: 15px;
+      font-weight: 500;
+      transition: opacity 0.2s;
+
+      &:hover {
+        opacity: 0.55;
+      }
+    }
+  }
+}
+
+// ─── Burger ───────────────────────────────────────────────────────────────────
+
+.burger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+
+  @include respond(lg) {
+    display: flex;
+  }
+
+  span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: $color-black;
+    transition: transform 0.3s, opacity 0.3s;
+    transform-origin: center;
+  }
+
+  &.active {
+    span:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+    }
+    span:nth-child(2) {
+      opacity: 0;
+    }
+    span:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg);
+    }
+  }
+}
+
+// ─── Mobile menu ──────────────────────────────────────────────────────────────
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 72px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $color-white;
+  z-index: 99;
+  padding: 32px 20px;
+  overflow-y: auto;
+
+  &.active {
+    display: block;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    a {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}
+
+// ─── Footer ───────────────────────────────────────────────────────────────────
+
+.footer {
+  border-top: 1px solid rgba($color-black, 0.08);
+
+  &__menus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 24px;
+    gap: 24px;
+
+    @include respond(md) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__logo {
+    flex-shrink: 0;
+
+    img {
+      width: auto;
+      height: 36px;
+      object-fit: contain;
+    }
+  }
+
+  &__menu {
+    ul {
+      display: flex;
+      gap: 24px;
+
+      @include respond(sm) {
+        flex-direction: column;
+        gap: 12px;
+      }
+    }
+
+    a {
+      font-size: 15px;
+      transition: opacity 0.2s;
+
+      &:hover {
+        opacity: 0.55;
+      }
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px 0;
+    border-top: 1px solid rgba($color-black, 0.08);
+    font-size: 13px;
+    opacity: 0.55;
+
+    @include respond(sm) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__menu-aside {
+    ul {
+      display: flex;
+      gap: 16px;
+    }
+  }
+}
+
+// ─── Posts grid ───────────────────────────────────────────────────────────────
+
+.main-content {
+  padding: 60px 0;
+
+  @include respond(md) {
+    padding: 40px 0;
+  }
+}
+
+.page-header {
+  margin-bottom: 40px;
+}
+
+.page-title {
+  font-size: 32px;
+  font-weight: 700;
+
+  @include respond(md) {
+    font-size: 24px;
+  }
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+
+  @include respond(lg) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include respond(sm) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba($color-black, 0.08);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+
+  &:hover {
+    box-shadow: 0 4px 20px rgba($color-black, 0.08);
+  }
+
+  &__image {
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    flex-shrink: 0;
+
+    img {
+      transition: transform 0.4s;
+    }
+
+    &:hover img {
+      transform: scale(1.04);
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    flex: 1;
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+
+    a:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &__meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+    opacity: 0.5;
+  }
+
+  &__excerpt {
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.7;
+    flex: 1;
+  }
+
+  &__link {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: auto;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}

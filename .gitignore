@@ -1,0 +1,53 @@
+# dependencies
+/node_modules
+/.pnp
+/dist
+dist/
+.pnp.js
+theme.zip
+.github/copilot-instructions.md
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# dotenv / secrets
+.env
+.env.local
+.env.*.local
+
+# PHP dependencies
+/vendor
+composer.lock
+
+# Webpack cache and built files
+/.cache
+/build
+
+# Build artifacts
+vendor
+node_modules
+composer.lock
+package-lock.json
+realestates.json
+.env
+app.log
+*.log
+data.json
+
+# WordPress specific
+wp-config.php
+.htaccess
+uploads/
+
+# Temporary files
+*.tmp
+*.temp
+*~

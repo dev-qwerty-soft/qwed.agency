@@ -1,0 +1,185 @@
+.submission-modal {
+  display: none;
+  position: fixed;
+  z-index: 100000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  & h3 {
+    margin: 20px 0 15px 0;
+  }
+
+  & hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+
+  .modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .modal-header {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .modal-header h2 {
+    margin: 0;
+  }
+
+  .close-modal {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1;
+  }
+
+  .close-modal:hover {
+    color: #000;
+  }
+
+  .modal-body {
+    padding: 20px;
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+
+  .submission-detail-key {
+    text-transform: capitalize;
+  }
+
+  .submission-detail {
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    background: #f9f9f9;
+    border-left: 4px solid #2271b1;
+    border-radius: 2px;
+  }
+
+  .submission-detail strong {
+    display: inline-block;
+    min-width: 150px;
+    color: #2271b1;
+    font-weight: 600;
+  }
+
+  .submission-detail-value {
+    display: inline-block;
+    word-break: break-word;
+  }
+
+  .modal-footer {
+    padding: 15px 20px;
+    border-top: 1px solid #ddd;
+    text-align: right;
+    background: #f9f9f9;
+  }
+
+  .modal-footer .button {
+    margin-left: 10px;
+  }
+
+  .bulk-actions {
+    margin: 15px 0;
+    padding: 10px 15px;
+    background: #f0f0f1;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .bulk-actions label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+  }
+}
+
+.contact-forms-main-page {
+  .bulk-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 20px 0;
+  }
+  .shortcode-section {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .shortcode-section label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #23282d;
+  }
+
+  .shortcode-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #fff;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .shortcode-text {
+    font-size: 13px;
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+
+  .copy-shortcode-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 28px;
+    height: 28px;
+    padding: 0 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .copy-shortcode-btn .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .copy-shortcode-btn:hover {
+    background: #f0f0f1;
+  }
+
+  .copy-shortcode-btn.copied {
+    background: #00a32a;
+    color: #fff;
+    border-color: #00a32a;
+  }
+
+  .copy-shortcode-btn.copied .dashicons-admin-page::before {
+    content: '\f147';
+  }
+}

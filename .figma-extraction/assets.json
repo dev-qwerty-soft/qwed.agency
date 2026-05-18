@@ -1,0 +1,1973 @@
+[
+  {
+    "id": "425:58401",
+    "name": "Device",
+    "type": "RECTANGLE",
+    "size": "1223x957",
+    "pos": "(-3555,-4968)",
+    "imageRef": "e3aa01d1f8720a8dc5b7d884035f52a03616e8ac",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "425:16442",
+    "name": "image 523",
+    "type": "RECTANGLE",
+    "size": "50x50",
+    "pos": "(-2921,-3208)",
+    "imageRef": "c94c0a13cb7dbd28cd0d7f77a6d4e77f7f95662e",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "425:16484",
+    "name": "Rectangle 399",
+    "type": "RECTANGLE",
+    "size": "454x415",
+    "pos": "(-3170,-4830)",
+    "imageRef": "9ed50f7f90dea53dc8128bf3aa05a80a29f2ff18",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "425:17016",
+    "name": "image 523",
+    "type": "RECTANGLE",
+    "size": "72x72",
+    "pos": "(-3157,-4392)",
+    "imageRef": "c94c0a13cb7dbd28cd0d7f77a6d4e77f7f95662e",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "425:17024",
+    "name": "image 527",
+    "type": "RECTANGLE",
+    "size": "71x72",
+    "pos": "(-2679,-4392)",
+    "imageRef": "8aa9c838095df423bceabcbb26c8c1ffb8c3ad3a",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "425:17036",
+    "name": "pattern 1",
+    "type": "RECTANGLE",
+    "size": "1473x514",
+    "pos": "(-3565,-4211)",
+    "imageRef": "a3b6480018076f9dc0d031b672eb282932371bcd",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "425:17052",
+    "name": "Bg",
+    "type": "RECTANGLE",
+    "size": "210x204",
+    "pos": "(-3368,-3831)",
+    "imageRef": "e90692e9dddeae835f19cf1d9e9f19ce037ff290",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "425:58409",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "593x411",
+    "pos": "(-3710,-4432)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "425:58410",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 4",
+    "type": "RECTANGLE",
+    "size": "488x338",
+    "pos": "(-3793,-4396)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "425:58421",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 5",
+    "type": "RECTANGLE",
+    "size": "559x453",
+    "pos": "(-2509,-5226)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "434:898",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 6",
+    "type": "RECTANGLE",
+    "size": "575x590",
+    "pos": "(-2547,-3253)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "435:9808",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 7",
+    "type": "RECTANGLE",
+    "size": "364x506",
+    "pos": "(-3871,-882)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:96301",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 8",
+    "type": "RECTANGLE",
+    "size": "575x590",
+    "pos": "(-2547,5399)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "511:79680",
+    "name": "ChatGPT Image 24 квіт. 2026 р., 09_31_20 2",
+    "type": "RECTANGLE",
+    "size": "424x530",
+    "pos": "(-2087,18110)",
+    "imageRef": "d9156e8ac260546d8e4687dea86ee5dc4ef6d6ed",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96391",
+    "name": "Device",
+    "type": "RECTANGLE",
+    "size": "1171x1006",
+    "pos": "(-3528,5260)",
+    "imageRef": "e3aa01d1f8720a8dc5b7d884035f52a03616e8ac",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:63697",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "645x446",
+    "pos": "(-2882,5472)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:63698",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 2",
+    "type": "RECTANGLE",
+    "size": "513x355",
+    "pos": "(-3507,5325)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:63699",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 3",
+    "type": "RECTANGLE",
+    "size": "513x355",
+    "pos": "(-2640,5312)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:63705",
+    "name": "Bg (1) 1",
+    "type": "RECTANGLE",
+    "size": "187x138",
+    "pos": "(-3115,5489)",
+    "imageRef": "85dfd4a93123c6b5d48023da386dc91b766d238e",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:63707",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "410x284",
+    "pos": "(-2846,5664)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:63711",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "359x248",
+    "pos": "(-2786,5612)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:63716",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "634x673",
+    "pos": "(-2777,5550)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:63717",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "154x202",
+    "pos": "(-2587,5649)",
+    "imageRef": "91eb1d9535bd74790e4abf7d57c9b22e0f8991aa",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:63718",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "174x228",
+    "pos": "(-2640,5623)",
+    "imageRef": "91eb1d9535bd74790e4abf7d57c9b22e0f8991aa",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "I460:63783;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "178x171",
+    "pos": "(-3361,6347)",
+    "imageRef": "cff6b3aec2578598bd76c6100876222d58bf0936",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I460:63784;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "178x171",
+    "pos": "(-3142,6347)",
+    "imageRef": "97180c3dff1930942ade63be159b70d5b79e3f1f",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I460:63785;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "178x171",
+    "pos": "(-2922,6347)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I460:63786;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "178x171",
+    "pos": "(-2703,6347)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "460:63791",
+    "name": "abstract_shiny_studio_stage_background 1",
+    "type": "RECTANGLE",
+    "size": "1022x299",
+    "pos": "(-3454,6847)",
+    "imageRef": "8e90a902b35fd227f846f09264b6c639386ae6aa",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:63794",
+    "name": "pattern 1",
+    "type": "RECTANGLE",
+    "size": "1419x495",
+    "pos": "(-3542,6824)",
+    "imageRef": "a3b6480018076f9dc0d031b672eb282932371bcd",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:63797",
+    "name": "green-leaves-white-background 1",
+    "type": "RECTANGLE",
+    "size": "1071x941",
+    "pos": "(-3855,6328)",
+    "imageRef": "97151bc9a8d3ff4733b58d72f86d973c8f7f7c5c",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:63800",
+    "name": "green-leaves-white-background 1",
+    "type": "RECTANGLE",
+    "size": "693x798",
+    "pos": "(-3769,6497)",
+    "imageRef": "97151bc9a8d3ff4733b58d72f86d973c8f7f7c5c",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:63801",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "410x284",
+    "pos": "(-2911,6868)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:63802",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 3",
+    "type": "RECTANGLE",
+    "size": "310x192",
+    "pos": "(-2787,6958)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:63806",
+    "name": "shadow 10",
+    "type": "RECTANGLE",
+    "size": "264x44",
+    "pos": "(-2756,7097)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:63807",
+    "name": "shadow 11",
+    "type": "RECTANGLE",
+    "size": "273x43",
+    "pos": "(-2828,7079)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:63808",
+    "name": "shadow 12",
+    "type": "RECTANGLE",
+    "size": "335x59",
+    "pos": "(-2828,7071)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:63809",
+    "name": "Img1.2 1",
+    "type": "RECTANGLE",
+    "size": "87x259",
+    "pos": "(-2754,5652)",
+    "imageRef": "e79866e914109cd70b848c3c979fcd9acb14fa0a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:63810",
+    "name": "img1:1 1",
+    "type": "RECTANGLE",
+    "size": "110x259",
+    "pos": "(-2694,5652)",
+    "imageRef": "11c1fcee9c08aecf6e74c819cfab2d17a0f63e40",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "I460:63823;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "178x171",
+    "pos": "(-3361,7307)",
+    "imageRef": "cff6b3aec2578598bd76c6100876222d58bf0936",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I460:63824;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "178x171",
+    "pos": "(-3142,7307)",
+    "imageRef": "97180c3dff1930942ade63be159b70d5b79e3f1f",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I460:63825;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "178x171",
+    "pos": "(-2922,7307)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I460:63826;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "178x171",
+    "pos": "(-2703,7307)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I460:63834;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "178x171",
+    "pos": "(-3361,8096)",
+    "imageRef": "cff6b3aec2578598bd76c6100876222d58bf0936",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I460:63835;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "178x171",
+    "pos": "(-3142,8096)",
+    "imageRef": "97180c3dff1930942ade63be159b70d5b79e3f1f",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I460:63836;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "178x171",
+    "pos": "(-2922,8096)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I460:63837;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "178x171",
+    "pos": "(-2703,8096)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "460:63878",
+    "name": "pattern 1",
+    "type": "RECTANGLE",
+    "size": "1419x495",
+    "pos": "(-3542,9494)",
+    "imageRef": "a3b6480018076f9dc0d031b672eb282932371bcd",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:63921",
+    "name": "shadow 5",
+    "type": "RECTANGLE",
+    "size": "229x51",
+    "pos": "(-3352,9877)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:64013",
+    "name": "pattern 1",
+    "type": "RECTANGLE",
+    "size": "1419x495",
+    "pos": "(-3520,10452)",
+    "imageRef": "a3b6480018076f9dc0d031b672eb282932371bcd",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:64019",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "873x926",
+    "pos": "(-3018,10515)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:64024",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "911x941",
+    "pos": "(-3092,10453)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:64029",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "1056x1120",
+    "pos": "(-2935,10477)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:64030",
+    "name": "shadow",
+    "type": "RECTANGLE",
+    "size": "429x78",
+    "pos": "(-2933,10840)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:64031",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "299x393",
+    "pos": "(-2868,10528)",
+    "imageRef": "0f9f14bb80556b0199329cdbe342ca0981303ed9",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:64036",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "682x715",
+    "pos": "(-2877,10682)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "I460:64099;1320:22275",
+    "name": "imgdd",
+    "type": "RECTANGLE",
+    "size": "245x192",
+    "pos": "(-3358,11400)",
+    "imageRef": "6f1f352931b1b124737d6d48020bb5d2b206cff8",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "I460:64100;1320:22275",
+    "name": "imgdd",
+    "type": "RECTANGLE",
+    "size": "245x192",
+    "pos": "(-3065,11400)",
+    "imageRef": "7254a012e6a4adcd716d2bea3f446ea79300ec22",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "I460:64101;1320:22275",
+    "name": "imgdd",
+    "type": "RECTANGLE",
+    "size": "245x192",
+    "pos": "(-2773,11400)",
+    "imageRef": "7617f7d4bad17fc5333092b03480bdc6c4444d65",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "I460:64114;1660:134864",
+    "name": "image 83",
+    "type": "RECTANGLE",
+    "size": "18x13",
+    "pos": "(-2896,13279)",
+    "imageRef": "5d464e216124d1717bc1094373d99d8d043b79af",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:64120",
+    "name": "pattern 1",
+    "type": "RECTANGLE",
+    "size": "1419x495",
+    "pos": "(-3542,10973)",
+    "imageRef": "a3b6480018076f9dc0d031b672eb282932371bcd",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:64199",
+    "name": "4 10",
+    "type": "RECTANGLE",
+    "size": "240x427",
+    "pos": "(-3374,8600)",
+    "imageRef": "a513ca57780cb56fe8397c7e34173b7539ae53c0",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:64202",
+    "name": "1 855",
+    "type": "RECTANGLE",
+    "size": "677x649",
+    "pos": "(-3154,8496)",
+    "imageRef": "e3c26ce59a78ed6d5263498b770107ed81728c40",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:64203",
+    "name": "shadow 12",
+    "type": "RECTANGLE",
+    "size": "426x59",
+    "pos": "(-3103,8923)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:64204",
+    "name": "22 1",
+    "type": "RECTANGLE",
+    "size": "650x581",
+    "pos": "(-3225,8510)",
+    "imageRef": "4e30f9e627604e64d0011b58989a342e30a1792a",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:64232",
+    "name": "image 537",
+    "type": "RECTANGLE",
+    "size": "217x304",
+    "pos": "(-2901,5711)",
+    "imageRef": "2d2930aa700d689273deace9c966c9efe33f8aa9",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:64244",
+    "name": "2 502",
+    "type": "RECTANGLE",
+    "size": "52x87",
+    "pos": "(-2945,5833)",
+    "imageRef": "5e93c7e1b82cec68582d9c64903f08e66ee9674a",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:64690",
+    "name": "image 523",
+    "type": "RECTANGLE",
+    "size": "40x40",
+    "pos": "(-3056,13445)",
+    "imageRef": "c94c0a13cb7dbd28cd0d7f77a6d4e77f7f95662e",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:64697",
+    "name": "image 527",
+    "type": "RECTANGLE",
+    "size": "36x36",
+    "pos": "(-2761,13447)",
+    "imageRef": "8aa9c838095df423bceabcbb26c8c1ffb8c3ad3a",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96401",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "1038x1021",
+    "pos": "(-4217,5973)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96406",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "917x919",
+    "pos": "(-4135,5957)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96411",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "1255x1234",
+    "pos": "(-4346,6045)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96412",
+    "name": "shadow",
+    "type": "RECTANGLE",
+    "size": "235x377",
+    "pos": "(-3791,6144)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "429:4719",
+    "name": " -37 1",
+    "type": "RECTANGLE",
+    "size": "53x67",
+    "pos": "(-3465,-3437)",
+    "imageRef": "74e14de4a1113550c57fc694662e71f98658a279",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "435:5874",
+    "name": "Знімок екрана 2026-04-20 о 15.32.25 1",
+    "type": "RECTANGLE",
+    "size": "417x343",
+    "pos": "(-2790,-2464)",
+    "imageRef": "78e58b0e1282a245f31183846bac779816204de2",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "433:10305",
+    "name": "ChatGPT Image 20 квіт. 2026 р., 13_01_44 1",
+    "type": "RECTANGLE",
+    "size": "839x701",
+    "pos": "(-3634,-1677)",
+    "imageRef": "715de33e3fca99a36540a17849a8ca8942cf84d6",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "435:5924",
+    "name": "ChatGPT Image 20 квіт. 2026 р., 15_45_18 1",
+    "type": "RECTANGLE",
+    "size": "471x549",
+    "pos": "(-2719,-1359)",
+    "imageRef": "59388c135fe328632108a31ea9ae6ddad8632e70",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "I451:52290;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "409x292",
+    "pos": "(-3147,23)",
+    "imageRef": "cff6b3aec2578598bd76c6100876222d58bf0936",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "454:4374",
+    "name": "Mask",
+    "type": "RECTANGLE",
+    "size": "1295x971",
+    "pos": "(-3365,1111)",
+    "imageRef": "c3ed5f2175ee6fb8b4018c35d23d765e5d208700",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "454:4375",
+    "name": "Device",
+    "type": "RECTANGLE",
+    "size": "1295x971",
+    "pos": "(-3365,1111)",
+    "imageRef": "30e1c0c34e2771f86a2b95d3e6a530e3e6d8e93b",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "454:4377",
+    "name": "Mask",
+    "type": "RECTANGLE",
+    "size": "1295x971",
+    "pos": "(-3365,1111)",
+    "imageRef": "06a2b45d7bca082e938a45a21bedabff832885c9",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "454:4378",
+    "name": "✏️ Change this",
+    "type": "VECTOR",
+    "size": "314x578",
+    "pos": "(-2927,1236)",
+    "imageRef": "8ff311462e4b95636208f55faf0e32220ec44173",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "455:5345",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 8",
+    "type": "RECTANGLE",
+    "size": "584x510",
+    "pos": "(-3066,2051)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "455:4383",
+    "name": "x",
+    "type": "RECTANGLE",
+    "size": "999x980",
+    "pos": "(-3639,2331)",
+    "imageRef": "8a9f1cad9c2fefc9e0bdffd5a79da04039c5c6b4",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "455:5103",
+    "name": "pattern 1",
+    "type": "RECTANGLE",
+    "size": "1570x548",
+    "pos": "(-3444,9056)",
+    "imageRef": "a3b6480018076f9dc0d031b672eb282932371bcd",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "455:5109",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "678x720",
+    "pos": "(-3281,9582)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "455:5114",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "708x731",
+    "pos": "(-3338,9534)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "455:5119",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "820x871",
+    "pos": "(-3216,9553)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "455:5120",
+    "name": "shadow 12",
+    "type": "RECTANGLE",
+    "size": "333x61",
+    "pos": "(-3215,9834)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "455:5121",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "232x305",
+    "pos": "(-3164,9592)",
+    "imageRef": "0f9f14bb80556b0199329cdbe342ca0981303ed9",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "455:5126",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "530x555",
+    "pos": "(-3171,9712)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "455:5348",
+    "name": "Shadow",
+    "type": "RECTANGLE",
+    "size": "1201x905",
+    "pos": "(-3711,2345)",
+    "imageRef": "6327f45e3badd22489a4eeca515e60dc21c058ac",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "455:5349",
+    "name": "iPhone 15 Pro (Black titanium)",
+    "type": "RECTANGLE",
+    "size": "352x725",
+    "pos": "(-3289,2438)",
+    "imageRef": "ba45447b9357bc706aac5650e19682a5cd1a39f8",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "455:5351",
+    "name": "Mask",
+    "type": "RECTANGLE",
+    "size": "324x700",
+    "pos": "(-3276,2450)",
+    "imageRef": "39244d6265e9298e40e04dda5a2a6d15c844ff16",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "455:5352",
+    "name": "✏️ Change this",
+    "type": "VECTOR",
+    "size": "324x700",
+    "pos": "(-3276,2450)",
+    "imageRef": "36e23b262dbfba73ce752f13d63a4ec6bab9af50",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96283",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "992x976",
+    "pos": "(-4187,4562)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96288",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "877x879",
+    "pos": "(-4108,4547)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96293",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "1200x1180",
+    "pos": "(-4310,4631)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96294",
+    "name": "shadow",
+    "type": "RECTANGLE",
+    "size": "225x361",
+    "pos": "(-3780,4726)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:96190",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "248x263",
+    "pos": "(-3024,4585)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96193",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "256x271",
+    "pos": "(-3077,4579)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96194",
+    "name": "Bg (1) 1",
+    "type": "RECTANGLE",
+    "size": "193x142",
+    "pos": "(-3072,4596)",
+    "imageRef": "85dfd4a93123c6b5d48023da386dc91b766d238e",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96195",
+    "name": "shadow 11",
+    "type": "RECTANGLE",
+    "size": "101x16",
+    "pos": "(-3002,4658)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:96196",
+    "name": "shadow 12",
+    "type": "RECTANGLE",
+    "size": "124x22",
+    "pos": "(-3002,4655)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:96197",
+    "name": "Img1.2 1",
+    "type": "RECTANGLE",
+    "size": "33x97",
+    "pos": "(-2975,4577)",
+    "imageRef": "e79866e914109cd70b848c3c979fcd9acb14fa0a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:96198",
+    "name": "img1:1 3",
+    "type": "RECTANGLE",
+    "size": "41x96",
+    "pos": "(-2953,4585)",
+    "imageRef": "11c1fcee9c08aecf6e74c819cfab2d17a0f63e40",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:96204",
+    "name": "green-leaves-white-background 1",
+    "type": "RECTANGLE",
+    "size": "1190x1045",
+    "pos": "(-3868,3882)",
+    "imageRef": "97151bc9a8d3ff4733b58d72f86d973c8f7f7c5c",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96207",
+    "name": "green-leaves-white-background 1",
+    "type": "RECTANGLE",
+    "size": "1190x1045",
+    "pos": "(-3771,4291)",
+    "imageRef": "97151bc9a8d3ff4733b58d72f86d973c8f7f7c5c",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96210",
+    "name": "green-leaves-white-background 1",
+    "type": "RECTANGLE",
+    "size": "770x886",
+    "pos": "(-3772,4069)",
+    "imageRef": "97151bc9a8d3ff4733b58d72f86d973c8f7f7c5c",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96213",
+    "name": "green-leaves-white-background 1",
+    "type": "RECTANGLE",
+    "size": "770x886",
+    "pos": "(-3447,4262)",
+    "imageRef": "97151bc9a8d3ff4733b58d72f86d973c8f7f7c5c",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96216",
+    "name": "pattern 1",
+    "type": "RECTANGLE",
+    "size": "1187x414",
+    "pos": "(-3479,4449)",
+    "imageRef": "a3b6480018076f9dc0d031b672eb282932371bcd",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96235",
+    "name": "shadow 12",
+    "type": "RECTANGLE",
+    "size": "274x48",
+    "pos": "(-3364,4676)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:96236",
+    "name": "shadow 13",
+    "type": "RECTANGLE",
+    "size": "420x47",
+    "pos": "(-3420,4664)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:96237",
+    "name": "shadow 14",
+    "type": "RECTANGLE",
+    "size": "460x53",
+    "pos": "(-3440,4653)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:96238",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "102x134",
+    "pos": "(-3349,4559)",
+    "imageRef": "853fefa2f53fec894552288802dec9ed997c15e6",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96239",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "102x134",
+    "pos": "(-3188,4560)",
+    "imageRef": "63fdff6ea61b938447a8fb58a92dec1c118bd624",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96242",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "127x167",
+    "pos": "(-3235,4536)",
+    "imageRef": "15209e3360feb9c9dc65502503425ab2e2691f13",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96243",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "127x167",
+    "pos": "(-3324,4536)",
+    "imageRef": "be6282e862a7539a634ad7f51c6c2efebe7b20d4",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96244",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "161x211",
+    "pos": "(-3298,4510)",
+    "imageRef": "91eb1d9535bd74790e4abf7d57c9b22e0f8991aa",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "460:96122",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "640x645",
+    "pos": "(-2834,4300)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "460:96117",
+    "name": "ChatGPT Image 21 квіт. 2026 р., 16_29_09 1",
+    "type": "RECTANGLE",
+    "size": "469x106",
+    "pos": "(-2749,4556)",
+    "imageRef": "346450a1e9acffe535c7d540a1181eb307be63e9",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "494:92110",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "1040x1023",
+    "pos": "(-4191,9067)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "494:92115",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "917x919",
+    "pos": "(-4108,9052)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "494:92120",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "1258x1237",
+    "pos": "(-4318,9139)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "494:92121",
+    "name": "shadow",
+    "type": "RECTANGLE",
+    "size": "238x376",
+    "pos": "(-3767,9239)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "494:91961",
+    "name": "fog",
+    "type": "RECTANGLE",
+    "size": "1783x646",
+    "pos": "(-4104,8765)",
+    "imageRef": "d81d2ef90afebf6c9b8762ee115000d86ecd97cf",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "494:91962",
+    "name": "shadow 12",
+    "type": "RECTANGLE",
+    "size": "275x48",
+    "pos": "(-3179,9211)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "494:91963",
+    "name": "pumpkin",
+    "type": "RECTANGLE",
+    "size": "262x208",
+    "pos": "(-3171,9059)",
+    "imageRef": "0acb27864002a63d5851ab7e6c7ed6cacbaad455",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "494:91964",
+    "name": "fog",
+    "type": "RECTANGLE",
+    "size": "527x351",
+    "pos": "(-3244,9072)",
+    "imageRef": "5e290cca25b67a92cf3f9fd49cb5639685d69a41",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "494:91965",
+    "name": "fog",
+    "type": "RECTANGLE",
+    "size": "3676x1333",
+    "pos": "(-3884,8212)",
+    "imageRef": "d81d2ef90afebf6c9b8762ee115000d86ecd97cf",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "494:92041",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "428x296",
+    "pos": "(-2842,9056)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "494:92045",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "375x259",
+    "pos": "(-2779,9002)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "494:92050",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "661x702",
+    "pos": "(-2770,8937)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "494:92051",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "160x211",
+    "pos": "(-2571,9040)",
+    "imageRef": "91eb1d9535bd74790e4abf7d57c9b22e0f8991aa",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "494:92052",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "181x238",
+    "pos": "(-2627,9013)",
+    "imageRef": "91eb1d9535bd74790e4abf7d57c9b22e0f8991aa",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:341706",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "831x841",
+    "pos": "(-2637,17258)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:341711",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "736x731",
+    "pos": "(-2643,17299)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:341716",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "1005x1017",
+    "pos": "(-2579,17177)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:283529",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "822x835",
+    "pos": "(-4098,10864)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:283534",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "734x731",
+    "pos": "(-4001,10932)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:283539",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "995x1009",
+    "pos": "(-4328,10766)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "I496:304835;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "186x178",
+    "pos": "(-3380,12645)",
+    "imageRef": "cff6b3aec2578598bd76c6100876222d58bf0936",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I496:304836;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "186x178",
+    "pos": "(-3150,12645)",
+    "imageRef": "97180c3dff1930942ade63be159b70d5b79e3f1f",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I496:304837;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "186x178",
+    "pos": "(-2921,12645)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I496:304838;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "186x178",
+    "pos": "(-2692,12645)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "496:304843",
+    "name": "abstract_shiny_studio_stage_background 1",
+    "type": "RECTANGLE",
+    "size": "1067x312",
+    "pos": "(-3476,13185)",
+    "imageRef": "8e90a902b35fd227f846f09264b6c639386ae6aa",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "496:304846",
+    "name": "pattern 1",
+    "type": "RECTANGLE",
+    "size": "1481x517",
+    "pos": "(-3568,13160)",
+    "imageRef": "a3b6480018076f9dc0d031b672eb282932371bcd",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:304849",
+    "name": "green-leaves-white-background 1",
+    "type": "RECTANGLE",
+    "size": "1118x982",
+    "pos": "(-3895,12643)",
+    "imageRef": "97151bc9a8d3ff4733b58d72f86d973c8f7f7c5c",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:304852",
+    "name": "green-leaves-white-background 1",
+    "type": "RECTANGLE",
+    "size": "723x833",
+    "pos": "(-3804,12819)",
+    "imageRef": "97151bc9a8d3ff4733b58d72f86d973c8f7f7c5c",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:304853",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "428x296",
+    "pos": "(-2910,13207)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "496:304854",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 3",
+    "type": "RECTANGLE",
+    "size": "324x200",
+    "pos": "(-2780,13301)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "496:304858",
+    "name": "shadow 10",
+    "type": "RECTANGLE",
+    "size": "275x46",
+    "pos": "(-2748,13445)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "496:304859",
+    "name": "shadow 11",
+    "type": "RECTANGLE",
+    "size": "285x45",
+    "pos": "(-2823,13427)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "496:304860",
+    "name": "shadow 12",
+    "type": "RECTANGLE",
+    "size": "350x62",
+    "pos": "(-2823,13418)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "496:304861",
+    "name": "Img1.2 1",
+    "type": "RECTANGLE",
+    "size": "90x269",
+    "pos": "(-2745,13199)",
+    "imageRef": "e79866e914109cd70b848c3c979fcd9acb14fa0a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "496:304862",
+    "name": "img1:1 1",
+    "type": "RECTANGLE",
+    "size": "115x270",
+    "pos": "(-2683,13221)",
+    "imageRef": "11c1fcee9c08aecf6e74c819cfab2d17a0f63e40",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "I496:304875;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "186x178",
+    "pos": "(-3380,13680)",
+    "imageRef": "cff6b3aec2578598bd76c6100876222d58bf0936",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I496:304876;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "186x178",
+    "pos": "(-3150,13680)",
+    "imageRef": "97180c3dff1930942ade63be159b70d5b79e3f1f",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I496:304877;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "186x178",
+    "pos": "(-2921,13680)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I496:304878;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "186x178",
+    "pos": "(-2692,13680)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "496:304909",
+    "name": "pattern 1",
+    "type": "RECTANGLE",
+    "size": "1481x517",
+    "pos": "(-3545,15174)",
+    "imageRef": "a3b6480018076f9dc0d031b672eb282932371bcd",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:304914",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "911x967",
+    "pos": "(-3021,15238)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:304919",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "950x982",
+    "pos": "(-3098,15175)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:304924",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "1101x1169",
+    "pos": "(-2935,15200)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:304925",
+    "name": "shadow 12",
+    "type": "RECTANGLE",
+    "size": "448x82",
+    "pos": "(-2933,15579)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "496:304926",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "312x410",
+    "pos": "(-2865,15250)",
+    "imageRef": "0f9f14bb80556b0199329cdbe342ca0981303ed9",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:304931",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "711x746",
+    "pos": "(-2874,15414)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "I496:304963;1320:22275",
+    "name": "imgdd",
+    "type": "RECTANGLE",
+    "size": "256x200",
+    "pos": "(-3376,15860)",
+    "imageRef": "6f1f352931b1b124737d6d48020bb5d2b206cff8",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "I496:304964;1320:22275",
+    "name": "imgdd",
+    "type": "RECTANGLE",
+    "size": "256x200",
+    "pos": "(-3071,15860)",
+    "imageRef": "7254a012e6a4adcd716d2bea3f446ea79300ec22",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "I496:304965;1320:22275",
+    "name": "imgdd",
+    "type": "RECTANGLE",
+    "size": "256x200",
+    "pos": "(-2765,15860)",
+    "imageRef": "7617f7d4bad17fc5333092b03480bdc6c4444d65",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "I496:304967;1660:134864",
+    "name": "image 83",
+    "type": "RECTANGLE",
+    "size": "19x13",
+    "pos": "(-2894,16564)",
+    "imageRef": "5d464e216124d1717bc1094373d99d8d043b79af",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "496:304972",
+    "name": "4 10",
+    "type": "RECTANGLE",
+    "size": "251x446",
+    "pos": "(-3393,14221)",
+    "imageRef": "a513ca57780cb56fe8397c7e34173b7539ae53c0",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:304975",
+    "name": "1 855",
+    "type": "RECTANGLE",
+    "size": "707x678",
+    "pos": "(-3163,14112)",
+    "imageRef": "e3c26ce59a78ed6d5263498b770107ed81728c40",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:304976",
+    "name": "shadow 12",
+    "type": "RECTANGLE",
+    "size": "444x62",
+    "pos": "(-3110,14558)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "496:304977",
+    "name": "22 1",
+    "type": "RECTANGLE",
+    "size": "678x606",
+    "pos": "(-3237,14127)",
+    "imageRef": "4e30f9e627604e64d0011b58989a342e30a1792a",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:305005",
+    "name": "image 537",
+    "type": "RECTANGLE",
+    "size": "226x318",
+    "pos": "(-2899,14133)",
+    "imageRef": "2d2930aa700d689273deace9c966c9efe33f8aa9",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:305017",
+    "name": "2 502",
+    "type": "RECTANGLE",
+    "size": "55x91",
+    "pos": "(-2945,14476)",
+    "imageRef": "5e93c7e1b82cec68582d9c64903f08e66ee9674a",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:325498",
+    "name": "Bg (1) 1",
+    "type": "RECTANGLE",
+    "size": "168x124",
+    "pos": "(-3068,11634)",
+    "imageRef": "85dfd4a93123c6b5d48023da386dc91b766d238e",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:326083",
+    "name": "image 523",
+    "type": "RECTANGLE",
+    "size": "50x50",
+    "pos": "(-3235,11903)",
+    "imageRef": "c94c0a13cb7dbd28cd0d7f77a6d4e77f7f95662e",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "496:326089",
+    "name": "image 527",
+    "type": "RECTANGLE",
+    "size": "40x40",
+    "pos": "(-3388,11908)",
+    "imageRef": "8aa9c838095df423bceabcbb26c8c1ffb8c3ad3a",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:326091",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "428x296",
+    "pos": "(-2842,11890)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "496:326095",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "375x259",
+    "pos": "(-2778,11836)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "496:326100",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 1",
+    "type": "RECTANGLE",
+    "size": "661x702",
+    "pos": "(-2769,11771)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:326101",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "160x211",
+    "pos": "(-2571,11874)",
+    "imageRef": "91eb1d9535bd74790e4abf7d57c9b22e0f8991aa",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "496:326102",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "181x238",
+    "pos": "(-2627,11846)",
+    "imageRef": "91eb1d9535bd74790e4abf7d57c9b22e0f8991aa",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "493:39214",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 9",
+    "type": "RECTANGLE",
+    "size": "495x509",
+    "pos": "(-3923,7071)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "493:39027",
+    "name": "green-leaves-white-background 1",
+    "type": "RECTANGLE",
+    "size": "984x864",
+    "pos": "(-3872,7085)",
+    "imageRef": "97151bc9a8d3ff4733b58d72f86d973c8f7f7c5c",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "493:39030",
+    "name": "green-leaves-white-background 1",
+    "type": "RECTANGLE",
+    "size": "984x864",
+    "pos": "(-3792,7424)",
+    "imageRef": "97151bc9a8d3ff4733b58d72f86d973c8f7f7c5c",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "493:39033",
+    "name": "green-leaves-white-background 1",
+    "type": "RECTANGLE",
+    "size": "637x733",
+    "pos": "(-3793,7240)",
+    "imageRef": "97151bc9a8d3ff4733b58d72f86d973c8f7f7c5c",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "493:39036",
+    "name": "green-leaves-white-background 1",
+    "type": "RECTANGLE",
+    "size": "637x733",
+    "pos": "(-3524,7400)",
+    "imageRef": "97151bc9a8d3ff4733b58d72f86d973c8f7f7c5c",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "493:39039",
+    "name": "pattern 1",
+    "type": "RECTANGLE",
+    "size": "981x342",
+    "pos": "(-3550,7555)",
+    "imageRef": "a3b6480018076f9dc0d031b672eb282932371bcd",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "493:39058",
+    "name": "shadow 12",
+    "type": "RECTANGLE",
+    "size": "226x40",
+    "pos": "(-3455,7742)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "493:39059",
+    "name": "shadow 13",
+    "type": "RECTANGLE",
+    "size": "347x39",
+    "pos": "(-3502,7732)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "493:39060",
+    "name": "shadow 14",
+    "type": "RECTANGLE",
+    "size": "380x44",
+    "pos": "(-3518,7724)",
+    "imageRef": "10910e93084c832b8960d984d1d52164c713567a",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "493:39061",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "84x110",
+    "pos": "(-3443,7645)",
+    "imageRef": "853fefa2f53fec894552288802dec9ed997c15e6",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "493:39062",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "84x110",
+    "pos": "(-3310,7646)",
+    "imageRef": "63fdff6ea61b938447a8fb58a92dec1c118bd624",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "493:39065",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "105x138",
+    "pos": "(-3349,7626)",
+    "imageRef": "15209e3360feb9c9dc65502503425ab2e2691f13",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "493:39066",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "105x138",
+    "pos": "(-3422,7626)",
+    "imageRef": "be6282e862a7539a634ad7f51c6c2efebe7b20d4",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "493:39067",
+    "name": "GREEN Riau front 30g",
+    "type": "RECTANGLE",
+    "size": "133x174",
+    "pos": "(-3401,7604)",
+    "imageRef": "91eb1d9535bd74790e4abf7d57c9b22e0f8991aa",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "493:38887",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 8",
+    "type": "RECTANGLE",
+    "size": "662x663",
+    "pos": "(-3237,7400)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "493:55211",
+    "name": "pattern 1",
+    "type": "RECTANGLE",
+    "size": "1092x354",
+    "pos": "(-2905,7834)",
+    "imageRef": "a3b6480018076f9dc0d031b672eb282932371bcd",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "I493:55247;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "148x122",
+    "pos": "(-2572,8032)",
+    "imageRef": "97180c3dff1930942ade63be159b70d5b79e3f1f",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I493:55248;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "148x122",
+    "pos": "(-2416,8032)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I493:55249;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "148x122",
+    "pos": "(-2259,8032)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I493:55251;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "148x122",
+    "pos": "(-2524,8306)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I493:55252;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "148x122",
+    "pos": "(-2367,8306)",
+    "imageRef": "97180c3dff1930942ade63be159b70d5b79e3f1f",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I493:55253;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "148x122",
+    "pos": "(-2210,8306)",
+    "imageRef": "cff6b3aec2578598bd76c6100876222d58bf0936",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I493:55255;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "148x122",
+    "pos": "(-2476,8580)",
+    "imageRef": "97180c3dff1930942ade63be159b70d5b79e3f1f",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I493:55256;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "148x122",
+    "pos": "(-2319,8580)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I493:55257;1223:5622",
+    "name": "img",
+    "type": "FRAME",
+    "size": "148x122",
+    "pos": "(-2162,8580)",
+    "imageRef": "dcd7e28da1a86006c7309e27bf2cdf6b1acde107",
+    "scaleMode": "FIT"
+  },
+  {
+    "id": "I493:55269;1660:134864",
+    "name": "image 83",
+    "type": "RECTANGLE",
+    "size": "15x9",
+    "pos": "(-2224,9040)",
+    "imageRef": "5d464e216124d1717bc1094373d99d8d043b79af",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "494:112896",
+    "name": "ChatGPT Image 23 квіт. 2026 р., 12_45_05 1",
+    "type": "RECTANGLE",
+    "size": "728x703",
+    "pos": "(-3663,10352)",
+    "imageRef": "cdf1cafedd78e4f28563a8ccf7767c7db52d7848",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "509:79521",
+    "name": "4f61a855-da07-451c-940a-bde1e27c7dc0 9",
+    "type": "RECTANGLE",
+    "size": "415x427",
+    "pos": "(-3716,17966)",
+    "imageRef": "f26aef38c4e2468e4b1ca781499bdab5adf961fe",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "509:79519",
+    "name": "ChatGPT Image 24 квіт. 2026 р., 09_31_20 1",
+    "type": "RECTANGLE",
+    "size": "420x524",
+    "pos": "(-3592,18110)",
+    "imageRef": "d9156e8ac260546d8e4687dea86ee5dc4ef6d6ed",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "511:79679",
+    "name": "ChatGPT Image 24 квіт. 2026 р., 09_31_20 2",
+    "type": "RECTANGLE",
+    "size": "420x412",
+    "pos": "(-3592,18173)",
+    "imageRef": "d9156e8ac260546d8e4687dea86ee5dc4ef6d6ed",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "511:79697",
+    "name": "ChatGPT Image 24 квіт. 2026 р., 09_31_20 4",
+    "type": "RECTANGLE",
+    "size": "420x524",
+    "pos": "(-2703,18110)",
+    "imageRef": "d9156e8ac260546d8e4687dea86ee5dc4ef6d6ed",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "511:79699",
+    "name": "ChatGPT Image 24 квіт. 2026 р., 12_17_12 1",
+    "type": "RECTANGLE",
+    "size": "420x411",
+    "pos": "(-2703,18173)",
+    "imageRef": "88c159618e8f25fda310e66461507502a8d06ac5",
+    "scaleMode": "STRETCH"
+  },
+  {
+    "id": "511:79689",
+    "name": "ChatGPT Image 24 квіт. 2026 р., 09_31_20 3",
+    "type": "RECTANGLE",
+    "size": "420x524",
+    "pos": "(-3147,18110)",
+    "imageRef": "d9156e8ac260546d8e4687dea86ee5dc4ef6d6ed",
+    "scaleMode": "FILL"
+  },
+  {
+    "id": "511:79703",
+    "name": "ChatGPT Image 24 квіт. 2026 р., 12_27_03 1",
+    "type": "RECTANGLE",
+    "size": "419x411",
+    "pos": "(-3147,18173)",
+    "imageRef": "f53d4d91b77a80e41f1a7b36a37386106d94d8a2",
+    "scaleMode": "FILL"
+  }
+]

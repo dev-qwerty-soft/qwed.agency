@@ -1,0 +1,76 @@
+.post-type-post {
+  .imgedit-crop-ratio input[disabled],
+  .imgedit-crop-sel input[disabled] {
+    background-color: #f0f0f0 !important;
+    cursor: not-allowed !important;
+    opacity: 0.6 !important;
+    border-color: #ddd !important;
+    color: #666 !important;
+  }
+
+  .imgedit-crop-ratio input[disabled]:focus,
+  .imgedit-crop-sel input[disabled]:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+
+  .imgedit-crop-ratio,
+  .imgedit-crop-sel {
+    & .nowrap {
+      position: relative;
+      &::before {
+        content: '🔒';
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 14px;
+      }
+    }
+  }
+
+  .imgareaselect-handle {
+    display: none !important;
+    pointer-events: none !important;
+  }
+
+  .imgareaselect-selection {
+    cursor: move !important;
+    pointer-events: all !important;
+    z-index: 160003 !important;
+  }
+
+  .imgareaselect-border1,
+  .imgareaselect-border2,
+  .imgareaselect-border3,
+  .imgareaselect-border4 {
+    pointer-events: none !important;
+    cursor: move !important;
+  }
+
+  .imgedit-response {
+    display: none !important;
+  }
+
+  .imgedit-tools {
+    pointer-events: none !important;
+  }
+
+  .imgareaselect-outer {
+    pointer-events: none !important;
+  }
+
+  #imgedit-crop > div[style*='z-index: 160002'] {
+    cursor: move !important;
+    pointer-events: none !important;
+
+    .imgareaselect-selection {
+      pointer-events: all !important;
+    }
+  }
+
+  #imgedit-crop .imgedit-crop-wrap > div[style*='position: absolute'][style*='overflow: hidden'] {
+    cursor: move !important;
+    pointer-events: none !important;
+  }
+}

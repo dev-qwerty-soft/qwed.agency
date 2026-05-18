@@ -1,0 +1,40 @@
+// @import '../../scss/general/mixins.scss';
+
+// body {
+//   background: $color-light-grey;
+// }
+
+// #login {
+//   & #wp-submit {
+//     font-weight: 400;
+//     font-size: get-d(14px);
+//     line-height: get-d(20px);
+//     color: $color-white;
+//     background: $color-red;
+//     padding: get-d(12px) get-d(24px);
+//     border-radius: get-d(12px);
+//     text-align: center;
+//     border: none !important;
+//     @include respond('lg') {
+//       font-size: get-lg(14px);
+//       line-height: get-lg(20px);
+//       padding: get-lg(12px) get-lg(24px);
+//       border-radius: get-lg(12px);
+//     }
+//     @include respond('md') {
+//       font-size: 14px;
+//       line-height: 20px;
+//       padding: 12px 24px;
+//       border-radius: 12px;
+//     }
+//   }
+//   & .wp-login-logo a {
+//     background-image: url('./Group.svg') !important;
+//     background-position: center !important;
+//     background-size: contain !important;
+//     background-repeat: no-repeat !important;
+//   }
+//   & #login-message {
+//     border-color: rgba($color-red, 30%);
+//   }
+// }
