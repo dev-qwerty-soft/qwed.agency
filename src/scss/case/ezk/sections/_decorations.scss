@@ -1,0 +1,37 @@
+// Side decorations and mid-page decorative imagery.
+// Side leaves anchor to the viewport edge via right:0/left:0; mid-page
+// pieces are page-relative.
+
+.case-ezk__deco--side-1 {
+  @include case-rect-right(1973, -251, 575, 590);
+}
+
+.case-ezk__deco--side-2 {
+  top: get-d(4344px);
+  left: get-d(-208px);
+  width: get-d(364px);
+  height: get-d(506px);
+
+  @include respond(xl) {
+    top: 4344px;
+    left: -208px;
+    width: 364px;
+    height: 506px;
+  }
+}
+
+.case-ezk__deco--side-3 {
+  @include case-rect-right(10625, -251, 575, 590);
+}
+
+.case-ezk__deco--side-4 {
+  @include case-rect-right(23336, -560, 424, 530);
+}
+
+.case-ezk__deco--scene-light {
+  @include case-rect(6291, 402, 1014, 1017);
+}
+
+.case-ezk__deco--social-media {
+  @include case-rect(23121, -53, 1433, 739);
+}

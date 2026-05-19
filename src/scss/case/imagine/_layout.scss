@@ -1,0 +1,59 @@
+.case-imagine {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: $im-font;
+  color: $im-text-black;
+  background: $im-page-bg;
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  &__page {
+    position: relative;
+    width: get-d($im-page-width);
+    height: get-d($im-page-height * 1px);
+    margin: 0 auto;
+
+    @include respond(xl) {
+      width: $im-page-width;
+      height: $im-page-height * 1px;
+    }
+  }
+
+  &__section,
+  &__image-section {
+    position: absolute;
+  }
+
+  &__image-section img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @include respond(md) {
+    &__page {
+      width: 100%;
+      height: auto;
+    }
+
+    &__section,
+    &__image-section {
+      position: static;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      margin: 0 0 24px;
+    }
+
+    &__image-section img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

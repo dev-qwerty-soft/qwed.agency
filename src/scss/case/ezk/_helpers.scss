@@ -1,0 +1,63 @@
+// Position/size mixins for the EZK case page.
+// Default values scale fluidly via get-d() (1440px design viewport); under xl
+// they snap to the static pixel values. Each mixin takes a unitless number and
+// converts to px internally so get-d() sees the px-units it requires.
+
+@mixin case-pos($top, $left) {
+  top: get-d($top * 1px);
+  left: get-d($left * 1px);
+
+  @include respond(xl) {
+    top: $top * 1px;
+    left: $left * 1px;
+  }
+}
+
+@mixin case-size($width, $height) {
+  width: get-d($width * 1px);
+  height: get-d($height * 1px);
+
+  @include respond(xl) {
+    width: $width * 1px;
+    height: $height * 1px;
+  }
+}
+
+@mixin case-rect($top, $left, $width, $height) {
+  top: get-d($top * 1px);
+  left: get-d($left * 1px);
+  width: get-d($width * 1px);
+  height: get-d($height * 1px);
+
+  @include respond(xl) {
+    top: $top * 1px;
+    left: $left * 1px;
+    width: $width * 1px;
+    height: $height * 1px;
+  }
+}
+
+@mixin case-rect-right($top, $right, $width, $height) {
+  top: get-d($top * 1px);
+  right: get-d($right * 1px);
+  width: get-d($width * 1px);
+  height: get-d($height * 1px);
+
+  @include respond(xl) {
+    top: $top * 1px;
+    right: $right * 1px;
+    width: $width * 1px;
+    height: $height * 1px;
+  }
+}
+
+@mixin case-font($size, $line-height, $weight: 400) {
+  font-size: get-d($size * 1px);
+  line-height: get-d($line-height * 1px);
+  font-weight: $weight;
+
+  @include respond(xl) {
+    font-size: $size * 1px;
+    line-height: $line-height * 1px;
+  }
+}

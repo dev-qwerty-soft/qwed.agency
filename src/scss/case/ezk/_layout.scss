@@ -1,0 +1,93 @@
+// Page container for the EZK case study.
+// .case-ezk fills 100vw so decorations can stick to viewport edges;
+// .case-ezk__page is the centered 1440px design canvas where sections live.
+
+.case-ezk {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: $ezk-font;
+  color: $ezk-text-black;
+  background: $ezk-page-bg;
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  &__page {
+    position: relative;
+    // Width scales the same way every inner dimension does (via get-d) so
+    // sections sized with get-d don't overflow the 1440px-static container
+    // on wider viewports.
+    width: get-d($ezk-page-width);
+    height: get-d($ezk-page-height * 1px);
+    margin: 0 auto;
+
+    @include respond(xl) {
+      width: $ezk-page-width;
+      height: $ezk-page-height * 1px;
+    }
+  }
+
+  // Absolutely-positioned section blocks (HTML-rendered content)
+  &__section {
+    position: absolute;
+  }
+
+  // Generic single-image section wrapper (whole-section mockup as PNG)
+  &__image-section {
+    position: absolute;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  // Decorative imagery: positioned relative to .case-ezk (full viewport),
+  // so right/left:0 sticks to the screen edge instead of the page edge.
+  &__deco {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  // ── Mobile (≤ 768px): collapse everything into a vertical stack ──────────
+  @include respond(md) {
+    &__page {
+      width: 100%;
+      height: auto;
+      padding: 0;
+    }
+
+    &__section,
+    &__image-section {
+      position: static;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      margin: 0 0 24px;
+    }
+
+    &__image-section img {
+      width: 100%;
+      height: auto;
+    }
+
+    // Decorative leaves stick out badly on mobile — hide them.
+    &__deco {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+// Absolute positions for every photo/mockup section in the Blue Jay case.
+// Y coords are relative to the Blue Jay page top (Figma section origin Y=649).
+
+.case-blue-jay__image-section {
+  &--hero          { @include bj-rect(0,     0,   1440, 1024); } // Desktop-6
+  &--logo          { @include bj-rect(720,   227, 270,  95); }   // logo (overlays hero)
+  // about goes here as HTML — see _about.scss
+  &--desktop-5     { @include bj-rect(1870,  0,   1440, 1293); }
+  &--desktop-7     { @include bj-rect(3163,  0,   1440, 898); }
+  &--desktop-9     { @include bj-rect(4061,  0,   1440, 434); }
+  &--desktop-12    { @include bj-rect(4495,  0,   1440, 1293); }
+  &--desktop-14    { @include bj-rect(5788,  0,   1440, 675); }
+  &--desktop-24    { @include bj-rect(6463,  0,   1440, 1032); }
+  &--desktop-17    { @include bj-rect(7495,  0,   1440, 871); }
+  &--desktop-18    { @include bj-rect(8366,  0,   1440, 828); }
+  &--desktop-27    { @include bj-rect(9194,  0,   1440, 1032); }
+  &--desktop-20    { @include bj-rect(10226, 0,   1440, 820); }
+  &--behance-13    { @include bj-rect(11046, 0,   1440, 1443); }
+  &--desktop-26    { @include bj-rect(12489, 0,   1440, 1033); }
+  &--desktop-19    { @include bj-rect(13522, 0,   1440, 1214); }
+  &--desktop-21    { @include bj-rect(14736, 0,   1440, 1009); }
+  &--desktop-22    { @include bj-rect(15745, 0,   1440, 932); }
+}

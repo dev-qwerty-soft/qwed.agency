@@ -1,0 +1,161 @@
+// About section — Figma Desktop-8 (253:18309).
+// HTML/CSS verstka: text + meta column on the right + 3 small icons bottom-left.
+
+.case-blue-jay__section--about {
+  @include bj-rect(1024, 0, 1440, 846);
+  padding: get-d(96px) get-d(96px) get-d(64px);
+  background: #ffffff;
+
+  @include respond(xl) {
+    padding: 96px 96px 64px;
+  }
+}
+
+.case-blue-jay-about {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  &__label {
+    margin: 0 0 get-d(48px);
+    font-family: $bj-font;
+    font-weight: 400;
+    color: $bj-text-black;
+    font-size: get-d(18px);
+    line-height: get-d(22px);
+
+    @include respond(xl) {
+      margin-bottom: 48px;
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+
+  &__title {
+    margin: 0 0 get-d(56px);
+    max-width: get-d(900px);
+    font-family: $bj-font;
+    font-weight: 600;
+    color: $bj-text-black;
+    font-size: get-d(48px);
+    line-height: get-d(60px);
+    letter-spacing: -0.02em;
+
+    @include respond(xl) {
+      margin-bottom: 56px;
+      max-width: 900px;
+      font-size: 48px;
+      line-height: 60px;
+    }
+  }
+
+  &__accent {
+    color: $bj-accent;
+  }
+
+  &__lede {
+    margin: 0;
+    max-width: get-d(700px);
+    font-family: $bj-font;
+    font-weight: 400;
+    color: $bj-text-muted;
+    font-size: get-d(16px);
+    line-height: get-d(24px);
+
+    @include respond(xl) {
+      max-width: 700px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  &__icons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    gap: get-d(12px);
+
+    @include respond(xl) {
+      gap: 12px;
+    }
+  }
+
+  &__icon {
+    width: get-d(48px);
+    height: get-d(48px);
+    border-radius: get-d(8px);
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: get-d(14px);
+
+    @include respond(xl) {
+      width: 48px;
+      height: 48px;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+  }
+
+  &__meta {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: get-d(280px);
+
+    @include respond(xl) {
+      width: 280px;
+    }
+  }
+
+  &__meta-row {
+    display: flex;
+    gap: get-d(8px);
+    margin-bottom: get-d(10px);
+    font-family: $bj-font;
+    font-size: get-d(14px);
+    line-height: get-d(20px);
+
+    @include respond(xl) {
+      gap: 8px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__meta-label {
+    color: $bj-accent;
+    flex: 0 0 auto;
+  }
+
+  &__meta-value {
+    color: $bj-text-black;
+  }
+
+  // ── Mobile reflow ───────────────────────────────────────────────────────
+  @include respond(md) {
+    &__title {
+      font-size: 32px;
+      line-height: 40px;
+      margin-bottom: 32px;
+    }
+
+    &__icons,
+    &__meta {
+      position: static;
+      margin-top: 32px;
+    }
+
+    &__meta {
+      width: 100%;
+    }
+  }
+}

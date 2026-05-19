@@ -1,0 +1,24 @@
+// Absolute positions for all photo/mockup sections in the Imagine case.
+
+.case-imagine__image-section {
+  &--desktop-6  { @include im-rect(0,     0, 1440, 1024); }
+  &--desktop-7  { @include im-rect(1024,  0, 1440, 608); }
+  &--desktop-39 { @include im-rect(1632,  0, 1440, 824); }
+  &--desktop-8  { @include im-rect(2456,  0, 1440, 1008); }
+  &--desktop-9  { @include im-rect(3464,  0, 1440, 783); }
+  &--desktop-10 { @include im-rect(4247,  0, 1440, 988); }
+  &--desktop-13 { @include im-rect(5235,  0, 1440, 1061); }
+  &--desktop-35 { @include im-rect(6296,  0, 1440, 1198); }
+  &--desktop-16 { @include im-rect(7494,  0, 1440, 1198); }
+  &--desktop-19 { @include im-rect(8692,  0, 1440, 1089); }
+  &--desktop-36 { @include im-rect(9781,  0, 1440, 2545); }
+  &--group-1    { @include im-rect(12326, 0, 1440, 873); }
+  &--desktop-26 { @include im-rect(13199, 0, 1440, 1226); }
+  &--group-2    { @include im-rect(14425, 0, 1440, 976); }
+  &--desktop-38 { @include im-rect(15401, 0, 1440, 1202); }
+  &--desktop-37 { @include im-rect(16603, 0, 1440, 1060); }
+  &--desktop-28 { @include im-rect(17663, 0, 1440, 784); }
+  &--desktop-32 { @include im-rect(18447, 0, 1440, 724); }
+  &--desktop-31 { @include im-rect(19171, 0, 1440, 1219); }
+  &--desktop-33 { @include im-rect(20390, 0, 1440, 1120); }
+}

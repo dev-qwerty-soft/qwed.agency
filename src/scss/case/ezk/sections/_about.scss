@@ -1,0 +1,250 @@
+// About section — pixel-perfect from Figma node 642:48521.
+
+.case-ezk__section--about {
+  @include case-pos(1305, 50);
+}
+
+.case-ezk-about {
+  position: relative;
+  width: get-d(1197px);
+  height: get-d(904px);
+
+  @include respond(xl) {
+    width: 1197px;
+    height: 904px;
+  }
+
+  &__heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: get-d(408px);
+    height: get-d(103px);
+
+    @include respond(xl) {
+      width: 408px;
+      height: 103px;
+    }
+  }
+
+  &__heading-underline {
+    position: absolute;
+    top: get-d(64px);
+    left: 0;
+    width: get-d(408px);
+    height: get-d(39px);
+    background: $ezk-heading-underline;
+
+    @include respond(xl) {
+      top: 64px;
+      width: 408px;
+      height: 39px;
+    }
+  }
+
+  &__title {
+    position: absolute;
+    margin: 0;
+    font-family: $ezk-font;
+    font-weight: 100;
+    color: $ezk-text-black;
+    top: 0;
+    left: get-d(10px);
+    width: get-d(194px);
+    height: get-d(95px);
+    font-size: get-d(80px);
+    line-height: get-d(95.46875px);
+
+    @include respond(xl) {
+      left: 10px;
+      width: 194px;
+      height: 95px;
+      font-size: 80px;
+      line-height: 95.46875px;
+    }
+  }
+
+  &__quote {
+    position: absolute;
+    margin: 0;
+    top: get-d(175px);
+    left: get-d(141px);
+    width: get-d(1056px);
+
+    @include respond(xl) {
+      top: 175px;
+      left: 141px;
+      width: 1056px;
+    }
+  }
+
+  &__quote-text {
+    margin: 0;
+    text-align: center;
+    font-family: $ezk-font;
+    font-weight: 300;
+    color: $ezk-text-black;
+    width: get-d(1056px);
+    font-size: get-d(50px);
+    line-height: get-d(63px);
+
+    @include respond(xl) {
+      width: 1056px;
+      font-size: 50px;
+      line-height: 63px;
+    }
+  }
+
+  &__author {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: get-d(298px);
+    left: 0;
+    width: get-d(266px);
+    height: get-d(66px);
+    gap: get-d(18px);
+
+    @include respond(xl) {
+      top: 298px;
+      width: 266px;
+      height: 66px;
+      gap: 18px;
+    }
+  }
+
+  &__author-avatar {
+    flex: 0 0 auto;
+    border-radius: 50%;
+    background: $ezk-card-bg;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: get-d(66px);
+    height: get-d(66px);
+
+    @include respond(xl) {
+      width: 66px;
+      height: 66px;
+    }
+
+    img {
+      display: block;
+      object-fit: cover;
+      width: get-d(53px);
+      height: get-d(67px);
+
+      @include respond(xl) {
+        width: 53px;
+        height: 67px;
+      }
+    }
+  }
+
+  &__author-info {
+    display: flex;
+    flex-direction: column;
+    gap: get-d(8px);
+
+    @include respond(xl) {
+      gap: 8px;
+    }
+  }
+
+  &__author-name {
+    margin: 0;
+    font-family: $ezk-font;
+    font-weight: 400;
+    color: $ezk-text-black;
+    font-size: get-d(24px);
+    line-height: get-d(28.640625px);
+
+    @include respond(xl) {
+      font-size: 24px;
+      line-height: 28.640625px;
+    }
+  }
+
+  &__author-role {
+    margin: 0;
+    font-family: $ezk-font;
+    font-weight: 100;
+    color: $ezk-text-black;
+    font-size: get-d(18px);
+    line-height: get-d(21.48046875px);
+
+    @include respond(xl) {
+      font-size: 18px;
+      line-height: 21.48046875px;
+    }
+  }
+
+  &__meta {
+    position: absolute;
+    top: get-d(743px);
+    left: 0;
+    width: get-d(1197px);
+
+    @include respond(xl) {
+      top: 743px;
+      width: 1197px;
+    }
+  }
+
+  &__meta-col {
+    position: absolute;
+    top: 0;
+    left: get-d(10px);
+    width: get-d(522px);
+
+    @include respond(xl) {
+      left: 10px;
+      width: 522px;
+    }
+
+    &--right {
+      left: get-d(569px);
+      width: get-d(217px);
+
+      @include respond(xl) {
+        left: 569px;
+        width: 217px;
+      }
+    }
+  }
+
+  &__meta-label {
+    margin: 0 0 get-d(24px);
+    font-family: $ezk-font;
+    font-weight: 400;
+    color: $ezk-text-black;
+    font-size: get-d(18px);
+    line-height: get-d(21.48046875px);
+
+    @include respond(xl) {
+      margin: 0 0 24px;
+      font-size: 18px;
+      line-height: 21.48046875px;
+    }
+  }
+
+  &__meta-text {
+    margin: 0 0 get-d(16px);
+    font-family: $ezk-font;
+    font-weight: 100;
+    color: $ezk-text-black;
+    font-size: get-d(22px);
+    line-height: get-d(26.25390625px);
+
+    @include respond(xl) {
+      margin: 0 0 16px;
+      font-size: 22px;
+      line-height: 26.25390625px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

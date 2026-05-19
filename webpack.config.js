@@ -23,7 +23,9 @@ module.exports = (_, env) => {
       login: './src/js/login/index.ts',
       fonts: './src/js/fonts/index.ts',
       admin: './src/js/admin/index.ts',
-      'case-ezk': './src/case-ezk/index.ts',
+      'case-ezk': './src/js/client/case-ezk/index.ts',
+      'case-blue-jay': './src/js/client/case-blue-jay/index.ts',
+      'case-imagine': './src/js/client/case-imagine/index.ts',
     },
     output: {
       filename: 'js/[name].min.js',
