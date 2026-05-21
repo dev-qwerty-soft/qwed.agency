@@ -1,32 +1,40 @@
 // Colors palette section — Figma Desktop-9 (256:18364).
-// 3 color cards (Dark Blue / Gray / Blue) in a row.
+// 3 color cards (439x244, radius 28) inside a 1440x434 section, gap 22, with
+// 39px left padding. Hex centered, name 26px from left / 21px from bottom.
 
 .case-blue-jay__section--colors {
   @include bj-rect(4061, 0, 1440, 434);
-  // Figma paddings on Desktop-9: 150 top, 40 left/right, 40 bottom.
-  padding: get-d(150px) get-d(40px) get-d(40px);
-  background: #ffffff;
 }
 
 .case-blue-jay-colors {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: get-d(24px);
+  display: flex;
+  align-items: center;
   width: 100%;
+  height: 100%;
+  padding: 0 get-d(41px) 0 get-d(39px);
+  gap: get-d(22px);
+
+  @include respond(xl) {
+    padding: 0 41px 0 39px;
+    gap: 22px;
+  }
 }
 
-.case-blue-jay-color-card {
+.case-blue-jay-colors__card {
   position: relative;
-  border-radius: get-d(20px);
-  padding: get-d(48px) get-d(28px) get-d(24px);
-  min-height: get-d(180px);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex: 1 1 0;
+  height: get-d(244px);
+  border-radius: get-d(28px);
+  font-family: $bj-font;
+
+  @include respond(xl) {
+    height: 244px;
+    border-radius: 28px;
+  }
 
   &--dark {
     background: #182d49;
-    color: #ffffff;
+    color: #fcfcfc;
   }
 
   &--gray {
@@ -35,44 +43,62 @@
   }
 
   &--blue {
-    background: #7ec3d0;
-    color: #ffffff;
+    background: #7bcad9;
+    color: #fcfcfc;
   }
+}
 
-  &__hex {
-    align-self: center;
-    margin-top: get-d(24px);
-    font-family: $bj-font;
-    font-weight: 500;
-    font-size: get-d(26px);
-    line-height: get-d(32px);
+.case-blue-jay-colors__hex {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  font-size: get-d(26px);
+  line-height: 1;
+  letter-spacing: 0.02em;
+
+  @include respond(xl) {
+    font-size: 26px;
   }
+}
 
-  &__name {
-    margin: 0;
-    font-family: $bj-font;
-    font-weight: 400;
-    font-size: get-d(20px);
-    line-height: get-d(28px);
-  }
+.case-blue-jay-colors__name {
+  position: absolute;
+  margin: 0;
+  bottom: get-d(21px);
+  left: get-d(26px);
+  font-weight: 400;
+  font-size: get-d(20px);
+  line-height: 1.2;
 
-  @include respond(md) {
-    border-radius: 16px;
-    padding: 32px 20px 20px;
-    min-height: 140px;
-
-    &__hex { font-size: 18px; line-height: 24px; }
-    &__name { font-size: 14px; line-height: 20px; }
+  @include respond(xl) {
+    bottom: 21px;
+    left: 26px;
+    font-size: 20px;
   }
 }
 
 @include respond(md) {
-  .case-blue-jay__section--colors {
-    padding: 48px 20px 24px;
+  .case-blue-jay-colors {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 20px;
   }
 
-  .case-blue-jay-colors {
-    grid-template-columns: 1fr;
-    gap: 12px;
+  .case-blue-jay-colors__card {
+    width: 100%;
+    height: 160px;
+    border-radius: 20px;
+  }
+
+  .case-blue-jay-colors__hex {
+    font-size: 22px;
+  }
+
+  .case-blue-jay-colors__name {
+    bottom: 16px;
+    left: 20px;
+    font-size: 16px;
   }
 }
