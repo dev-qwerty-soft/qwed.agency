@@ -1,0 +1,45 @@
+// Re-declare SF Pro Display @font-face here so the VOIPx3 bundle can use the
+// fonts independently from the EZK bundle. URL paths resolve from this file
+// (src/scss/case/voipx3/) up to src/fonts/SFPro/.
+
+$voip-sfpro: '../../../fonts/SFPro';
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src:
+    url('#{$voip-sfpro}/SFProDisplay-Ultralight.woff2') format('woff2'),
+    url('#{$voip-sfpro}/SFProDisplay-Ultralight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url('#{$voip-sfpro}/SFProDisplay-Light.woff2') format('woff2'),
+    url('#{$voip-sfpro}/SFProDisplay-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('#{$voip-sfpro}/SFProDisplay-Regular.woff2') format('woff2'),
+    url('#{$voip-sfpro}/SFProDisplay-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('#{$voip-sfpro}/SFProDisplay-Medium.woff2') format('woff2'),
+    url('#{$voip-sfpro}/SFProDisplay-Medium.woff') format('woff');
+}

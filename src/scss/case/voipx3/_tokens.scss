@@ -1,0 +1,16 @@
+// VOIPx3 case design tokens. Frame 642:67335 inside Figma file.
+
+$voip-page-width: 1440px;
+$voip-page-height: 25880;
+
+$voip-bg: #ffffff;
+$voip-ink: #17181c;
+$voip-ink-soft: #4a4d57;
+$voip-navy: #040813;
+$voip-accent: #fec000;
+$voip-card-light: #f4f4f6;
+
+$voip-font: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif;
+
+// Container breathing room — page is 1440 design, content is 1281 wide centered.
+$voip-gutter: 80px;

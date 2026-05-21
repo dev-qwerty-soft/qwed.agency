@@ -1,0 +1,78 @@
+// Colors palette section — Figma Desktop-9 (256:18364).
+// 3 color cards (Dark Blue / Gray / Blue) in a row.
+
+.case-blue-jay__section--colors {
+  @include bj-rect(4061, 0, 1440, 434);
+  // Figma paddings on Desktop-9: 150 top, 40 left/right, 40 bottom.
+  padding: get-d(150px) get-d(40px) get-d(40px);
+  background: #ffffff;
+}
+
+.case-blue-jay-colors {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: get-d(24px);
+  width: 100%;
+}
+
+.case-blue-jay-color-card {
+  position: relative;
+  border-radius: get-d(20px);
+  padding: get-d(48px) get-d(28px) get-d(24px);
+  min-height: get-d(180px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &--dark {
+    background: #182d49;
+    color: #ffffff;
+  }
+
+  &--gray {
+    background: #c0d4db;
+    color: #182d49;
+  }
+
+  &--blue {
+    background: #7ec3d0;
+    color: #ffffff;
+  }
+
+  &__hex {
+    align-self: center;
+    margin-top: get-d(24px);
+    font-family: $bj-font;
+    font-weight: 500;
+    font-size: get-d(26px);
+    line-height: get-d(32px);
+  }
+
+  &__name {
+    margin: 0;
+    font-family: $bj-font;
+    font-weight: 400;
+    font-size: get-d(20px);
+    line-height: get-d(28px);
+  }
+
+  @include respond(md) {
+    border-radius: 16px;
+    padding: 32px 20px 20px;
+    min-height: 140px;
+
+    &__hex { font-size: 18px; line-height: 24px; }
+    &__name { font-size: 14px; line-height: 20px; }
+  }
+}
+
+@include respond(md) {
+  .case-blue-jay__section--colors {
+    padding: 48px 20px 24px;
+  }
+
+  .case-blue-jay-colors {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}

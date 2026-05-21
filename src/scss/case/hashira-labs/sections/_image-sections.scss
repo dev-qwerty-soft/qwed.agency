@@ -1,0 +1,18 @@
+// Image section max-widths based on Figma original sizes so images do not
+// stretch beyond their design intent.
+
+.case-hashira-labs__image-section {
+  &--intro-quote   img { max-width: get-d(1134px); }
+  &--about-block   img { max-width: get-d(1340px); }
+  &--project-meta  img { max-width: get-d(1340px); }
+  &--section-04    img { max-width: get-d(1440px); }
+  &--section-05    img { max-width: get-d(1340px); }
+  &--section-06    img { max-width: get-d(1490px); }
+  &--section-07    img { max-width: get-d(1340px); }
+  &--section-08    img { max-width: get-d(1340px); }
+  &--section-09    img { max-width: get-d(1360px); }
+  &--section-10    img { max-width: get-d(1360px); }
+  &--section-11    img { max-width: get-d(1360px); }
+  &--section-12    img { max-width: get-d(1340px); }
+  &--section-13    img { max-width: get-d(1340px); }
+}

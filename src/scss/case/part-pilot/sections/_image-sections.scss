@@ -1,0 +1,38 @@
+// Image sections sized to their natural Figma widths, centered horizontally,
+// with sharp @3x rendering for the Desktop-21 sub-PNGs.
+
+.case-part-pilot__image-section {
+  text-align: center;
+
+  img {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  // Each variant caps its image at the original Figma width so sharp PNGs
+  // never stretch beyond their native size.
+  &--desktop-60     img { max-width: get-d(1440px); }
+  &--desktop-18     img { max-width: get-d(1440px); }
+  &--desktop-19     img { max-width: get-d(1440px); }
+  &--desktop-20     img { max-width: get-d(1440px); }
+  &--d21-01-hero    img { max-width: get-d(1212px); }
+  &--d21-02-group   img { max-width: get-d(1410px); }
+  &--d21-03-scene10 img { max-width: get-d(1440px); }
+  &--d21-04-group   img { max-width: get-d(1352px); }
+  &--d21-05-group   img { max-width: get-d(1410px); }
+  &--d21-06-categories img { max-width: get-d(1410px); }
+  &--d21-07-bigblock img { max-width: get-d(1410px); }
+  &--d21-08-group   img { max-width: get-d(1410px); }
+  &--d21-09-group   img { max-width: get-d(1151px); }
+  &--d21-10-frame   img { max-width: get-d(1449px); }
+  &--d21-11-group   img { max-width: get-d(989px); }
+  &--d21-12-group   img { max-width: get-d(1121px); }
+  &--d21-13-mockup  img { max-width: get-d(884px); }
+  &--final          img { max-width: get-d(1440px); }
+
+  @include respond(md) {
+    img {
+      max-width: 100% !important;
+    }
+  }
+}

@@ -24,8 +24,11 @@ module.exports = (_, env) => {
       fonts: './src/js/fonts/index.ts',
       admin: './src/js/admin/index.ts',
       'case-ezk': './src/js/client/case-ezk/index.ts',
+      'case-hashira-labs': './src/js/client/case-hashira-labs/index.ts',
+      'case-part-pilot': './src/js/client/case-part-pilot/index.ts',
       'case-blue-jay': './src/js/client/case-blue-jay/index.ts',
       'case-imagine': './src/js/client/case-imagine/index.ts',
+      'case-voipx3': './src/js/client/case-voipx3/index.ts',
     },
     output: {
       filename: 'js/[name].min.js',

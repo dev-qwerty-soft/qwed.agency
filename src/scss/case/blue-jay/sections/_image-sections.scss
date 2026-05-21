@@ -7,7 +7,7 @@
   // about goes here as HTML — see _about.scss
   &--desktop-5     { @include bj-rect(1870,  0,   1440, 1293); }
   &--desktop-7     { @include bj-rect(3163,  0,   1440, 898); }
-  &--desktop-9     { @include bj-rect(4061,  0,   1440, 434); }
+  // desktop-9 now HTML — see sections/_colors.scss
   &--desktop-12    { @include bj-rect(4495,  0,   1440, 1293); }
   &--desktop-14    { @include bj-rect(5788,  0,   1440, 675); }
   &--desktop-24    { @include bj-rect(6463,  0,   1440, 1032); }

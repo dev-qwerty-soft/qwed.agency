@@ -1,7 +1,3 @@
-// Blue Jay page container — desktop scales fluidly above 1280px via get-d(),
-// stays at the static 1440px design between md and xl, and below md (768px)
-// reflows everything into a stacked single-column layout for mobile.
-
 .case-blue-jay {
   position: relative;
   width: 100%;
@@ -21,11 +17,6 @@
     width: get-d($bj-page-width);
     height: get-d($bj-page-height * 1px);
     margin: 0 auto;
-
-    @include respond(xl) {
-      width: $bj-page-width;
-      height: $bj-page-height * 1px;
-    }
   }
 
   &__section,
@@ -40,12 +31,12 @@
     object-fit: cover;
   }
 
-  // ── Mobile (≤ 768px): collapse everything into a vertical stack. ──────────
+  // ── Mobile (≤ 768px): designed adaptive layout ───────────────────────────
   @include respond(md) {
     &__page {
       width: 100%;
       height: auto;
-      padding: 0;
+      padding: 0 0 96px;
     }
 
     &__section,
@@ -54,12 +45,18 @@
       width: 100%;
       height: auto;
       max-width: 100%;
-      margin: 0 0 24px;
+      margin: 0 0 32px;
     }
 
     &__image-section img {
       width: 100%;
       height: auto;
+    }
+
+    // Hide the small floating logo overlay — it covered the hero on desktop
+    // but on mobile there's nothing to overlay.
+    &__image-section--logo {
+      display: none;
     }
   }
 }

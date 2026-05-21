@@ -1,14 +1,9 @@
-// Same fluid/static helpers as the EZK case. Kept per-case so each can evolve
-// independently without coupling.
+// Smart fluid sizing for Blue Jay — get-d() scales fluidly from desktop down
+// to the mobile breakpoint (768px), with no snap to static pixels in between.
 
 @mixin bj-pos($top, $left) {
   top: get-d($top * 1px);
   left: get-d($left * 1px);
-
-  @include respond(xl) {
-    top: $top * 1px;
-    left: $left * 1px;
-  }
 }
 
 @mixin bj-rect($top, $left, $width, $height) {
@@ -16,11 +11,4 @@
   left: get-d($left * 1px);
   width: get-d($width * 1px);
   height: get-d($height * 1px);
-
-  @include respond(xl) {
-    top: $top * 1px;
-    left: $left * 1px;
-    width: $width * 1px;
-    height: $height * 1px;
-  }
 }

@@ -1,0 +1,19 @@
+// "Don't miss a new work" — final CTA section. Lives OUTSIDE the absolutely
+// positioned .case-ezk__page canvas, flows naturally below it.
+
+.case-ezk__mockup--dontmiss {
+  display: block;
+  width: 100%;
+  max-width: get-d(1440px);
+  margin: 0 auto;
+
+  @include respond(xl) {
+    max-width: 1440px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}

@@ -2,7 +2,7 @@
 
 .case-imagine__image-section {
   &--desktop-6  { @include im-rect(0,     0, 1440, 1024); }
-  &--desktop-7  { @include im-rect(1024,  0, 1440, 608); }
+  // desktop-7 now rendered as HTML — see sections/_manifesto.scss
   &--desktop-39 { @include im-rect(1632,  0, 1440, 824); }
   &--desktop-8  { @include im-rect(2456,  0, 1440, 1008); }
   &--desktop-9  { @include im-rect(3464,  0, 1440, 783); }

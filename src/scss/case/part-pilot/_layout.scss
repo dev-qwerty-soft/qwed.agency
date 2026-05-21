@@ -1,0 +1,43 @@
+.case-part-pilot {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: $pp-font;
+  color: $pp-ink;
+  background: $pp-bg;
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  &__page {
+    position: relative;
+    width: get-d($pp-page-width);
+    margin: 0 auto;
+  }
+
+  &__section,
+  &__image-section {
+    position: relative;
+    width: 100%;
+  }
+
+  &__image-section img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  @include respond(md) {
+    &__page {
+      width: 100%;
+    }
+
+    &__section,
+    &__image-section {
+      margin-bottom: 24px;
+    }
+  }
+}

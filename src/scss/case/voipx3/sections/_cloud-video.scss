@@ -1,0 +1,26 @@
+// Section 3 — Cloud Video Security (835:25529).
+// Composite product UI mockup; rendered as one PNG. HTML wrapper handles
+// centering and mobile reflow.
+
+.case-voipx3__cloud-video {
+  position: relative;
+  width: get-d(1107px);
+  margin: 0 auto;
+  padding: get-d(64px) 0;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: get-d(20px);
+  }
+
+  @include respond(md) {
+    width: 100%;
+    padding: 32px 20px;
+
+    img {
+      border-radius: 16px;
+    }
+  }
+}

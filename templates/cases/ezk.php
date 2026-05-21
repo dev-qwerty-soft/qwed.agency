@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: EZK Case
  * Template Post Type: case
@@ -12,7 +13,7 @@
  */
 
 if (!defined('ABSPATH')) {
-  exit();
+    exit();
 }
 
 get_header();
@@ -182,7 +183,12 @@ $base = esc_url(THEME_URL) . '/assets/cases/ezk';
     </div>
     <div class="case-ezk__deco case-ezk__deco--side-4" aria-hidden="true">
         <img src="<?php echo $base; ?>/decorations/side-4.png" alt="" width="424" height="530" loading="lazy" />
+
     </div>
+
+    <section class="case-ezk__mockup case-ezk__mockup--dontmiss" aria-label="Don't miss a new work">
+        <img src="<?php echo $base; ?>/dont-miss.png" alt="Don't miss a new work — Green Borneo Kratom product showcase" width="1440" height="697" loading="lazy" />
+    </section>
 </main>
 
 <?php

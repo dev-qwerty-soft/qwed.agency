@@ -17,11 +17,6 @@
     width: get-d($im-page-width);
     height: get-d($im-page-height * 1px);
     margin: 0 auto;
-
-    @include respond(xl) {
-      width: $im-page-width;
-      height: $im-page-height * 1px;
-    }
   }
 
   &__section,
@@ -36,10 +31,12 @@
     object-fit: cover;
   }
 
+  // ── Mobile (≤ 768px) ─────────────────────────────────────────────────────
   @include respond(md) {
     &__page {
       width: 100%;
       height: auto;
+      padding: 0 0 96px;
     }
 
     &__section,
@@ -48,7 +45,7 @@
       width: 100%;
       height: auto;
       max-width: 100%;
-      margin: 0 0 24px;
+      margin: 0 0 32px;
     }
 
     &__image-section img {

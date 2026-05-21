@@ -66,12 +66,30 @@ $base = esc_url(THEME_URL) . '/assets/cases/blue-jay';
             </div>
         </section>
 
+        <!-- Colors palette (Desktop-9) — HTML/CSS verstka -->
+        <section class="case-blue-jay__section case-blue-jay__section--colors" aria-label="Brand color palette" data-aos="fade-up">
+            <div class="case-blue-jay-colors">
+                <div class="case-blue-jay-color-card case-blue-jay-color-card--dark">
+                    <span class="case-blue-jay-color-card__hex">182D49</span>
+                    <p class="case-blue-jay-color-card__name">Dark Blue</p>
+                </div>
+                <div class="case-blue-jay-color-card case-blue-jay-color-card--gray">
+                    <span class="case-blue-jay-color-card__hex">C0D4DB</span>
+                    <p class="case-blue-jay-color-card__name">Gray</p>
+                </div>
+                <div class="case-blue-jay-color-card case-blue-jay-color-card--blue">
+                    <span class="case-blue-jay-color-card__hex">7EC3D0</span>
+                    <p class="case-blue-jay-color-card__name">Blue</p>
+                </div>
+            </div>
+        </section>
+
         <!-- Remaining frames as PNG exports -->
         <?php
         $frames = [
           'desktop-5' => ['w' => 1440, 'h' => 1293, 'alt' => 'Blue Jay — brand collateral'],
-          'desktop-7' => ['w' => 1440, 'h' => 898, 'alt' => 'Blue Jay — packaging'],
-          'desktop-9' => ['w' => 1440, 'h' => 434, 'alt' => 'Blue Jay — typography'],
+          'desktop-7' => ['w' => 1440, 'h' => 898, 'alt' => 'Blue Jay — typography'],
+          // desktop-9 (Colors) now HTML — see <section> block below
           'desktop-12' => ['w' => 1440, 'h' => 1293, 'alt' => 'Blue Jay — applications'],
           'desktop-14' => ['w' => 1440, 'h' => 675, 'alt' => 'Blue Jay — color palette'],
           'desktop-24' => ['w' => 1440, 'h' => 1032, 'alt' => 'Blue Jay — visuals'],
