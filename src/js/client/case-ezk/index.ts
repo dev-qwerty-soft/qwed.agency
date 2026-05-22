@@ -37,18 +37,17 @@ function initSectionReveal(root: HTMLElement) {
   );
 
   items.forEach((el) => {
-    gsap.set(el, { opacity: 0, y: 40 });
+    gsap.set(el, { y: 40 });
+    el.classList.add('is-revealed');
     ScrollTrigger.create({
       trigger: el,
       start: 'top 88%',
       once: true,
       onEnter: () => {
         gsap.to(el, {
-          opacity: 1,
           y: 0,
           duration: 1.1,
           ease: 'power3.out',
-          onComplete: () => el.classList.add('is-revealed'),
         });
       },
     });

@@ -1,6 +1,3 @@
-// Side decorations and mid-page decorative imagery.
-// Side leaves anchor to the viewport edge via right:0/left:0; mid-page
-// pieces are page-relative.
 
 .case-ezk__deco--side-1 {
   @include case-rect-right(1973, -251, 575, 590);

@@ -1,13 +1,17 @@
-// "Result" heading + decorative underline — Figma 496:112920 + 496:112921.
 
 .case-ezk__section--result {
-  @include case-pos(19432, 50);
+  padding: 0 get-d(50px);
+
+  @include respond(xl) {
+    padding: 0 50px;
+  }
 }
 
 .case-ezk-result {
   position: relative;
   width: get-d(732px);
   height: get-d(110px);
+  margin: 0 auto;
 
   @include respond(xl) {
     width: 732px;
@@ -20,6 +24,7 @@
     left: 0;
     width: get-d(732px);
     height: get-d(39px);
+    z-index: 2;
     background: $ezk-heading-underline;
 
     @include respond(xl) {
@@ -32,13 +37,14 @@
   &__title {
     position: absolute;
     margin: 0;
-    font-family: $ezk-font;
-    font-weight: 100;
-    color: $ezk-text-black;
     top: 0;
     left: get-d(10px);
     width: get-d(193px);
     height: get-d(95px);
+    z-index: 1;
+    font-family: $ezk-font;
+    font-weight: 100;
+    color: $ezk-text-black;
     font-size: get-d(80px);
     line-height: get-d(95.46875px);
 

@@ -1,4 +1,3 @@
-// Fluid sizing helpers — get-d() scales values relative to the 1440px design.
 
 @mixin voip-pos($top, $left) {
   top: get-d($top * 1px);

@@ -31,7 +31,6 @@
     object-fit: cover;
   }
 
-  // ── Mobile (≤ 768px): designed adaptive layout ───────────────────────────
   @include respond(md) {
     &__page {
       width: 100%;
@@ -53,8 +52,6 @@
       height: auto;
     }
 
-    // Hide the small floating logo overlay — it covered the hero on desktop
-    // but on mobile there's nothing to overlay.
     &__image-section--logo {
       display: none;
     }

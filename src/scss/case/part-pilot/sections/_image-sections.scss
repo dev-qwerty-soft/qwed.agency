@@ -1,5 +1,3 @@
-// Image sections sized to their natural Figma widths, centered horizontally,
-// with sharp @3x rendering for the Desktop-21 sub-PNGs.
 
 .case-part-pilot__image-section {
   text-align: center;
@@ -9,8 +7,6 @@
     max-width: 100%;
   }
 
-  // Each variant caps its image at the original Figma width so sharp PNGs
-  // never stretch beyond their native size.
   &--desktop-60     img { max-width: get-d(1440px); }
   &--desktop-18     img { max-width: get-d(1440px); }
   &--desktop-19     img { max-width: get-d(1440px); }

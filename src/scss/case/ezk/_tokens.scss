@@ -1,23 +1,22 @@
-// Design tokens for the EZK case page.
-// Extracted from Figma file odUUVP1TTpzWuVu03FgRfs, frame 425:58403.
-
-// Page geometry
 $ezk-page-width: 1440px;
 $ezk-page-height: 24123;
 
-// Colors
-$ezk-page-bg: #f6f8f8;
+$ezk-page-bg: #e7eaea;
 $ezk-text-black: #000000;
 $ezk-text-muted: #686363;
-$ezk-heading-underline: #eaecec;
+$ezk-heading-underline: #e2e5e5;
 $ezk-card-bg: #ffffff;
 
-// Brand greens / yellows
-$ezk-green-dark: #007236;
-$ezk-green-mid: #3ba04b;
-$ezk-green-bright: #5cb243;
+$ezk-green-dark: #3c9845;
+$ezk-green-mid: #3c9845;
+$ezk-green-bright: #3c9845;
 $ezk-yellow: #ffc20e;
 $ezk-yellow-light: #fff3ab;
 
-// Fonts
-$ezk-font: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+$ezk-font:
+  'SF Pro Display',
+  -apple-system,
+  BlinkMacSystemFont,
+  'Helvetica Neue',
+  Arial,
+  sans-serif;

@@ -1,0 +1,106 @@
+.case-ezk__section--social {
+  position: relative;
+  overflow: hidden;
+  padding: get-d(130px) get-d(60px) get-d(130px);
+
+  @include respond(xl) {
+    padding: 130px 60px 130px;
+  }
+}
+
+.case-ezk-social {
+  position: relative;
+  width: get-d(1309px);
+  margin: 0 auto;
+
+  @include respond(xl) {
+    width: 1309px;
+  }
+
+  &__heading {
+    position: relative;
+    width: get-d(732px);
+    height: get-d(110px);
+    margin: 0 0 get-d(120px);
+
+    @include respond(xl) {
+      width: 732px;
+      height: 110px;
+      margin: 0 0 120px;
+    }
+  }
+
+  &__heading-underline {
+    position: absolute;
+    top: get-d(68px);
+    left: 0;
+    width: get-d(732px);
+    height: get-d(39px);
+    z-index: 2;
+    background: #eaecec;
+
+    @include respond(xl) {
+      top: 68px;
+      width: 732px;
+      height: 39px;
+    }
+  }
+
+  &__title {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: get-d(10px);
+    z-index: 1;
+    font-family: $ezk-font;
+    font-weight: 100;
+    color: $ezk-text-black;
+    font-size: get-d(80px);
+    line-height: get-d(95.46875px);
+
+    @include respond(xl) {
+      left: 10px;
+      font-size: 80px;
+      line-height: 95.46875px;
+    }
+  }
+
+  &__leaves {
+    position: absolute;
+    top: get-d(-140px);
+    left: get-d(-110px);
+    width: get-d(415px);
+    height: auto;
+    z-index: 0;
+    pointer-events: none;
+
+    @include respond(xl) {
+      top: -30px;
+      left: -110px;
+      width: 415px;
+    }
+  }
+
+  &__cards {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: get-d(24px);
+
+    @include respond(xl) {
+      gap: 24px;
+    }
+  }
+
+  &__card {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: get-d(12px);
+    z-index: 3;
+    @include respond(xl) {
+      border-radius: 12px;
+    }
+  }
+}

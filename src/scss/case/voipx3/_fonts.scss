@@ -1,6 +1,3 @@
-// Re-declare SF Pro Display @font-face here so the VOIPx3 bundle can use the
-// fonts independently from the EZK bundle. URL paths resolve from this file
-// (src/scss/case/voipx3/) up to src/fonts/SFPro/.
 
 $voip-sfpro: '../../../fonts/SFPro';
 

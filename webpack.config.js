@@ -29,6 +29,7 @@ module.exports = (_, env) => {
       'case-blue-jay': './src/js/client/case-blue-jay/index.ts',
       'case-imagine': './src/js/client/case-imagine/index.ts',
       'case-voipx3': './src/js/client/case-voipx3/index.ts',
+      'case-cobble': './src/js/client/case-cobble/index.ts',
     },
     output: {
       filename: 'js/[name].min.js',

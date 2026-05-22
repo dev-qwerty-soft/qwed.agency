@@ -1,5 +1,3 @@
-// Smart fluid sizing for Blue Jay — get-d() scales fluidly from desktop down
-// to the mobile breakpoint (768px), with no snap to static pixels in between.
 
 @mixin bj-pos($top, $left) {
   top: get-d($top * 1px);

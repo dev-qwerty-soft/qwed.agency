@@ -1,6 +1,3 @@
-// Smart fluid sizing: get-d() scales values relative to a 1440px design.
-// We DO NOT snap to static pixels at xl — the scaling stays fluid all the way
-// from desktop down to the mobile breakpoint (768px), so there's no jump.
 
 @mixin im-rect($top, $left, $width, $height) {
   top: get-d($top * 1px);

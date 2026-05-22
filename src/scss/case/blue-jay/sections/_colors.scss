@@ -1,6 +1,3 @@
-// Colors palette section — Figma Desktop-9 (256:18364).
-// 3 color cards (439x244, radius 28) inside a 1440x434 section, gap 22, with
-// 39px left padding. Hex centered, name 26px from left / 21px from bottom.
 
 .case-blue-jay__section--colors {
   @include bj-rect(4061, 0, 1440, 434);
@@ -8,14 +5,14 @@
 
 .case-blue-jay-colors {
   display: flex;
-  align-items: center;
+  align-items: end;
   width: 100%;
   height: 100%;
-  padding: 0 get-d(41px) 0 get-d(39px);
+  padding: 0 get-d(40px) get-d(40px) get-d(40px);
   gap: get-d(22px);
 
   @include respond(xl) {
-    padding: 0 41px 0 39px;
+    padding: 0 40px 40px 40px;
     gap: 22px;
   }
 }

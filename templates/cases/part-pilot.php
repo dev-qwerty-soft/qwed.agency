@@ -15,13 +15,11 @@ if (!defined('ABSPATH')) {
 get_header();
 $base = esc_url(THEME_URL) . '/assets/cases/part-pilot';
 
-// `gap` is the design spacing between this section and the next one (Figma).
 $frames = [
   'desktop-60'     => ['w' => 1440, 'h' => 1072,  'gap' => 0,   'alt' => 'PartPilot — hero'],
   'desktop-18'     => ['w' => 1440, 'h' => 914,   'gap' => 0,   'alt' => 'PartPilot — project overview'],
   'desktop-19'     => ['w' => 1440, 'h' => 1299,  'gap' => 0,   'alt' => 'PartPilot — Logo Design'],
   'desktop-20'     => ['w' => 1440, 'h' => 1172,  'gap' => 0,   'alt' => 'PartPilot — section'],
-  // Desktop-21 split — 13 sub-PNGs at @3x (one @2x) for sharp inside text.
   'd21-01-hero'    => ['w' => 1212, 'h' => 674,   'gap' => 290, 'alt' => 'PartPilot — manufacturing hero'],
   'd21-02-group'   => ['w' => 1410, 'h' => 947,   'gap' => 290, 'alt' => 'PartPilot — section'],
   'd21-03-scene10' => ['w' => 1440, 'h' => 1080,  'gap' => 280, 'alt' => 'PartPilot — scene'],

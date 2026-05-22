@@ -1,33 +1,21 @@
-// Hero section — Figma node 642:48522.
-
-.case-ezk__section--hero {
-  top: 0;
-  left: 0;
-}
-
 .case-ezk-hero {
   position: relative;
-  width: get-d($ezk-page-width);
-  height: get-d(1275px);
-  overflow: visible;
+  width: 100%;
+  max-width: get-d($ezk-page-width);
+  margin: 0 auto;
+  padding: get-d(26px) get-d(26px) 0 get-d(26px);
 
   @include respond(xl) {
-    width: $ezk-page-width;
-    height: 1275px;
+    max-width: $ezk-page-width;
+    padding: 26px 26px 0 26px;
   }
 
   &__tags {
-    position: absolute;
     display: flex;
-    z-index: 3;
-    top: get-d(154px);
-    left: get-d(26px);
-    gap: get-d(15px);
+    gap: get-d(14px);
 
     @include respond(xl) {
-      top: 154px;
-      left: 26px;
-      gap: 15px;
+      gap: 14px;
     }
   }
 
@@ -56,9 +44,16 @@
   }
 
   &__device {
-    position: absolute;
-    z-index: 2;
-    @include case-rect(258, 108, 1223, 1017);
+    display: block;
+    margin: get-d(64px) 0 0 get-d(82px);
+    width: get-d(1223px);
+    height: get-d(1017px);
+
+    @include respond(xl) {
+      margin: 64px 0 0 82px;
+      width: 1223px;
+      height: 1017px;
+    }
 
     img {
       display: block;
@@ -82,19 +77,28 @@
   }
 
   &__leaves--top-right {
-    @include case-rect-right(0, -273, 559, 453);
+    top: 0;
+    right: 0;
+    width: get-d(286px);
+    height: get-d(325px);
+
+    @include respond(xl) {
+      right: 0;
+      width: 286px;
+      height: 325px;
+    }
   }
 
   &__leaves--bottom-left {
-    top: get-d(794px);
-    left: get-d(-130px);
-    width: get-d(676px);
+    bottom: get-d(100px);
+    left: 0;
+    width: get-d(548px);
     height: get-d(411px);
 
     @include respond(xl) {
-      top: 794px;
-      left: -130px;
-      width: 676px;
+      bottom: 100px;
+      left: 0;
+      width: 548px;
       height: 411px;
     }
   }

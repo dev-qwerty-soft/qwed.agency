@@ -1,5 +1,3 @@
-// The general mixins file owns get-d() and respond() — load it first so the
-// case-specific helpers can build on top of those.
 @import '../../general/mixins';
 @import 'helpers';
 @import 'tokens';
@@ -9,6 +7,11 @@
 @import 'sections/hero';
 @import 'sections/about';
 @import 'sections/identity';
+@import 'sections/mobile';
+@import 'sections/user-feedback';
+@import 'sections/design-process';
+@import 'sections/typography';
+@import 'sections/social-media';
 @import 'sections/image-sections';
 @import 'sections/decorations';
 @import 'sections/result';

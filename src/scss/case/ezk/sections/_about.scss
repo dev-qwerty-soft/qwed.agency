@@ -1,13 +1,21 @@
-// About section — pixel-perfect from Figma node 642:48521.
-
 .case-ezk__section--about {
-  @include case-pos(1305, 50);
+  padding: get-d(183px) get-d(60px) get-d(130px);
+  margin-top: get-d(-165px);
+  background: rgba(230, 233, 233, 0.43);
+  backdrop-filter: blur(25px) saturate(140%) brightness(0.97);
+  -webkit-backdrop-filter: blur(25px) saturate(140%) brightness(0.97);
+
+  @include respond(xl) {
+    margin-top: -165px;
+    padding: 183px 60px 130px;
+  }
 }
 
 .case-ezk-about {
   position: relative;
   width: get-d(1197px);
   height: get-d(904px);
+  margin: 0 auto;
 
   @include respond(xl) {
     width: 1197px;
@@ -33,6 +41,7 @@
     left: 0;
     width: get-d(408px);
     height: get-d(39px);
+    z-index: 2;
     background: $ezk-heading-underline;
 
     @include respond(xl) {
@@ -52,6 +61,7 @@
     left: get-d(10px);
     width: get-d(194px);
     height: get-d(95px);
+    z-index: 1;
     font-size: get-d(80px);
     line-height: get-d(95.46875px);
 
@@ -80,7 +90,6 @@
 
   &__quote-text {
     margin: 0;
-    text-align: center;
     font-family: $ezk-font;
     font-weight: 300;
     color: $ezk-text-black;
@@ -243,8 +252,20 @@
       line-height: 26.25390625px;
     }
 
+    strong {
+      font-weight: 400;
+    }
+
     &:last-child {
       margin-bottom: 0;
+    }
+  }
+
+  &__meta-col:not(&__meta-col--right) &__meta-text {
+    line-height: get-d(29px);
+
+    @include respond(xl) {
+      line-height: 29px;
     }
   }
 }

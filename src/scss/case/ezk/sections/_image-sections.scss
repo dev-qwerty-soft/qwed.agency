@@ -1,48 +1,17 @@
-// Position modifiers for every "whole-section PNG" mockup on the page.
-// All use the case-rect mixin (fluid get-d defaults + xl static fallback).
+.case-ezk__image-section--fright-night,
+.case-ezk__image-section--faq,
+.case-ezk__image-section--subscribe,
+.case-ezk__image-section--bulk-orders {
+  padding: get-d(130px) get-d(24px) get-d(130px);
 
-.case-ezk__image-section {
-  &--mobile-design {
-    @include case-rect(4759, 50, 916, 1262);
+  @include respond(xl) {
+    padding: 130px 24px 130px;
   }
+}
+.case-ezk__mockup--dontmiss {
+  padding: get-d(130px) 0 0;
 
-  &--faq {
-    @include case-rect(7518, 24, 999, 1019);
-  }
-
-  &--user-feedback {
-    @include case-rect(8767, 50, 1329, 546);
-  }
-
-  &--bulk-orders {
-    @include case-rect(9553, 24, 1392, 564);
-  }
-
-  &--buy-kratom {
-    @include case-rect(10337, 0, 1440, 1250);
-  }
-
-  &--design-process {
-    @include case-rect(11818, 50, 1331, 564);
-  }
-
-  &--subscribe {
-    @include case-rect(12618, 24, 1392, 905);
-  }
-
-  &--fright-night {
-    @include case-rect(13752, 24, 1392, 923);
-  }
-
-  &--typography {
-    @include case-rect(14905, 50, 1222, 483);
-  }
-
-  &--aa {
-    @include case-rect(15566, 0, 1375, 715);
-  }
-
-  &--certified {
-    @include case-rect(16551, 0, 1440, 6340);
+  @include respond(xl) {
+    padding: 130px 0 0;
   }
 }

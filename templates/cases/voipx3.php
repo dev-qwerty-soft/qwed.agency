@@ -14,7 +14,6 @@ if (!defined('ABSPATH')) {
 get_header();
 $base = esc_url(THEME_URL) . '/assets/cases/voipx3';
 
-// Sections after About, in page-flow order (matches Figma Y).
 $frames = [
   'cloud-video'   => ['w' => 1107, 'h' => 955,  'alt' => 'Cloud Video Security mockup'],
   'identity'      => ['w' => 1404, 'h' => 1983, 'alt' => 'VOIPx3 brand identity'],
@@ -34,12 +33,12 @@ $frames = [
 <main class="case-voipx3" id="main-content">
     <div class="case-voipx3__page">
 
-        <!-- Hero — composite PNG (device mockup with the embedded product site) -->
+        
         <section class="case-voipx3__hero" aria-label="VOIPx3 — hero composition">
             <img src="<?php echo $base; ?>/hero.png" alt="VOIPx3 hero with MacBook mockup of the platform homepage" width="1440" height="1789" loading="eager" />
         </section>
 
-        <!-- About — Figma 835:25528, full HTML/CSS verstka -->
+        
         <section class="case-voipx3__section case-voipx3__section--about" aria-labelledby="voip-about-lead">
             <div class="case-voipx3-about">
                 <div class="case-voipx3-about__top">

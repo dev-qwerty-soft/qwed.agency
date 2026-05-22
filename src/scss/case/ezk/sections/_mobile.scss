@@ -1,0 +1,127 @@
+.case-ezk__section--mobile {
+  padding: get-d(130px) 0 get-d(130px);
+  background: rgba(230, 233, 233, 0.43);
+  backdrop-filter: blur(25px) saturate(140%) brightness(0.97);
+  -webkit-backdrop-filter: blur(25px) saturate(140%) brightness(0.97);
+
+  @include respond(xl) {
+    padding: 130px 0 130px;
+  }
+}
+
+.case-ezk-mobile {
+  position: relative;
+  width: get-d(1440px);
+  margin: 0 auto;
+
+  @include respond(xl) {
+    width: 1440px;
+  }
+
+  &__heading {
+    position: relative;
+    width: get-d(609px);
+    height: get-d(109px);
+    margin: 0 0 get-d(132px) get-d(50px);
+
+    @include respond(xl) {
+      width: 609px;
+      height: 109px;
+      margin: 0 0 132px 50px;
+    }
+  }
+
+  &__heading-underline {
+    position: absolute;
+    top: get-d(68px);
+    left: 0;
+    width: get-d(609px);
+    height: get-d(39px);
+    z-index: 2;
+    background: $ezk-heading-underline;
+
+    @include respond(xl) {
+      top: 68px;
+      width: 609px;
+      height: 39px;
+    }
+  }
+
+  &__title {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: get-d(10px);
+    z-index: 1;
+    white-space: nowrap;
+    font-family: $ezk-font;
+    font-weight: 100;
+    color: $ezk-text-black;
+    font-size: get-d(80px);
+    line-height: get-d(95.46875px);
+
+    @include respond(xl) {
+      left: 10px;
+      font-size: 80px;
+      line-height: 95.46875px;
+    }
+  }
+
+  &__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto get-d(270px);
+    overflow: hidden;
+
+    @include respond(xl) {
+      margin-bottom: 270px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__card--products {
+    width: 84%;
+  }
+
+  &__card--phone-cart {
+    max-width: get-d(1014px);
+    max-height: get-d(1017px);
+    margin: 0 0 get-d(210px) auto;
+    @include respond(xl) {
+      margin: 0 0 210px auto;
+      max-width: 1014px;
+      max-height: 1017px;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      max-width: get-d(1014px);
+      max-height: get-d(1017px);
+      border-radius: get-d(16px);
+      @include respond(xl) {
+        border-radius: 16px;
+      }
+    }
+  }
+
+  &__card--phone-order {
+    max-width: get-d(999px);
+    max-height: get-d(1019px);
+    margin: 0 auto get-d(210px) get-d(24px);
+    @include respond(xl) {
+      margin: 0 auto 210px 24px;
+      max-width: 999px;
+      max-height: 1019px;
+    }
+  }
+}

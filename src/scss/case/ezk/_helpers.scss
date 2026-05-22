@@ -1,7 +1,3 @@
-// Position/size mixins for the EZK case page.
-// Default values scale fluidly via get-d() (1440px design viewport); under xl
-// they snap to the static pixel values. Each mixin takes a unitless number and
-// converts to px internally so get-d() sees the px-units it requires.
 
 @mixin case-pos($top, $left) {
   top: get-d($top * 1px);

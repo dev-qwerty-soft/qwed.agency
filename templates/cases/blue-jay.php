@@ -19,22 +19,22 @@ $base = esc_url(THEME_URL) . '/assets/cases/blue-jay';
 <main class="case-blue-jay" id="main-content">
     <div class="case-blue-jay__page">
 
-        <!-- Hero — Desktop-6 (253:18198), photo composition -->
+        
         <section class="case-blue-jay__image-section case-blue-jay__image-section--hero" aria-label="Blue Jay Vodka — brand hero">
             <img src="<?php echo $base; ?>/desktop-6.png" alt="Blue Jay Vodka brand hero" width="1440" height="1024" loading="eager" />
         </section>
 
-        <!-- Small logo overlay near the hero bottom -->
+        
         <section class="case-blue-jay__image-section case-blue-jay__image-section--logo" aria-hidden="true">
             <img src="<?php echo $base; ?>/logo.png" alt="" width="270" height="95" loading="eager" />
         </section>
 
-        <!-- About — Desktop-8 (253:18309), HTML verstka -->
+        
         <section class="case-blue-jay__section case-blue-jay__section--about" aria-labelledby="bj-about-title">
             <div class="case-blue-jay-about">
                 <p class="case-blue-jay-about__label">About</p>
                 <h2 id="bj-about-title" class="case-blue-jay-about__title">
-                    <span class="case-blue-jay-about__accent">Blue Jay</span> is a premium<br />
+                    <span class="case-blue-jay-about__accent">Blue Jay</span> <strong> is a premium</strong><br />
                     <strong>vodka brand</strong> shaped by purity,<br />
                     crafted with a refined and distinctive identity
                 </h2>
@@ -69,7 +69,7 @@ $base = esc_url(THEME_URL) . '/assets/cases/blue-jay';
             </div>
         </section>
 
-        <!-- Colors palette (Desktop-9) — HTML/CSS verstka -->
+        
         <section class="case-blue-jay__section case-blue-jay__section--colors" aria-label="Blue Jay — color palette">
             <div class="case-blue-jay-colors">
                 <article class="case-blue-jay-colors__card case-blue-jay-colors__card--dark">
@@ -87,7 +87,7 @@ $base = esc_url(THEME_URL) . '/assets/cases/blue-jay';
             </div>
         </section>
 
-        <!-- Remaining frames as PNG exports -->
+        
         <?php
         $frames = [
             'desktop-5' => ['w' => 1440, 'h' => 1293, 'alt' => 'Blue Jay — brand collateral'],

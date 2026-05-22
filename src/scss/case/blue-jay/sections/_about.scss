@@ -1,10 +1,12 @@
-// About section — Figma Desktop-8 (253:18309). HTML/CSS verstka.
 
 .case-blue-jay__section--about {
   @include bj-rect(1024, 0, 1440, 846);
-  // Figma paddings on Desktop-8: 152 top, 40 left/right, 40 bottom.
   padding: get-d(152px) get-d(40px) get-d(40px);
   background: #ffffff;
+  @include respond(xl) {
+    @include bj-rect(1024, 0, 1440, 846);
+    padding: 152px 40px 40px;
+  }
 }
 
 .case-blue-jay-about {
@@ -13,23 +15,35 @@
   height: 100%;
 
   &__label {
-    margin: 0 0 get-d(48px);
+    margin: 0 0 get-d(12px);
     font-family: $bj-font;
     font-weight: 400;
     color: $bj-text-black;
     font-size: get-d(18px);
     line-height: get-d(22px);
+    @include respond(xl) {
+      margin: 0 0 12px;
+      font-size: 18px;
+      line-height: 22px;
+    }
   }
 
   &__title {
-    margin: 0 0 get-d(56px);
-    max-width: get-d(900px);
+    margin: 0 0 get-d(36px);
+    max-width: get-d(1252px);
     font-family: $bj-font;
     font-weight: 600;
     color: $bj-text-black;
-    font-size: get-d(48px);
+    font-size: get-d(62px);
+    font-weight: 500;
     line-height: get-d(60px);
     letter-spacing: -0.02em;
+    @include respond(xl) {
+      margin: 0 0 36px;
+      max-width: 1252px;
+      font-size: 62px;
+      line-height: 60px;
+    }
   }
 
   &__accent {
@@ -38,12 +52,17 @@
 
   &__lede {
     margin: 0;
-    max-width: get-d(700px);
+    max-width: get-d(1340px);
     font-family: $bj-font;
     font-weight: 400;
     color: $bj-text-muted;
     font-size: get-d(16px);
     line-height: get-d(24px);
+    @include respond(xl) {
+      max-width: 1340px;
+      font-size: 16px;
+      line-height: 24px;
+    }
   }
 
   &__icons {
@@ -52,25 +71,42 @@
     left: 0;
     display: flex;
     gap: get-d(12px);
+    @include respond(xl) {
+      gap: 12px;
+    }
   }
 
   &__icon {
-    width: get-d(48px);
-    height: get-d(48px);
-    border-radius: get-d(8px);
-    background: #1a1a1a;
+    width: get-d(56px);
+    height: get-d(56px);
+    border-radius: get-d(17.5px);
+    background: #14191d;
+    backdrop-filter: blur(14.875px);
     display: flex;
     align-items: center;
     justify-content: center;
     color: #ffffff;
     font-size: get-d(14px);
+    @include respond(xl) {
+      width: 56px;
+      height: 56px;
+      border-radius: 17.5px;
+      font-size: 14px;
+    }
+    svg {
+      width: 60%;
+      height: 60%;
+    }
   }
 
   &__meta {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: get-d(280px);
+    width: get-d(200px);
+    @include respond(xl) {
+      width: 200px;
+    }
   }
 
   &__meta-row {
@@ -80,6 +116,12 @@
     font-family: $bj-font;
     font-size: get-d(14px);
     line-height: get-d(20px);
+    @include respond(xl) {
+      gap: 8px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 20px;
+    }
 
     &:last-child {
       margin-bottom: 0;
@@ -95,7 +137,6 @@
     color: $bj-text-black;
   }
 
-  // ── Mobile ───────────────────────────────────────────────────────────────
   @include respond(md) {
     &__label {
       margin-bottom: 16px;
@@ -152,7 +193,6 @@
   }
 }
 
-// Adjust section padding on mobile too.
 @include respond(md) {
   .case-blue-jay__section--about {
     padding: 48px 20px 32px;

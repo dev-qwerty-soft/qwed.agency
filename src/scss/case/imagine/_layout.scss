@@ -1,5 +1,5 @@
+
 .case-imagine {
-  position: relative;
   width: 100%;
   overflow-x: hidden;
   font-family: $im-font;
@@ -13,44 +13,34 @@
   }
 
   &__page {
-    position: relative;
-    width: get-d($im-page-width);
-    height: get-d($im-page-height * 1px);
+    width: 100%;
+    max-width: get-d($im-page-width);
     margin: 0 auto;
   }
 
-  &__section,
-  &__image-section {
-    position: absolute;
+  &__section {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0;
   }
 
-  &__image-section img {
+  &__image-section {
     display: block;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    margin: 0;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
   }
 
-  // ── Mobile (≤ 768px) ─────────────────────────────────────────────────────
   @include respond(md) {
     &__page {
-      width: 100%;
-      height: auto;
-      padding: 0 0 96px;
-    }
-
-    &__section,
-    &__image-section {
-      position: static;
-      width: 100%;
-      height: auto;
       max-width: 100%;
-      margin: 0 0 32px;
-    }
-
-    &__image-section img {
-      width: 100%;
-      height: auto;
+      padding: 0 0 96px;
     }
   }
 }
