@@ -1,8 +1,10 @@
 .case-ezk__section--process {
   padding: get-d(260px) 0 get-d(130px);
-
   @include respond(xl) {
     padding: 260px 0 130px;
+  }
+  @include respond(md) {
+    padding: 80px 20px;
   }
 }
 
@@ -10,9 +12,11 @@
   position: relative;
   width: get-d(1331px);
   margin: 0 auto;
-
   @include respond(xl) {
     width: 1331px;
+  }
+  @include respond(md) {
+    width: 100%;
   }
 
   &__heading {
@@ -20,10 +24,14 @@
     width: get-d(609px);
     height: get-d(113px);
     margin: 0 0 get-d(60px);
-
     @include respond(xl) {
       width: 609px;
       height: 113px;
+      margin: 0 0 60px;
+    }
+    @include respond(md) {
+      width: auto;
+      height: 36px;
       margin: 0 0 60px;
     }
   }
@@ -36,11 +44,16 @@
     height: get-d(39px);
     z-index: 2;
     background: #e9ebeb;
-
     @include respond(xl) {
       top: 68px;
       width: 609px;
       height: 39px;
+    }
+    @include respond(md) {
+      top: 24px;
+      left: 0;
+      width: 181px;
+      height: 12px;
     }
   }
 
@@ -55,11 +68,18 @@
     color: $ezk-text-black;
     font-size: get-d(80px);
     line-height: get-d(95.46875px);
-
     @include respond(xl) {
       left: 10px;
       font-size: 80px;
       line-height: 95.46875px;
+    }
+    @include respond(md) {
+      position: relative;
+      top: 0;
+      left: 0;
+      font-size: 28px;
+      line-height: 31px;
+      font-weight: 110;
     }
   }
 
@@ -67,9 +87,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: get-d(14px);
-
     @include respond(xl) {
       gap: 14px;
+    }
+    @include respond(md) {
+      grid-template-columns: 1fr;
+      gap: 20px;
     }
   }
 
@@ -79,11 +102,15 @@
     padding: get-d(28px) get-d(32px);
     background: $ezk-card-bg;
     border-radius: get-d(32px);
-
     @include respond(xl) {
       height: 355px;
       padding: 28px 32px;
       border-radius: 32px;
+    }
+    @include respond(md) {
+      height: 276px;
+      padding: 24px;
+      border-radius: 24px;
     }
   }
 
@@ -92,9 +119,8 @@
     align-items: baseline;
     justify-content: space-between;
     margin: 0 0 get-d(120px);
-
     @include respond(xl) {
-      margin-bottom: 120px;
+      margin: 0 0 120px;
     }
   }
 
@@ -105,10 +131,13 @@
     color: $ezk-text-black;
     font-size: get-d(28px);
     line-height: get-d(33px);
-
     @include respond(xl) {
       font-size: 28px;
       line-height: 33px;
+    }
+    @include respond(md) {
+      font-size: 22px;
+      line-height: 26px;
     }
   }
 
@@ -118,10 +147,13 @@
     color: $ezk-text-black;
     font-size: get-d(38px);
     line-height: get-d(45px);
-
     @include respond(xl) {
       font-size: 38px;
       line-height: 45px;
+    }
+    @include respond(md) {
+      font-size: 30px;
+      line-height: 36px;
     }
   }
 
@@ -132,16 +164,21 @@
     display: flex;
     align-items: center;
     gap: get-d(36px);
-
     @include respond(xl) {
       gap: 36px;
+    }
+    @include respond(md) {
+      gap: 16px;
+      flex-wrap: wrap;
     }
 
     &--top {
       margin: 0 0 get-d(20px);
-
       @include respond(xl) {
-        margin-bottom: 20px;
+        margin: 0 0 20px;
+      }
+      @include respond(md) {
+        margin: 0 0 16px;
       }
     }
   }
@@ -154,10 +191,13 @@
     font-size: get-d(20px);
     line-height: get-d(24px);
     white-space: nowrap;
-
     @include respond(xl) {
       font-size: 20px;
       line-height: 24px;
+    }
+    @include respond(md) {
+      font-size: 16px;
+      line-height: 20px;
     }
 
     &--pill {
@@ -165,10 +205,13 @@
       background: #3c9845;
       color: #ffffff;
       border-radius: get-d(12px);
-
       @include respond(xl) {
         padding: 15px 16px;
         border-radius: 12px;
+      }
+      @include respond(md) {
+        padding: 12px 14px;
+        border-radius: 10px;
       }
     }
 
@@ -176,8 +219,10 @@
       content: '\2192';
       margin-right: get-d(8px);
       color: $ezk-text-black;
-
       @include respond(xl) {
+        margin-right: 8px;
+      }
+      @include respond(md) {
         margin-right: 8px;
       }
     }

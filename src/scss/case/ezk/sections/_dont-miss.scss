@@ -4,9 +4,12 @@
   width: 100%;
   max-width: get-d(1440px);
   margin: 0 auto;
-
   @include respond(xl) {
     max-width: 1440px;
+  }
+  @include respond(md) {
+    max-width: 100%;
+    padding: 24px 0 0;
   }
 
   img {

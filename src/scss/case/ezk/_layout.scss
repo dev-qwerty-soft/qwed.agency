@@ -18,7 +18,6 @@
     width: 100%;
     max-width: get-d($ezk-page-width);
     margin: 0 auto;
-
     @include respond(xl) {
       max-width: $ezk-page-width;
     }

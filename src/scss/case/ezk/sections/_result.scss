@@ -1,7 +1,6 @@
 
 .case-ezk__section--result {
   padding: 0 get-d(50px);
-
   @include respond(xl) {
     padding: 0 50px;
   }
@@ -12,7 +11,6 @@
   width: get-d(732px);
   height: get-d(110px);
   margin: 0 auto;
-
   @include respond(xl) {
     width: 732px;
     height: 110px;
@@ -26,7 +24,6 @@
     height: get-d(39px);
     z-index: 2;
     background: $ezk-heading-underline;
-
     @include respond(xl) {
       top: 71px;
       width: 732px;
@@ -47,7 +44,6 @@
     color: $ezk-text-black;
     font-size: get-d(80px);
     line-height: get-d(95.46875px);
-
     @include respond(xl) {
       left: 10px;
       width: 193px;

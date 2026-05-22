@@ -3,9 +3,11 @@
   background: rgba(230, 233, 233, 0.43);
   backdrop-filter: blur(25px) saturate(140%) brightness(0.97);
   -webkit-backdrop-filter: blur(25px) saturate(140%) brightness(0.97);
-
   @include respond(xl) {
     padding: 130px 0 130px;
+  }
+  @include respond(md) {
+    padding: 80px 0;
   }
 }
 
@@ -13,9 +15,12 @@
   position: relative;
   width: get-d(1440px);
   margin: 0 auto;
-
   @include respond(xl) {
     width: 1440px;
+  }
+  @include respond(md) {
+    width: 100%;
+    padding: 0 20px;
   }
 
   &__heading {
@@ -23,11 +28,15 @@
     width: get-d(609px);
     height: get-d(109px);
     margin: 0 0 get-d(132px) get-d(50px);
-
     @include respond(xl) {
       width: 609px;
       height: 109px;
       margin: 0 0 132px 50px;
+    }
+    @include respond(md) {
+      width: auto;
+      height: 36px;
+      margin: 0 0 60px;
     }
   }
 
@@ -39,11 +48,16 @@
     height: get-d(39px);
     z-index: 2;
     background: $ezk-heading-underline;
-
     @include respond(xl) {
       top: 68px;
       width: 609px;
       height: 39px;
+    }
+    @include respond(md) {
+      top: 24px;
+      left: 0;
+      width: 181px;
+      height: 12px;
     }
   }
 
@@ -59,11 +73,35 @@
     color: $ezk-text-black;
     font-size: get-d(80px);
     line-height: get-d(95.46875px);
-
     @include respond(xl) {
       left: 10px;
       font-size: 80px;
       line-height: 95.46875px;
+    }
+    @include respond(md) {
+      position: relative;
+      top: 0;
+      left: 0;
+      font-size: 28px;
+      line-height: 31px;
+      font-weight: 110;
+      white-space: normal;
+    }
+  }
+
+  &__img--desktop {
+    @include respond(md) {
+      display: none !important;
+    }
+  }
+
+  &__img--mobile {
+    display: none;
+    @include respond(md) {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 
@@ -73,9 +111,17 @@
     justify-content: center;
     margin: 0 auto get-d(270px);
     overflow: hidden;
-
     @include respond(xl) {
-      margin-bottom: 270px;
+      margin: 0 auto 270px;
+    }
+    @include respond(md) {
+      display: block;
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      max-height: none;
+      margin: 0 0 60px;
+      border-radius: 0;
     }
 
     &:last-child {
@@ -91,6 +137,11 @@
 
   &__card--products {
     width: 84%;
+    @include respond(md) {
+      display: block;
+      width: 100%;
+      height: 706px;
+    }
   }
 
   &__card--phone-cart {
@@ -98,9 +149,15 @@
     max-height: get-d(1017px);
     margin: 0 0 get-d(210px) auto;
     @include respond(xl) {
-      margin: 0 0 210px auto;
       max-width: 1014px;
       max-height: 1017px;
+      margin: 0 0 210px auto;
+    }
+    @include respond(md) {
+      max-width: 100%;
+      max-height: none;
+      height: 336px;
+      margin: 0 0 20px;
     }
     img {
       width: 100%;
@@ -109,7 +166,14 @@
       max-height: get-d(1017px);
       border-radius: get-d(16px);
       @include respond(xl) {
+        max-width: 1014px;
+        max-height: 1017px;
         border-radius: 16px;
+      }
+      @include respond(md) {
+        max-width: 100%;
+        max-height: none;
+        border-radius: 0;
       }
     }
   }
@@ -119,9 +183,51 @@
     max-height: get-d(1019px);
     margin: 0 auto get-d(210px) get-d(24px);
     @include respond(xl) {
-      margin: 0 auto 210px 24px;
       max-width: 999px;
       max-height: 1019px;
+      margin: 0 auto 210px 24px;
+    }
+    @include respond(md) {
+      max-width: 100%;
+      max-height: none;
+      height: 342px;
+      margin: 0;
+    }
+  }
+
+  &__categories {
+    display: none;
+    @include respond(md) {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 284px;
+      margin: 0 0 61px;
+    }
+  }
+
+  &__category {
+    @include respond(md) {
+      position: absolute;
+      display: block;
+    }
+  }
+
+  &__category--strain {
+    @include respond(md) {
+      top: 0;
+      left: 0;
+      width: 199px;
+      height: 210px;
+    }
+  }
+
+  &__category--merch {
+    @include respond(md) {
+      top: 74px;
+      left: 130px;
+      width: 205px;
+      height: 211px;
     }
   }
 }

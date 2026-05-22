@@ -4,10 +4,13 @@
   background: rgba(230, 233, 233, 0.43);
   backdrop-filter: blur(25px) saturate(140%) brightness(0.97);
   -webkit-backdrop-filter: blur(25px) saturate(140%) brightness(0.97);
-
   @include respond(xl) {
-    margin-top: -165px;
     padding: 183px 60px 130px;
+    margin-top: -165px;
+  }
+  @include respond(md) {
+    padding: 60px 20px;
+    margin-top: -60px;
   }
 }
 
@@ -16,10 +19,13 @@
   width: get-d(1197px);
   height: get-d(904px);
   margin: 0 auto;
-
   @include respond(xl) {
     width: 1197px;
     height: 904px;
+  }
+  @include respond(md) {
+    width: 100%;
+    height: auto;
   }
 
   &__heading {
@@ -28,10 +34,15 @@
     left: 0;
     width: get-d(408px);
     height: get-d(103px);
-
     @include respond(xl) {
       width: 408px;
       height: 103px;
+    }
+    @include respond(md) {
+      position: relative;
+      width: auto;
+      height: auto;
+      margin: 0 0 32px;
     }
   }
 
@@ -43,11 +54,15 @@
     height: get-d(39px);
     z-index: 2;
     background: $ezk-heading-underline;
-
     @include respond(xl) {
       top: 64px;
       width: 408px;
       height: 39px;
+    }
+    @include respond(md) {
+      top: 22px;
+      width: 110px;
+      height: 13px;
     }
   }
 
@@ -64,13 +79,22 @@
     z-index: 1;
     font-size: get-d(80px);
     line-height: get-d(95.46875px);
-
     @include respond(xl) {
       left: 10px;
       width: 194px;
       height: 95px;
       font-size: 80px;
       line-height: 95.46875px;
+    }
+    @include respond(md) {
+      position: relative;
+      top: auto;
+      left: 0;
+      width: auto;
+      height: auto;
+      font-size: 32px;
+      line-height: normal;
+      font-weight: 110;
     }
   }
 
@@ -80,11 +104,17 @@
     top: get-d(175px);
     left: get-d(141px);
     width: get-d(1056px);
-
     @include respond(xl) {
       top: 175px;
       left: 141px;
       width: 1056px;
+    }
+    @include respond(md) {
+      position: relative;
+      top: auto;
+      left: 0;
+      width: 100%;
+      margin: 0 0 32px;
     }
   }
 
@@ -96,11 +126,21 @@
     width: get-d(1056px);
     font-size: get-d(50px);
     line-height: get-d(63px);
-
     @include respond(xl) {
       width: 1056px;
       font-size: 50px;
       line-height: 63px;
+    }
+    @include respond(md) {
+      width: 100%;
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    br {
+      @include respond(md) {
+        display: none;
+      }
     }
   }
 
@@ -113,12 +153,20 @@
     width: get-d(266px);
     height: get-d(66px);
     gap: get-d(18px);
-
     @include respond(xl) {
       top: 298px;
       width: 266px;
       height: 66px;
       gap: 18px;
+    }
+    @include respond(md) {
+      position: relative;
+      top: auto;
+      left: 0;
+      width: auto;
+      height: auto;
+      gap: 12px;
+      margin: 24px 0 0;
     }
   }
 
@@ -132,10 +180,13 @@
     justify-content: center;
     width: get-d(66px);
     height: get-d(66px);
-
     @include respond(xl) {
       width: 66px;
       height: 66px;
+    }
+    @include respond(md) {
+      width: 48px;
+      height: 48px;
     }
 
     img {
@@ -143,10 +194,13 @@
       object-fit: cover;
       width: get-d(53px);
       height: get-d(67px);
-
       @include respond(xl) {
         width: 53px;
         height: 67px;
+      }
+      @include respond(md) {
+        width: 36px;
+        height: 48px;
       }
     }
   }
@@ -155,9 +209,11 @@
     display: flex;
     flex-direction: column;
     gap: get-d(8px);
-
     @include respond(xl) {
       gap: 8px;
+    }
+    @include respond(md) {
+      gap: 4px;
     }
   }
 
@@ -168,10 +224,13 @@
     color: $ezk-text-black;
     font-size: get-d(24px);
     line-height: get-d(28.640625px);
-
     @include respond(xl) {
       font-size: 24px;
       line-height: 28.640625px;
+    }
+    @include respond(md) {
+      font-size: 16px;
+      line-height: 20px;
     }
   }
 
@@ -182,10 +241,13 @@
     color: $ezk-text-black;
     font-size: get-d(18px);
     line-height: get-d(21.48046875px);
-
     @include respond(xl) {
       font-size: 18px;
       line-height: 21.48046875px;
+    }
+    @include respond(md) {
+      font-size: 13px;
+      line-height: 16px;
     }
   }
 
@@ -194,10 +256,19 @@
     top: get-d(743px);
     left: 0;
     width: get-d(1197px);
-
     @include respond(xl) {
       top: 743px;
       width: 1197px;
+    }
+    @include respond(md) {
+      position: relative;
+      top: auto;
+      left: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin: 32px 0 0;
     }
   }
 
@@ -206,19 +277,27 @@
     top: 0;
     left: get-d(10px);
     width: get-d(522px);
-
     @include respond(xl) {
       left: 10px;
       width: 522px;
+    }
+    @include respond(md) {
+      position: relative;
+      top: auto;
+      left: 0;
+      width: 100%;
     }
 
     &--right {
       left: get-d(569px);
       width: get-d(217px);
-
       @include respond(xl) {
         left: 569px;
         width: 217px;
+      }
+      @include respond(md) {
+        left: 0;
+        width: 100%;
       }
     }
   }
@@ -230,11 +309,15 @@
     color: $ezk-text-black;
     font-size: get-d(18px);
     line-height: get-d(21.48046875px);
-
     @include respond(xl) {
       margin: 0 0 24px;
       font-size: 18px;
       line-height: 21.48046875px;
+    }
+    @include respond(md) {
+      margin: 0 0 12px;
+      font-size: 14px;
+      line-height: 18px;
     }
   }
 
@@ -245,11 +328,15 @@
     color: $ezk-text-black;
     font-size: get-d(22px);
     line-height: get-d(26.25390625px);
-
     @include respond(xl) {
       margin: 0 0 16px;
       font-size: 22px;
       line-height: 26.25390625px;
+    }
+    @include respond(md) {
+      margin: 0 0 8px;
+      font-size: 15px;
+      line-height: 20px;
     }
 
     strong {
@@ -263,9 +350,11 @@
 
   &__meta-col:not(&__meta-col--right) &__meta-text {
     line-height: get-d(29px);
-
     @include respond(xl) {
       line-height: 29px;
+    }
+    @include respond(md) {
+      line-height: 22px;
     }
   }
 }

@@ -123,13 +123,20 @@ $base = esc_url(THEME_URL) . '/assets/cases/ezk';
                 </div>
 
                 <div class="case-ezk-mobile__card case-ezk-mobile__card--products">
-                    <img src="<?php echo $base; ?>/mobile-phone-1.png" alt="Kratom Products screen with Strain and Merch category tiles" width="883" height="1035" loading="lazy" />
+                    <img class="case-ezk-mobile__img case-ezk-mobile__img--desktop" src="<?php echo $base; ?>/mobile-phone-1.png" alt="Kratom Products screen with Strain and Merch category tiles" width="883" height="1035" loading="lazy" />
+                    <img class="case-ezk-mobile__img case-ezk-mobile__img--mobile" src="<?php echo $base; ?>/mobile/phone-products.png" alt="Kratom Products screen" loading="lazy" />
+                </div>
+                <div class="case-ezk-mobile__categories" aria-hidden="true">
+                    <img class="case-ezk-mobile__category case-ezk-mobile__category--strain" src="<?php echo $base; ?>/mobile/category-strain.png" alt="Strain" loading="lazy" />
+                    <img class="case-ezk-mobile__category case-ezk-mobile__category--merch" src="<?php echo $base; ?>/mobile/category-merch.png" alt="Merch" loading="lazy" />
                 </div>
                 <div class="case-ezk-mobile__card case-ezk-mobile__card--phone-cart">
-                    <img src="<?php echo $base; ?>/scene-light.png" alt="Hand holding phone — kratom product cart with $45.00" width="1014" height="1017" loading="lazy" />
+                    <img class="case-ezk-mobile__img case-ezk-mobile__img--desktop" src="<?php echo $base; ?>/scene-light.png" alt="Hand holding phone — kratom product cart with $45.00" width="1014" height="1017" loading="lazy" />
+                    <img class="case-ezk-mobile__img case-ezk-mobile__img--mobile" src="<?php echo $base; ?>/mobile/phone-cart.png" alt="Hand holding phone — kratom product cart" loading="lazy" />
                 </div>
                 <div class="case-ezk-mobile__card case-ezk-mobile__card--phone-order">
-                    <img src="<?php echo $base; ?>/faq.png" alt="Hand holding phone — order form" width="999" height="1019" loading="lazy" />
+                    <img class="case-ezk-mobile__img case-ezk-mobile__img--desktop" src="<?php echo $base; ?>/faq.png" alt="Hand holding phone — order form" width="999" height="1019" loading="lazy" />
+                    <img class="case-ezk-mobile__img case-ezk-mobile__img--mobile" src="<?php echo $base; ?>/mobile/phone-order.png" alt="Hand holding phone — order form" loading="lazy" />
                 </div>
             </div>
         </section>
@@ -181,12 +188,14 @@ $base = esc_url(THEME_URL) . '/assets/cases/ezk';
 
 
         <section class="case-ezk__image-section case-ezk__image-section--bulk-orders" aria-label="Interested in Bulk Orders">
-            <img src="<?php echo $base; ?>/bulk-orders.png" alt="Bulk Orders banner" width="1392" height="564" loading="lazy" />
+            <img class="case-ezk__mobile-img" src="<?php echo $base; ?>/mobile/section-6.png" alt="" loading="lazy" />
+            <img class="case-ezk__desktop-img" src="<?php echo $base; ?>/bulk-orders.png" alt="Bulk Orders banner" width="1392" height="564" loading="lazy" />
         </section>
 
 
         <section class="case-ezk__image-section case-ezk__image-section--buy-kratom" aria-label="Buy Kratom Online — full landing mockup">
-            <img src="<?php echo $base; ?>/buy-kratom-online.png" alt="Buy Kratom Online landing page" width="1440" height="1250" loading="lazy" />
+            <img class="case-ezk__mobile-img" src="<?php echo $base; ?>/mobile/section-7.png" alt="" loading="lazy" />
+            <img class="case-ezk__desktop-img" src="<?php echo $base; ?>/buy-kratom-online.png" alt="Buy Kratom Online landing page" width="1440" height="1250" loading="lazy" />
         </section>
 
 
@@ -244,12 +253,14 @@ $base = esc_url(THEME_URL) . '/assets/cases/ezk';
 
 
         <section class="case-ezk__image-section case-ezk__image-section--subscribe" aria-label="Subscribe for FREE Kratom">
-            <img src="<?php echo $base; ?>/subscribe.png" alt="Subscribe section" width="1392" height="905" loading="lazy" />
+            <img class="case-ezk__mobile-img" src="<?php echo $base; ?>/mobile/section-9.png" alt="" loading="lazy" />
+            <img class="case-ezk__desktop-img" src="<?php echo $base; ?>/subscribe.png" alt="Subscribe section" width="1392" height="905" loading="lazy" />
         </section>
 
 
         <section class="case-ezk__image-section case-ezk__image-section--fright-night" aria-label="Fright Night Deals">
-            <img src="<?php echo $base; ?>/fright-night.png" alt="Fright Night Deals promo" width="1392" height="923" loading="lazy" />
+            <img class="case-ezk__mobile-img" src="<?php echo $base; ?>/mobile/section-10.png" alt="" loading="lazy" />
+            <img class="case-ezk__desktop-img" src="<?php echo $base; ?>/fright-night.png" alt="Fright Night Deals promo" width="1392" height="923" loading="lazy" />
         </section>
 
 
@@ -277,7 +288,6 @@ $base = esc_url(THEME_URL) . '/assets/cases/ezk';
                         <p class="case-ezk-typography__swatch-hex">#9B9A9A</p>
                     </div>
                 </div>
-                <!-- swatch order: Black, Green, Dark Gray, Light Gray (matches Figma zig-zag layout) -->
                 <div class="case-ezk-typography__aa">
                     <img class="case-ezk-typography__shelf" src="<?php echo $base; ?>/aa-bookshelf.png" alt="Bookshelf with Ariel font weights Regular, Medium, SemiBold" width="725" height="701" loading="lazy" />
                     <div>
@@ -295,7 +305,8 @@ $base = esc_url(THEME_URL) . '/assets/cases/ezk';
 
 
         <section class="case-ezk__image-section case-ezk__image-section--certified" aria-label="Certified for Purity, Safety, and Quality Assurance">
-            <img src="<?php echo $base; ?>/certified.png" alt="Certified for Purity, Safety, and Quality Assurance" width="1440" height="6340" loading="lazy" />
+            <img class="case-ezk__mobile-img" src="<?php echo $base; ?>/mobile/section-13.png" alt="" loading="lazy" />
+            <img class="case-ezk__desktop-img" src="<?php echo $base; ?>/certified.png" alt="Certified for Purity, Safety, and Quality Assurance" width="1440" height="6340" loading="lazy" />
         </section>
 
 
@@ -320,6 +331,7 @@ $base = esc_url(THEME_URL) . '/assets/cases/ezk';
         <section class="case-ezk__mockup case-ezk__mockup--dontmiss" aria-label="Don't miss a new work">
             <img src="<?php echo $base; ?>/dont-miss.png" alt="Don't miss a new work — Green Borneo Kratom product showcase" width="1440" height="697" loading="lazy" />
         </section>
+
     </div>
 
 
