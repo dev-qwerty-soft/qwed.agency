@@ -8,9 +8,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const PREFERS_REDUCED_MOTION = window.matchMedia(
-  '(prefers-reduced-motion: reduce)'
-).matches;
+const PREFERS_REDUCED_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 function bootCase() {
   const root = document.querySelector<HTMLElement>('.case-ezk');
@@ -25,7 +23,7 @@ function bootCase() {
   } else {
     root
       .querySelectorAll<HTMLElement>(
-        '.case-ezk__section, .case-ezk__image-section, .case-ezk__deco'
+        '.case-ezk__section, .case-ezk__image-section, .case-ezk__deco',
       )
       .forEach((el) => el.classList.add('is-revealed'));
   }
@@ -33,7 +31,7 @@ function bootCase() {
 
 function initSectionReveal(root: HTMLElement) {
   const items = root.querySelectorAll<HTMLElement>(
-    '.case-ezk__section, .case-ezk__image-section, .case-ezk__deco'
+    '.case-ezk__section, .case-ezk__image-section, .case-ezk__deco',
   );
 
   items.forEach((el) => {
@@ -92,42 +90,33 @@ function initImageFadeIn(root: HTMLElement) {
   });
 }
 
-function initProgressBar(root: HTMLElement) {
-  const images = root.querySelectorAll<HTMLImageElement>('img');
-  const total = images.length;
-  if (total === 0) return;
+function initProgressBar(_root: HTMLElement) {
+  if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+  }
 
   const bar = document.createElement('div');
   bar.className = 'case-ezk__progress';
   bar.setAttribute('aria-hidden', 'true');
   const fill = document.createElement('div');
   fill.className = 'case-ezk__progress-fill';
+  fill.style.transform = 'scaleX(0)';
   bar.appendChild(fill);
   document.body.appendChild(bar);
 
-  let loaded = 0;
-  const update = () => {
-    const pct = (loaded / total) * 100;
-    fill.style.transform = `scaleX(${pct / 100})`;
-    if (loaded >= total) {
-      bar.classList.add('is-done');
-      window.setTimeout(() => bar.remove(), 700);
-    }
+  let current = 0;
+
+  const tick = () => {
+    const doc = document.documentElement;
+    const max = doc.scrollHeight - window.innerHeight;
+    const target = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+    current += (target - current) * 0.18;
+    if (Math.abs(target - current) < 0.0003) current = target;
+    fill.style.transform = `scaleX(${current})`;
+    window.requestAnimationFrame(tick);
   };
 
-  images.forEach((img) => {
-    if (img.complete) {
-      loaded += 1;
-    } else {
-      const onDone = () => {
-        loaded += 1;
-        update();
-      };
-      img.addEventListener('load', onDone, { once: true });
-      img.addEventListener('error', onDone, { once: true });
-    }
-  });
-  update();
+  window.requestAnimationFrame(tick);
 }
 
 if (document.readyState === 'loading') {

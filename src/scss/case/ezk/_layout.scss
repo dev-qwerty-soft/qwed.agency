@@ -1,8 +1,12 @@
+html:has(.case-ezk) {
+  scroll-behavior: smooth;
+}
 
 .case-ezk {
   position: relative;
   width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
   font-family: $ezk-font;
   color: $ezk-text-black;
   background: $ezk-page-bg;
