@@ -11,13 +11,21 @@
   }
 }
 
-.case-ezk__image-section {
+.case-ezk__mobile-img {
+  display: none;
+  width: 100%;
+  height: auto;
   @include respond(md) {
-    height: auto;
+    display: block;
+  }
+}
 
-    .case-ezk__desktop-img {
-      display: none;
-    }
+.case-ezk__desktop-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  @include respond(md) {
+    display: none;
   }
 }
 
@@ -28,14 +36,5 @@
   }
   @include respond(md) {
     padding: 130px 0 0;
-  }
-}
-
-.case-ezk__mobile-img {
-  display: none;
-  width: 100%;
-  height: auto;
-  @include respond(md) {
-    display: block;
   }
 }
