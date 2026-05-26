@@ -1,19 +1,32 @@
-
 .case-blue-jay__section--colors {
-  @include bj-rect(4061, 0, 1440, 434);
+  width: 100%;
+  padding: 0 get-d(40px) get-d(40px) get-d(40px);
+  background: #ffffff;
+
+  @include respond(xl) {
+    padding: 0 40px 40px 40px;
+  }
+
+  @include respond(md) {
+    padding: 0 16px;
+    margin: 0 0 82px;
+    background: transparent;
+  }
 }
 
 .case-blue-jay-colors {
   display: flex;
-  align-items: end;
+  align-items: stretch;
   width: 100%;
-  height: 100%;
-  padding: 0 get-d(40px) get-d(40px) get-d(40px);
   gap: get-d(22px);
 
   @include respond(xl) {
-    padding: 0 40px 40px 40px;
     gap: 22px;
+  }
+
+  @include respond(md) {
+    flex-direction: column;
+    gap: 16px;
   }
 }
 
@@ -27,6 +40,12 @@
   @include respond(xl) {
     height: 244px;
     border-radius: 28px;
+  }
+
+  @include respond(md) {
+    width: 100%;
+    height: 160px;
+    border-radius: 20px;
   }
 
   &--dark {
@@ -58,6 +77,10 @@
   @include respond(xl) {
     font-size: 26px;
   }
+
+  @include respond(md) {
+    font-size: 22px;
+  }
 }
 
 .case-blue-jay-colors__name {
@@ -74,26 +97,8 @@
     left: 26px;
     font-size: 20px;
   }
-}
 
-@include respond(md) {
-  .case-blue-jay-colors {
-    flex-direction: column;
-    gap: 16px;
-    padding: 0 20px;
-  }
-
-  .case-blue-jay-colors__card {
-    width: 100%;
-    height: 160px;
-    border-radius: 20px;
-  }
-
-  .case-blue-jay-colors__hex {
-    font-size: 22px;
-  }
-
-  .case-blue-jay-colors__name {
+  @include respond(md) {
     bottom: 16px;
     left: 20px;
     font-size: 16px;
