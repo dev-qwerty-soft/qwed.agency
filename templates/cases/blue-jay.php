@@ -29,6 +29,11 @@ $base = esc_url(THEME_URL) . '/assets/cases/blue-jay';
                     <strong>vodka brand</strong> shaped by purity,<br />
                     crafted with a refined and distinctive identity
                 </h2>
+                <h2 id="bj-about-title" class="case-blue-jay-about__title mobile">
+                    <span class="case-blue-jay-about__accent">Blue Jay</span> <strong> is a premium</strong>
+                    <strong>vodka brand</strong> shaped by purity,
+                    crafted with a refined and distinctive identity
+                </h2>
                 <p class="case-blue-jay-about__lede">The identity was built to reflect the cold, pure, and premium nature of the brand through a sharp symbol, elegant typography, and a restrained visual language</p>
 
                 <div class="case-blue-jay-about__icons">

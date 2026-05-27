@@ -1,7 +1,9 @@
 .case-blue-jay__image-section {
   display: block;
   width: 100%;
-
+  &.case-blue-jay__image-section--desktop-22 {
+    padding: 220px 0 0 0;
+  }
   @include respond(md) {
     width: 100%;
     height: auto;
@@ -14,7 +16,7 @@
       padding: 40px 16px;
     }
     &.case-blue-jay__image-section--desktop-21 {
-      padding: 40px 0 40px 16px;
+      padding: 40px 16px;
     }
     &.case-blue-jay__image-section--desktop-36 {
       padding: 40px 16px 40px 0;
