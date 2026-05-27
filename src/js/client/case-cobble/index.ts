@@ -1,21 +1,20 @@
 // Entry for the Cobble case bundle.
 
 import '../../../scss/case/cobble/index.scss';
+import { initCaseChrome } from '../../utils/case-chrome';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const PREFERS_REDUCED_MOTION = window.matchMedia(
-  '(prefers-reduced-motion: reduce)'
-).matches;
+const PREFERS_REDUCED_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 function bootCase() {
   const root = document.querySelector<HTMLElement>('.case-cobble');
   if (!root) return;
 
   initImageFadeIn(root);
-  initProgressBar(root);
+  initCaseChrome(root, '#F20505');
 
   if (!PREFERS_REDUCED_MOTION) {
     initSectionReveal(root);
@@ -27,9 +26,7 @@ function bootCase() {
 }
 
 function initSectionReveal(root: HTMLElement) {
-  const items = root.querySelectorAll<HTMLElement>(
-    '.case-cobble__image-section'
-  );
+  const items = root.querySelectorAll<HTMLElement>('.case-cobble__image-section');
 
   items.forEach((el) => {
     gsap.set(el, { opacity: 0, y: 40 });

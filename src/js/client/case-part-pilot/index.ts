@@ -1,4 +1,5 @@
 import '../../../scss/case/part-pilot/index.scss';
+import { initCaseChrome } from '../../utils/case-chrome';
 import AOS from 'aos';
 
 function bootCase() {
@@ -6,7 +7,7 @@ function bootCase() {
   if (!root) return;
 
   initImageFadeIn(root);
-  initProgressBar(root);
+  initCaseChrome(root, '#bb1e10');
 
   AOS.init({
     duration: 800,
@@ -52,8 +53,14 @@ function initProgressBar(root: HTMLElement) {
   };
 
   images.forEach((img) => {
-    if (img.complete) { loaded += 1; return; }
-    const done = () => { loaded += 1; update(); };
+    if (img.complete) {
+      loaded += 1;
+      return;
+    }
+    const done = () => {
+      loaded += 1;
+      update();
+    };
     img.addEventListener('load', done, { once: true });
     img.addEventListener('error', done, { once: true });
   });
