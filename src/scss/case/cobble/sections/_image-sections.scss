@@ -1,0 +1,8 @@
+.case-cobble__image-section--section-2 {
+  padding-top: get-d(72px);
+  background: #f4f4f4;
+
+  @include respond(xl) {
+    padding-top: 72px;
+  }
+}
