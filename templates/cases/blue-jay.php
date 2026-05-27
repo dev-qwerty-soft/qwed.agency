@@ -18,7 +18,7 @@ $base = esc_url(THEME_URL) . '/assets/cases/blue-jay';
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--hero" aria-label="Blue Jay Vodka — brand hero">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-6.png" alt="Blue Jay Vodka brand hero" width="1440" height="1024" loading="eager" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-1.png" alt="" loading="eager" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-1.png" alt="" width="686" height="512" loading="eager" />
         </section>
 
         <section class="case-blue-jay__section case-blue-jay__section--about" aria-labelledby="bj-about-title">
@@ -67,12 +67,12 @@ $base = esc_url(THEME_URL) . '/assets/cases/blue-jay';
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-34" aria-label="Blue Jay — visuals">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-34.png" alt="" width="1440" height="1300" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-3.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-3.png" alt="" width="686" height="772" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-7" aria-label="Blue Jay — typography">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-7.png" alt="Blue Jay — typography" width="1440" height="898" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-4.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-4.png" alt="" width="1029" height="661" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__section case-blue-jay__section--colors" aria-label="Blue Jay — color palette">
@@ -94,73 +94,73 @@ $base = esc_url(THEME_URL) . '/assets/cases/blue-jay';
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-12" aria-label="Blue Jay — applications">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-12.png" alt="Blue Jay — applications" width="1440" height="1293" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-5.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-5.png" alt="" width="1077" height="975" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-14" aria-label="Blue Jay — color palette">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-14.png" alt="Blue Jay — color palette" width="1440" height="675" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-6.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-6.png" alt="" width="686" height="507" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-24" aria-label="Blue Jay — visuals">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-24.png" alt="Blue Jay — visuals" width="1440" height="1032" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-7.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-7.png" alt="" width="686" height="392" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-36 " aria-label="Blue Jay — visuals">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-36.png" alt="" width="1440" height="1428" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-8.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-8.png" alt="" width="732" height="1150" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-27" aria-label="Blue Jay — visuals">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-27.png" alt="Blue Jay — visuals" width="1440" height="1032" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-9.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-9.png" alt="" width="686" height="392" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-17" aria-label="Blue Jay — composition">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-17.png" alt="Blue Jay — composition" width="1440" height="871" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-10.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-10.png" alt="" width="1029" height="684" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-18 " aria-label="Blue Jay — pattern">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-18.png" alt="Blue Jay — pattern" width="1440" height="828" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-18.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-18.png" alt="" width="1029" height="668" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-37" aria-label="Blue Jay — visuals">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-37.png" alt="" width="1440" height="1360" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-11.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-11.png" alt="" width="686" height="1030" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-20" aria-label="Blue Jay — mockup">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-20.png" alt="Blue Jay — mockup" width="1440" height="820" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-12.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-12.png" alt="" width="686" height="808" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--behance-13" aria-label="Blue Jay — visuals">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/behance-13.png" alt="Blue Jay — visuals" width="1440" height="1443" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-13.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-13.png" alt="" width="686" height="1698" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-19" aria-label="Blue Jay — bottle">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-19.png" alt="Blue Jay — bottle" width="1440" height="1214" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-14.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-14.png" alt="" width="686" height="1508" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-38" aria-label="Blue Jay — visuals">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-38.png" alt="" width="1440" height="1360" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-15.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-15.png" alt="" width="1077" height="2433" loading="lazy" />
 
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-26" aria-label="Blue Jay — packaging detail">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-26.png" alt="Blue Jay — packaging detail" width="1440" height="1033" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-16.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-16.png" alt="" width="686" height="392" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-21" aria-label="Blue Jay — campaign">
             <img class="case-blue-jay__desktop-img" src="<?php echo $base; ?>/desktop-21.png" alt="Blue Jay — campaign" width="1440" height="1009" loading="lazy" />
-            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-17.png" alt="" loading="lazy" />
+            <img class="case-blue-jay__mobile-img" src="<?php echo $base; ?>/mobile/section-17.png" alt="" width="686" height="382" loading="lazy" />
         </section>
 
         <section class="case-blue-jay__image-section case-blue-jay__image-section--desktop-22 " aria-label="Blue Jay — final">

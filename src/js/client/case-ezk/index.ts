@@ -3,6 +3,7 @@
 // scroll-driven GSAP animations, per-image fade-in, and a top progress bar.
 
 import '../../../scss/case/ezk/index.scss';
+import { initCaseChrome } from '../../utils/case-chrome';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -15,7 +16,7 @@ function bootCase() {
   if (!root) return;
 
   initImageFadeIn(root);
-  initProgressBar(root);
+  initCaseChrome(root, '#3c9845');
 
   if (!PREFERS_REDUCED_MOTION) {
     initSectionReveal(root);

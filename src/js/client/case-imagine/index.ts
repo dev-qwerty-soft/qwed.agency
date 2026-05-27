@@ -1,28 +1,25 @@
 import '../../../scss/case/imagine/index.scss';
+import { initCaseChrome } from '../../utils/case-chrome';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const PREFERS_REDUCED_MOTION = window.matchMedia(
-  '(prefers-reduced-motion: reduce)'
-).matches;
+const PREFERS_REDUCED_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 function bootCase() {
   const root = document.querySelector<HTMLElement>('.case-imagine');
   if (!root) return;
 
   initImageFadeIn(root);
-  initProgressBar(root);
+  initCaseChrome(root, '#D2232A');
   initSliders(root);
 
   if (!PREFERS_REDUCED_MOTION) {
     initSectionReveal(root);
   } else {
     root
-      .querySelectorAll<HTMLElement>(
-        '.case-imagine__section, .case-imagine__image-section'
-      )
+      .querySelectorAll<HTMLElement>('.case-imagine__section, .case-imagine__image-section')
       .forEach((el) => el.classList.add('is-revealed'));
   }
 }
@@ -30,12 +27,8 @@ function bootCase() {
 function initSliders(root: HTMLElement) {
   root.querySelectorAll<HTMLElement>('[data-im-slider]').forEach((slider) => {
     const track = slider.querySelector<HTMLElement>('.im-slider__track');
-    const originals = Array.from(
-      slider.querySelectorAll<HTMLElement>('.im-slider__slide')
-    );
-    const dots = Array.from(
-      slider.querySelectorAll<HTMLButtonElement>('[data-im-slider-dot]')
-    );
+    const originals = Array.from(slider.querySelectorAll<HTMLElement>('.im-slider__slide'));
+    const dots = Array.from(slider.querySelectorAll<HTMLButtonElement>('[data-im-slider-dot]'));
     if (!track || originals.length === 0) return;
     const n = originals.length;
     if (n < 2) return;
@@ -49,9 +42,7 @@ function initSliders(root: HTMLElement) {
     track.appendChild(firstClone);
     track.insertBefore(lastClone, originals[0]);
 
-    const slides = Array.from(
-      slider.querySelectorAll<HTMLElement>('.im-slider__slide')
-    );
+    const slides = Array.from(slider.querySelectorAll<HTMLElement>('.im-slider__slide'));
 
     const interval = Number(slider.dataset.imSliderInterval || 5000);
     let realIdx = 0;
@@ -59,8 +50,7 @@ function initSliders(root: HTMLElement) {
     let isAnimating = false;
     let timer = 0;
 
-    const slideWidth = () =>
-      slides[0].getBoundingClientRect().width || 315;
+    const slideWidth = () => slides[0].getBoundingClientRect().width || 315;
     const gap = 10;
 
     const applyTransform = (idx: number, animate: boolean) => {
@@ -72,12 +62,8 @@ function initSliders(root: HTMLElement) {
     };
 
     const updateActive = () => {
-      slides.forEach((s, idx) =>
-        s.classList.toggle('is-active', idx === trackIdx)
-      );
-      dots.forEach((d, idx) =>
-        d.classList.toggle('is-active', idx === realIdx)
-      );
+      slides.forEach((s, idx) => s.classList.toggle('is-active', idx === trackIdx));
+      dots.forEach((d, idx) => d.classList.toggle('is-active', idx === realIdx));
     };
 
     const settle = () => {
@@ -144,7 +130,7 @@ function initSliders(root: HTMLElement) {
 
 function initSectionReveal(root: HTMLElement) {
   const items = root.querySelectorAll<HTMLElement>(
-    '.case-imagine__section, .case-imagine__image-section'
+    '.case-imagine__section, .case-imagine__image-section',
   );
   items.forEach((el) => {
     gsap.set(el, { opacity: 0, y: 40 });
@@ -205,7 +191,10 @@ function initProgressBar(root: HTMLElement) {
     if (img.complete) {
       loaded += 1;
     } else {
-      const onDone = () => { loaded += 1; update(); };
+      const onDone = () => {
+        loaded += 1;
+        update();
+      };
       img.addEventListener('load', onDone, { once: true });
       img.addEventListener('error', onDone, { once: true });
     }

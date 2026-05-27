@@ -1,6 +1,7 @@
 // Entry for the Blue Jay case bundle.
 
 import '../../../scss/case/blue-jay/index.scss';
+import { initCaseChrome } from '../../utils/case-chrome';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -15,7 +16,7 @@ function bootCase() {
   if (!root) return;
 
   initImageFadeIn(root);
-  initProgressBar(root);
+  initCaseChrome(root, '#34bbbb');
 
   if (!PREFERS_REDUCED_MOTION) {
     initSectionReveal(root);

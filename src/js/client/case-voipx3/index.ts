@@ -1,19 +1,18 @@
 import '../../../scss/case/voipx3/index.scss';
+import { initCaseChrome } from '../../utils/case-chrome';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const PREFERS_REDUCED_MOTION = window.matchMedia(
-  '(prefers-reduced-motion: reduce)'
-).matches;
+const PREFERS_REDUCED_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 function bootCase() {
   const root = document.querySelector<HTMLElement>('.case-voipx3');
   if (!root) return;
 
   initImageFadeIn(root);
-  initProgressBar(root);
+  initCaseChrome(root, '#1439CC');
 
   if (!PREFERS_REDUCED_MOTION) {
     initSectionReveal(root);
@@ -21,9 +20,7 @@ function bootCase() {
 }
 
 function initSectionReveal(root: HTMLElement) {
-  const items = root.querySelectorAll<HTMLElement>(
-    '.case-voipx3__section, .case-voipx3__hero'
-  );
+  const items = root.querySelectorAll<HTMLElement>('.case-voipx3__section, .case-voipx3__hero');
   items.forEach((el) => {
     gsap.set(el, { opacity: 0, y: 40 });
     ScrollTrigger.create({
@@ -72,8 +69,14 @@ function initProgressBar(root: HTMLElement) {
   };
 
   images.forEach((img) => {
-    if (img.complete) { loaded += 1; return; }
-    const done = () => { loaded += 1; update(); };
+    if (img.complete) {
+      loaded += 1;
+      return;
+    }
+    const done = () => {
+      loaded += 1;
+      update();
+    };
     img.addEventListener('load', done, { once: true });
     img.addEventListener('error', done, { once: true });
   });
