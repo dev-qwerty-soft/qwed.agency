@@ -1,0 +1,360 @@
+.case-ezk__section--about {
+  padding: get-d(183px) get-d(60px) get-d(130px);
+  margin-top: get-d(-165px);
+  background: rgba(230, 233, 233, 0.43);
+  backdrop-filter: blur(25px) saturate(140%) brightness(0.97);
+  -webkit-backdrop-filter: blur(25px) saturate(140%) brightness(0.97);
+  @include respond(xl) {
+    padding: 183px 60px 130px;
+    margin-top: -165px;
+  }
+  @include respond(md) {
+    padding: 60px 20px;
+    margin-top: -60px;
+  }
+}
+
+.case-ezk-about {
+  position: relative;
+  width: get-d(1197px);
+  height: get-d(904px);
+  margin: 0 auto;
+  @include respond(xl) {
+    width: 1197px;
+    height: 904px;
+  }
+  @include respond(md) {
+    width: 100%;
+    height: auto;
+  }
+
+  &__heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: get-d(408px);
+    height: get-d(103px);
+    @include respond(xl) {
+      width: 408px;
+      height: 103px;
+    }
+    @include respond(md) {
+      position: relative;
+      width: auto;
+      height: auto;
+      margin: 0 0 32px;
+    }
+  }
+
+  &__heading-underline {
+    position: absolute;
+    top: get-d(64px);
+    left: 0;
+    width: get-d(408px);
+    height: get-d(39px);
+    z-index: 2;
+    background: $ezk-heading-underline;
+    @include respond(xl) {
+      top: 64px;
+      width: 408px;
+      height: 39px;
+    }
+    @include respond(md) {
+      top: 22px;
+      width: 110px;
+      height: 13px;
+    }
+  }
+
+  &__title {
+    position: absolute;
+    margin: 0;
+    font-family: $ezk-font;
+    font-weight: 100;
+    color: $ezk-text-black;
+    top: 0;
+    left: get-d(10px);
+    width: get-d(194px);
+    height: get-d(95px);
+    z-index: 1;
+    font-size: get-d(80px);
+    line-height: get-d(95.46875px);
+    @include respond(xl) {
+      left: 10px;
+      width: 194px;
+      height: 95px;
+      font-size: 80px;
+      line-height: 95.46875px;
+    }
+    @include respond(md) {
+      position: relative;
+      top: auto;
+      left: 0;
+      width: auto;
+      height: auto;
+      font-size: 32px;
+      line-height: normal;
+      font-weight: 110;
+    }
+  }
+
+  &__quote {
+    position: absolute;
+    margin: 0;
+    top: get-d(175px);
+    left: get-d(141px);
+    width: get-d(1056px);
+    @include respond(xl) {
+      top: 175px;
+      left: 141px;
+      width: 1056px;
+    }
+    @include respond(md) {
+      position: relative;
+      top: auto;
+      left: 0;
+      width: 100%;
+      margin: 0 0 32px;
+    }
+  }
+
+  &__quote-text {
+    margin: 0;
+    font-family: $ezk-font;
+    font-weight: 300;
+    color: $ezk-text-black;
+    width: get-d(1056px);
+    font-size: get-d(50px);
+    line-height: get-d(63px);
+    @include respond(xl) {
+      width: 1056px;
+      font-size: 50px;
+      line-height: 63px;
+    }
+    @include respond(md) {
+      width: 100%;
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    br {
+      @include respond(md) {
+        display: none;
+      }
+    }
+  }
+
+  &__author {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: get-d(298px);
+    left: 0;
+    width: get-d(266px);
+    height: get-d(66px);
+    gap: get-d(18px);
+    @include respond(xl) {
+      top: 298px;
+      width: 266px;
+      height: 66px;
+      gap: 18px;
+    }
+    @include respond(md) {
+      position: relative;
+      top: auto;
+      left: 0;
+      width: auto;
+      height: auto;
+      gap: 12px;
+      margin: 24px 0 0;
+    }
+  }
+
+  &__author-avatar {
+    flex: 0 0 auto;
+    border-radius: 50%;
+    background: $ezk-card-bg;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: get-d(66px);
+    height: get-d(66px);
+    @include respond(xl) {
+      width: 66px;
+      height: 66px;
+    }
+    @include respond(md) {
+      width: 48px;
+      height: 48px;
+    }
+
+    img {
+      display: block;
+      object-fit: cover;
+      width: get-d(53px);
+      height: get-d(67px);
+      @include respond(xl) {
+        width: 53px;
+        height: 67px;
+      }
+      @include respond(md) {
+        width: 36px;
+        height: 48px;
+      }
+    }
+  }
+
+  &__author-info {
+    display: flex;
+    flex-direction: column;
+    gap: get-d(8px);
+    @include respond(xl) {
+      gap: 8px;
+    }
+    @include respond(md) {
+      gap: 4px;
+    }
+  }
+
+  &__author-name {
+    margin: 0;
+    font-family: $ezk-font;
+    font-weight: 400;
+    color: $ezk-text-black;
+    font-size: get-d(24px);
+    line-height: get-d(28.640625px);
+    @include respond(xl) {
+      font-size: 24px;
+      line-height: 28.640625px;
+    }
+    @include respond(md) {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  &__author-role {
+    margin: 0;
+    font-family: $ezk-font;
+    font-weight: 100;
+    color: $ezk-text-black;
+    font-size: get-d(18px);
+    line-height: get-d(21.48046875px);
+    @include respond(xl) {
+      font-size: 18px;
+      line-height: 21.48046875px;
+    }
+    @include respond(md) {
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+
+  &__meta {
+    position: absolute;
+    top: get-d(743px);
+    left: 0;
+    width: get-d(1197px);
+    @include respond(xl) {
+      top: 743px;
+      width: 1197px;
+    }
+    @include respond(md) {
+      position: relative;
+      top: auto;
+      left: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin: 32px 0 0;
+    }
+  }
+
+  &__meta-col {
+    position: absolute;
+    top: 0;
+    left: get-d(10px);
+    width: get-d(522px);
+    @include respond(xl) {
+      left: 10px;
+      width: 522px;
+    }
+    @include respond(md) {
+      position: relative;
+      top: auto;
+      left: 0;
+      width: 100%;
+    }
+
+    &--right {
+      left: get-d(569px);
+      width: get-d(217px);
+      @include respond(xl) {
+        left: 569px;
+        width: 217px;
+      }
+      @include respond(md) {
+        left: 0;
+        width: 100%;
+      }
+    }
+  }
+
+  &__meta-label {
+    margin: 0 0 get-d(24px);
+    font-family: $ezk-font;
+    font-weight: 400;
+    color: $ezk-text-black;
+    font-size: get-d(18px);
+    line-height: get-d(21.48046875px);
+    @include respond(xl) {
+      margin: 0 0 24px;
+      font-size: 18px;
+      line-height: 21.48046875px;
+    }
+    @include respond(md) {
+      margin: 0 0 12px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+
+  &__meta-text {
+    margin: 0 0 get-d(16px);
+    font-family: $ezk-font;
+    font-weight: 100;
+    color: $ezk-text-black;
+    font-size: get-d(22px);
+    line-height: get-d(26.25390625px);
+    @include respond(xl) {
+      margin: 0 0 16px;
+      font-size: 22px;
+      line-height: 26.25390625px;
+    }
+    @include respond(md) {
+      margin: 0 0 8px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+
+    strong {
+      font-weight: 400;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__meta-col:not(&__meta-col--right) &__meta-text {
+    line-height: get-d(29px);
+    @include respond(xl) {
+      line-height: 29px;
+    }
+    @include respond(md) {
+      line-height: 22px;
+    }
+  }
+}

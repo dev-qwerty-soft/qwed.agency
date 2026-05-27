@@ -2,6 +2,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "watch": "webpack --watch --mode development",
+    "start": "webpack --watch --mode development",
     "format": "prettier --write \"**/*.{js,ts,jsx,tsx,scss,sass,php}\"",
     "zip": "node webpack/zip.js",
     "images": "node webpack/optimize-images.js"
@@ -50,6 +51,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "clsx": "^2.1.1",
     "gsap": "^3.12.5",
     "swiper": "^11.1.4"

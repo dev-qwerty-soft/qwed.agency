@@ -1,0 +1,72 @@
+
+$ezk-sfpro-path: '../../../fonts/SFPro';
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src:
+    url('#{$ezk-sfpro-path}/SFProDisplay-Ultralight.woff2') format('woff2'),
+    url('#{$ezk-sfpro-path}/SFProDisplay-Ultralight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src:
+    url('#{$ezk-sfpro-path}/SFProDisplay-Thin.woff2') format('woff2'),
+    url('#{$ezk-sfpro-path}/SFProDisplay-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url('#{$ezk-sfpro-path}/SFProDisplay-Light.woff2') format('woff2'),
+    url('#{$ezk-sfpro-path}/SFProDisplay-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('#{$ezk-sfpro-path}/SFProDisplay-Regular.woff2') format('woff2'),
+    url('#{$ezk-sfpro-path}/SFProDisplay-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('#{$ezk-sfpro-path}/SFProDisplay-Medium.woff2') format('woff2'),
+    url('#{$ezk-sfpro-path}/SFProDisplay-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url('#{$ezk-sfpro-path}/SFProDisplay-Semibold.woff2') format('woff2'),
+    url('#{$ezk-sfpro-path}/SFProDisplay-Semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('#{$ezk-sfpro-path}/SFProDisplay-Bold.woff2') format('woff2'),
+    url('#{$ezk-sfpro-path}/SFProDisplay-Bold.woff') format('woff');
+}

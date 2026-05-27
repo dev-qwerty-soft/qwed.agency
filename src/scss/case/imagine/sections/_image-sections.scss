@@ -1,0 +1,61 @@
+.case-imagine__image-section {
+  @include respond(md) {
+    padding: 40px 16px;
+    overflow: visible;
+
+    &--desktop-35 {
+      padding: 40px 0;
+      overflow: hidden;
+    }
+
+    &--desktop-16,
+    &--desktop-36,
+    &--desktop-38 {
+      padding: 40px 0;
+    }
+
+    &--desktop-39 {
+      padding: 40px 0 0;
+    }
+
+    &--desktop-8 {
+      padding: 0 0 40px;
+    }
+
+    &--desktop-10 {
+      padding: 40px 0 0;
+    }
+
+    &--desktop-13 {
+      padding: 0 0 40px;
+    }
+
+    &--desktop-31 {
+      padding: 40px 0 0;
+    }
+
+    &--desktop-33 {
+      padding: 0 0 40px;
+    }
+  }
+}
+
+.case-imagine__desktop-img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  @include respond(md) {
+    display: none;
+  }
+}
+
+.case-imagine__mobile-img {
+  display: none;
+
+  @include respond(md) {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}

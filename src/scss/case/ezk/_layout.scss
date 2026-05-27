@@ -1,0 +1,67 @@
+html:has(.case-ezk) {
+  scroll-behavior: smooth;
+}
+
+.case-ezk {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: $ezk-font;
+  color: $ezk-text-black;
+  background: $ezk-page-bg;
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  &__page {
+    position: relative;
+    width: 100%;
+    max-width: get-d($ezk-page-width);
+    margin: 0 auto;
+    @include respond(xl) {
+      max-width: $ezk-page-width;
+    }
+  }
+
+  &__section {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    margin: 0;
+  }
+
+  &__image-section {
+    display: block;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    margin: 0;
+  }
+
+  &__deco {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  @include respond(md) {
+    &__page {
+      max-width: 100%;
+    }
+
+    &__deco {
+      display: none;
+    }
+  }
+}

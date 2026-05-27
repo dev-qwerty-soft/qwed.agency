@@ -1,0 +1,62 @@
+.case-blue-jay__image-section {
+  display: block;
+  width: 100%;
+  &.case-blue-jay__image-section--desktop-22 {
+    padding: 220px 0 0 0;
+  }
+  @include respond(md) {
+    width: 100%;
+    height: auto;
+    padding: 40px 16px;
+    overflow: visible;
+    &.case-blue-jay__image-section--desktop-12 {
+      padding: 40px 0 40px 16px;
+    }
+    &.case-blue-jay__image-section--desktop-17 {
+      padding: 40px 16px;
+    }
+    &.case-blue-jay__image-section--desktop-21 {
+      padding: 40px 16px;
+    }
+    &.case-blue-jay__image-section--desktop-36 {
+      padding: 40px 16px 40px 0;
+    }
+    &.case-blue-jay__image-section--desktop-38 {
+      padding: 40px 0 40px 16px;
+    }
+
+    &.case-blue-jay__image-section--desktop-22 {
+      padding: 0 0;
+    }
+  }
+}
+
+.case-blue-jay__desktop-img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  @include respond(md) {
+    display: none;
+  }
+}
+
+.case-blue-jay__mobile-img {
+  display: none;
+
+  @include respond(md) {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@include respond(md) {
+  .case-blue-jay__image-section--hero {
+    margin-top: 24px;
+  }
+
+  .case-blue-jay__image-section--logo {
+    display: none;
+  }
+}

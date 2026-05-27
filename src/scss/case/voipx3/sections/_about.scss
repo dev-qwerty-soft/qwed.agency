@@ -1,0 +1,211 @@
+
+.case-voipx3-about {
+  position: relative;
+  padding: get-d(96px) 0 get-d(64px);
+  width: get-d(1281px);
+  margin: 0 auto;
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: get-d(52px);
+    margin-bottom: get-d(116px);
+  }
+
+  &__pill {
+    display: inline-flex;
+    align-items: stretch;
+    height: get-d(52px);
+    border-radius: get-d(13px);
+    overflow: hidden;
+    background: $voip-card-light;
+  }
+
+  &__pill-number,
+  &__pill-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $voip-font;
+    font-weight: 400;
+    font-size: get-d(20px);
+    line-height: get-d(24px);
+    letter-spacing: 0;
+  }
+
+  &__pill-number {
+    width: get-d(52px);
+    background: $voip-navy;
+    color: #f9f9f9;
+    border-radius: get-d(13px);
+  }
+
+  &__pill-label {
+    padding: 0 get-d(22px);
+    color: #000;
+  }
+
+  &__meta {
+    display: flex;
+    align-items: center;
+    gap: get-d(32px);
+  }
+
+  &__meta-item {
+    font-family: $voip-font;
+    font-weight: 100;
+    font-size: get-d(22.83px);
+    line-height: get-d(27px);
+    color: #000;
+    white-space: nowrap;
+  }
+
+  &__lead {
+    margin: 0;
+    padding-left: get-d(173px);
+    max-width: get-d(1081px);
+    font-family: $voip-font;
+    font-weight: 500;
+    font-size: get-d(44px);
+    line-height: get-d(56px);
+    color: $voip-ink;
+    letter-spacing: -0.01em;
+  }
+
+  &__footer {
+    display: grid;
+    grid-template-columns: get-d(343px) 1fr;
+    column-gap: get-d(135px);
+    align-items: end;
+    margin-top: get-d(132px);
+  }
+
+  &__blurb {
+    margin: 0;
+    font-family: $voip-font;
+    font-weight: 300;
+    font-size: get-d(17px);
+    line-height: get-d(20px);
+    color: $voip-ink;
+  }
+
+  &__brand {
+    position: relative;
+    justify-self: center;
+    width: get-d(243px);
+  }
+
+  &__brand-card {
+    width: get-d(243px);
+    height: get-d(243px);
+    border-radius: get-d(29.679px);
+    background: $voip-navy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__brand-logo {
+    width: get-d(161px);
+    height: get-d(33px);
+    object-fit: contain;
+  }
+
+  &__brand-tags {
+    margin: get-d(25px) 0 0;
+    padding: 0 get-d(9px);
+    display: flex;
+    flex-direction: column;
+    gap: get-d(10px);
+  }
+
+  &__brand-tag {
+    font-family: $voip-font;
+    font-weight: 100;
+    font-size: get-d(17px);
+    line-height: get-d(20px);
+    color: $voip-ink;
+  }
+
+  @include respond(md) {
+    width: 100%;
+    padding: 48px 0 32px;
+
+    &__top {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+      margin-bottom: 32px;
+      gap: 16px;
+    }
+
+    &__pill {
+      height: 44px;
+      border-radius: 11px;
+    }
+
+    &__pill-number {
+      width: 44px;
+      font-size: 16px;
+      line-height: 20px;
+      border-radius: 11px;
+    }
+
+    &__pill-label {
+      padding: 0 16px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    &__meta {
+      flex-wrap: wrap;
+      gap: 12px 24px;
+    }
+
+    &__meta-item {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    &__lead {
+      padding-left: 0;
+      max-width: 100%;
+      font-size: 28px;
+      line-height: 36px;
+    }
+
+    &__footer {
+      grid-template-columns: 1fr;
+      row-gap: 32px;
+      align-items: start;
+      margin-top: 40px;
+    }
+
+    &__blurb {
+      font-size: 15px;
+      line-height: 22px;
+    }
+
+    &__brand {
+      justify-self: start;
+      width: 200px;
+    }
+
+    &__brand-card {
+      width: 200px;
+      height: 200px;
+      border-radius: 24px;
+    }
+
+    &__brand-logo {
+      width: 132px;
+      height: 28px;
+    }
+
+    &__brand-tag {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}

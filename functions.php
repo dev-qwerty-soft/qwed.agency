@@ -16,6 +16,7 @@ require_once THEME_PATH . '/includes/classes/acf-settings.php';
 require_once THEME_PATH . '/includes/classes/security-enhancer.php';
 require_once THEME_PATH . '/includes/classes/seo-enhancer.php';
 require_once THEME_PATH . '/includes/classes/performance-enhancer.php';
+require_once THEME_PATH . '/includes/classes/case-cpt.php';
 
 new ThemeSetup();
 new AssetsManager();
@@ -24,3 +25,4 @@ new ACFSettings();
 new SecurityEnhancer();
 new SEOEnhancer();
 new PerformanceEnhancer();
+new CaseCPT();

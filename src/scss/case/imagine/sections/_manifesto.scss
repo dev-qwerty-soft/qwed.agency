@@ -1,0 +1,116 @@
+.case-imagine__section--manifesto {
+  padding: get-d(149px) get-d(238px) get-d(149px) get-d(124px);
+  background: #ffffff;
+
+  @include respond(xl) {
+    padding: 149px 238px 149px 124px;
+  }
+
+  @include respond(md) {
+    padding: 40px 16px;
+  }
+}
+
+.im-manifesto {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+
+  @include respond(md) {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__tag {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: get-d(33px);
+    padding: 0 get-d(10px);
+    background: #000;
+    color: #fff;
+    font-family: $im-font;
+    font-weight: 400;
+    font-size: get-d(18px);
+    letter-spacing: -0.05em;
+    line-height: 1;
+    margin-top: get-d(26px);
+
+    @include respond(xl) {
+      height: 33px;
+      padding: 0 10px;
+      font-size: 18px;
+      margin-top: 26px;
+    }
+
+    @include respond(md) {
+      align-self: flex-start;
+      margin-top: 0;
+      height: 22px;
+      padding: 0 6px;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: normal;
+    }
+  }
+
+  &__text {
+    flex: 0 0 auto;
+    width: get-d(892px);
+    margin: 0;
+    font-family: $im-font;
+    font-weight: 400;
+    color: #000;
+    font-size: get-d(20px);
+    line-height: get-d(30px);
+
+    @include respond(xl) {
+      width: 892px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    @include respond(md) {
+      width: 100%;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+
+  &__text--mobile {
+    display: none;
+
+    @include respond(md) {
+      display: block;
+    }
+  }
+
+  &__text--desktop {
+    @include respond(md) {
+      display: none;
+    }
+  }
+
+  &__mark {
+    float: left;
+    width: get-d(152px);
+    height: get-d(36px);
+    margin: get-d(-6px) get-d(10px) 0 0;
+    object-fit: contain;
+    display: block;
+
+    @include respond(xl) {
+      width: 152px;
+      height: 36px;
+      margin: -6px 10px 0 0;
+    }
+
+    @include respond(md) {
+      width: 91px;
+      height: 15px;
+      margin: 2px 6px 0 0;
+    }
+  }
+}

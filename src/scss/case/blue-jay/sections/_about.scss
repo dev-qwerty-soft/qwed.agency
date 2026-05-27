@@ -1,0 +1,219 @@
+.case-blue-jay__section--about {
+  width: 100%;
+  padding: get-d(152px) get-d(40px) get-d(40px);
+  background: #ffffff;
+  @include respond(xl) {
+    padding: 152px 40px 40px;
+  }
+  @include respond(md) {
+    padding: 0 16px;
+    margin: 0 0 82px;
+    background: transparent;
+  }
+}
+
+.case-blue-jay-about {
+  position: relative;
+  width: 100%;
+  min-height: get-d(654px);
+
+  @include respond(xl) {
+    min-height: 654px;
+  }
+
+  @include respond(md) {
+    min-height: 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      'label  label'
+      'title  title'
+      'lede   lede'
+      'icons  meta';
+    column-gap: 16px;
+  }
+
+  &__label {
+    margin: 0 0 get-d(12px);
+    font-family: $bj-font;
+    font-weight: 400;
+    color: $bj-text-black;
+    font-size: get-d(18px);
+    line-height: get-d(22px);
+    @include respond(xl) {
+      margin: 0 0 12px;
+      font-size: 18px;
+      line-height: 22px;
+    }
+    @include respond(md) {
+      grid-area: label;
+      margin: 0 0 10px;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 14px;
+    }
+  }
+
+  &__title {
+    margin: 0 0 get-d(36px);
+    max-width: get-d(1252px);
+    font-family: $bj-font;
+    font-weight: 500;
+    color: $bj-text-black;
+    font-size: get-d(62px);
+    line-height: get-d(60px);
+    letter-spacing: -0.02em;
+    @include respond(xl) {
+      margin: 0 0 36px;
+      max-width: 1252px;
+      font-size: 62px;
+      line-height: 60px;
+    }
+    @include respond(md) {
+      display: none;
+      grid-area: title;
+      margin: 0 0 16px;
+      max-width: 100%;
+      font-size: 27px;
+      line-height: 32px;
+      letter-spacing: -0.01em;
+    }
+    &.mobile {
+      display: none;
+      @include respond(md) {
+        display: block;
+      }
+    }
+  }
+
+  &__accent {
+    color: $bj-accent;
+  }
+
+  &__lede {
+    margin: 0;
+    max-width: get-d(1340px);
+    font-family: $bj-font;
+    font-weight: 400;
+    color: $bj-text-muted;
+    font-size: get-d(16px);
+    line-height: get-d(24px);
+    @include respond(xl) {
+      max-width: 1340px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    @include respond(md) {
+      grid-area: lede;
+      margin: 0 0 60px;
+      max-width: 100%;
+      font-size: 12px;
+      line-height: 15px;
+      color: $bj-text-black;
+    }
+  }
+
+  &__icons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    gap: get-d(12px);
+    @include respond(xl) {
+      gap: 12px;
+    }
+    @include respond(md) {
+      position: static;
+      grid-area: icons;
+      align-self: end;
+      gap: 7px;
+      margin: 0;
+    }
+  }
+
+  &__icon {
+    width: get-d(56px);
+    height: get-d(56px);
+    border-radius: get-d(17.5px);
+    background: #14191d;
+    backdrop-filter: blur(14.875px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: get-d(14px);
+    @include respond(xl) {
+      width: 56px;
+      height: 56px;
+      border-radius: 17.5px;
+      font-size: 14px;
+    }
+    @include respond(md) {
+      width: 24px;
+      height: 24px;
+      border-radius: 4px;
+      font-size: 6px;
+      backdrop-filter: none;
+    }
+    svg {
+      width: 60%;
+      height: 60%;
+      @include respond(md) {
+        width: 12px;
+        height: 14px;
+      }
+    }
+  }
+
+  &__meta {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: get-d(200px);
+    @include respond(xl) {
+      width: 200px;
+    }
+    @include respond(md) {
+      position: static;
+      grid-area: meta;
+      width: 134px;
+    }
+  }
+
+  &__meta-row {
+    display: flex;
+    gap: get-d(8px);
+    margin-bottom: get-d(10px);
+    font-family: $bj-font;
+    font-size: get-d(14px);
+    line-height: get-d(20px);
+    @include respond(xl) {
+      gap: 8px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    @include respond(md) {
+      gap: 4px;
+      margin: 0;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      height: 20px;
+      align-items: center;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__meta-label {
+    color: $bj-accent;
+    flex: 0 0 auto;
+  }
+
+  &__meta-value {
+    color: $bj-text-black;
+  }
+}

@@ -18,6 +18,9 @@ Thumbs.db
 # VSCode
 .vscode/
 
+# Claude Code local settings (may contain tokens)
+.claude/
+
 # dotenv / secrets
 .env
 .env.local
@@ -51,3 +54,6 @@ uploads/
 *.tmp
 *.temp
 *~
+
+# Figma extraction working dir
+/.figma-extraction

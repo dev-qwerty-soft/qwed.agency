@@ -44,13 +44,6 @@ body {
     pointer-events: none;
     transition: opacity 0.5s;
   }
-  // &:has(.popup.active),
-  // &:has(.menu.active) {
-  //   &::before {
-  //     opacity: 1;
-  //     pointer-events: all;
-  //   }
-  // }
 }
 
 .container {

@@ -1,0 +1,55 @@
+
+.case-ezk__section--result {
+  padding: 0 get-d(50px);
+  @include respond(xl) {
+    padding: 0 50px;
+  }
+}
+
+.case-ezk-result {
+  position: relative;
+  width: get-d(732px);
+  height: get-d(110px);
+  margin: 0 auto;
+  @include respond(xl) {
+    width: 732px;
+    height: 110px;
+  }
+
+  &__underline {
+    position: absolute;
+    top: get-d(71px);
+    left: 0;
+    width: get-d(732px);
+    height: get-d(39px);
+    z-index: 2;
+    background: $ezk-heading-underline;
+    @include respond(xl) {
+      top: 71px;
+      width: 732px;
+      height: 39px;
+    }
+  }
+
+  &__title {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: get-d(10px);
+    width: get-d(193px);
+    height: get-d(95px);
+    z-index: 1;
+    font-family: $ezk-font;
+    font-weight: 100;
+    color: $ezk-text-black;
+    font-size: get-d(80px);
+    line-height: get-d(95.46875px);
+    @include respond(xl) {
+      left: 10px;
+      width: 193px;
+      height: 95px;
+      font-size: 80px;
+      line-height: 95.46875px;
+    }
+  }
+}

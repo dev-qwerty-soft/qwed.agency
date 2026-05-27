@@ -1,0 +1,40 @@
+.case-ezk__image-section--fright-night,
+.case-ezk__image-section--faq,
+.case-ezk__image-section--subscribe,
+.case-ezk__image-section--bulk-orders {
+  padding: get-d(130px) get-d(24px) get-d(130px);
+  @include respond(xl) {
+    padding: 130px 24px 130px;
+  }
+  @include respond(md) {
+    padding: 0;
+  }
+}
+
+.case-ezk__mobile-img {
+  display: none;
+  width: 100%;
+  height: auto;
+  @include respond(md) {
+    display: block;
+  }
+}
+
+.case-ezk__desktop-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  @include respond(md) {
+    display: none;
+  }
+}
+
+.case-ezk__mockup--dontmiss {
+  padding: get-d(130px) 0 0;
+  @include respond(xl) {
+    padding: 130px 0 0;
+  }
+  @include respond(md) {
+    padding: 130px 0 0;
+  }
+}

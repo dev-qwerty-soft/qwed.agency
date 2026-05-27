@@ -1,0 +1,106 @@
+.case-blue-jay__section--colors {
+  width: 100%;
+  padding: 0 get-d(40px) get-d(40px) get-d(40px);
+  background: #ffffff;
+
+  @include respond(xl) {
+    padding: 0 40px 40px 40px;
+  }
+
+  @include respond(md) {
+    padding: 0 16px;
+    margin: 0 0 82px;
+    background: transparent;
+  }
+}
+
+.case-blue-jay-colors {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  gap: get-d(22px);
+
+  @include respond(xl) {
+    gap: 22px;
+  }
+
+  @include respond(md) {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+.case-blue-jay-colors__card {
+  position: relative;
+  flex: 1 1 0;
+  height: get-d(244px);
+  border-radius: get-d(28px);
+  font-family: $bj-font;
+
+  @include respond(xl) {
+    height: 244px;
+    border-radius: 28px;
+  }
+
+  @include respond(md) {
+    width: 100%;
+    height: 160px;
+    border-radius: 20px;
+  }
+
+  &--dark {
+    background: #182d49;
+    color: #fcfcfc;
+  }
+
+  &--gray {
+    background: #c0d4db;
+    color: #182d49;
+  }
+
+  &--blue {
+    background: #7bcad9;
+    color: #fcfcfc;
+  }
+}
+
+.case-blue-jay-colors__hex {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  font-size: get-d(26px);
+  line-height: 1;
+  letter-spacing: 0.02em;
+
+  @include respond(xl) {
+    font-size: 26px;
+  }
+
+  @include respond(md) {
+    font-size: 22px;
+  }
+}
+
+.case-blue-jay-colors__name {
+  position: absolute;
+  margin: 0;
+  bottom: get-d(21px);
+  left: get-d(26px);
+  font-weight: 400;
+  font-size: get-d(20px);
+  line-height: 1.2;
+
+  @include respond(xl) {
+    bottom: 21px;
+    left: 26px;
+    font-size: 20px;
+  }
+
+  @include respond(md) {
+    bottom: 16px;
+    left: 20px;
+    font-size: 16px;
+  }
+}

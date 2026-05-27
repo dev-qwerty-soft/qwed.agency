@@ -1,0 +1,40 @@
+
+.case-imagine {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: $im-font;
+  color: $im-text-black;
+  background: $im-page-bg;
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  &__page {
+    width: 100%;
+    max-width: get-d($im-page-width);
+    margin: 0 auto;
+  }
+
+  &__section {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+
+  &__image-section {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  @include respond(md) {
+    &__page {
+      max-width: 100%;
+      padding: 0 0 96px;
+    }
+  }
+}

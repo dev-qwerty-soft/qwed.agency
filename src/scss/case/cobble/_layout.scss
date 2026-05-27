@@ -1,0 +1,35 @@
+.case-cobble {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: $cobble-font;
+  color: $cobble-text-light;
+  background: #f4f4f4;
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  &__page {
+    width: 100%;
+    max-width: get-d($cobble-page-width);
+    margin: 0 auto;
+
+    @include respond(xl) {
+      max-width: $cobble-page-width;
+    }
+  }
+
+  &__image-section {
+    display: block;
+    width: 100%;
+    margin: 0;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

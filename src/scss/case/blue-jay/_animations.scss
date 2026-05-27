@@ -1,0 +1,55 @@
+
+.case-blue-jay {
+  &__section,
+  &__image-section {
+    will-change: opacity, transform;
+  }
+
+  img {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+    &.is-loaded {
+      opacity: 1;
+    }
+  }
+
+  &__progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.04);
+    z-index: 9999;
+    pointer-events: none;
+    transition: opacity 0.5s ease 0.2s;
+
+    &.is-done {
+      opacity: 0;
+    }
+  }
+
+  &__progress-fill {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #1696c8 0%, $bj-accent 100%);
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform 0.3s ease;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .case-blue-jay {
+    img {
+      transition: none;
+    }
+
+    &__section,
+    &__image-section {
+      opacity: 1 !important;
+      transform: none !important;
+    }
+  }
+}
