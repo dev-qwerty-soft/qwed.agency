@@ -1,6 +1,6 @@
 .case-cobble {
   width: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
   font-family: $cobble-font;
   color: $cobble-text-light;
   background: #f4f4f4;
