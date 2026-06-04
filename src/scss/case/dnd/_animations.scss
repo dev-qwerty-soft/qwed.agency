@@ -1,0 +1,30 @@
+.case-dnd {
+  &__image-section,
+  &__s04-section,
+  &__card-pair,
+  &__typo-section {
+    will-change: opacity, transform;
+  }
+
+  img {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+    &.is-loaded {
+      opacity: 1;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .case-dnd {
+    img {
+      transition: none;
+    }
+
+    &__image-section {
+      opacity: 1 !important;
+      transform: none !important;
+    }
+  }
+}

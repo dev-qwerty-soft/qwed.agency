@@ -1,0 +1,84 @@
+.case-eqvor {
+  background: $eq-page-bg;
+  &__image-section--about,
+  &__image-section--phones,
+  &__image-section--ipo-map,
+  &__image-section--stats,
+  &__image-section--resurser,
+  &__image-section--ipo-table,
+  &__image-section--ipo-calendar,
+  &__image-section--outro {
+    display: flex;
+    justify-content: center;
+    padding: 0 get-d(20px);
+    @include respond(xl) {
+      padding: 0 20px;
+    }
+
+    .case-eqvor__img {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  &__image-section--about {
+    padding: 0 get-d(20px) get-d(280px) get-d(20px);
+    @include respond(xl) {
+      padding: 0 20px 280px 20px;
+    }
+  }
+  &__image-section--ipo-map {
+    padding: get-d(32px) get-d(186px) get-d(0) get-d(20px);
+    @include respond(xl) {
+      padding: 32px 186px 0 20px;
+    }
+  }
+  &__image-section--stats {
+    padding: get-d(20px) get-d(20px) get-d(283px) get-d(186px);
+    @include respond(xl) {
+      padding: 20px 20px 283px 186px;
+    }
+  }
+  &__image-section--colors {
+    padding: get-d(283px) get-d(40px);
+    display: flex;
+    justify-content: center;
+    @include respond(xl) {
+      padding: 283px 40px;
+    }
+
+    .case-eqvor__img {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  &__image-section--resurser {
+    padding: get-d(220px) get-d(20px) get-d(48px) get-d(20px);
+    @include respond(xl) {
+      padding: 220px 20px 48px 20px;
+    }
+  }
+  &__image-section--result {
+    padding: get-d(350px) get-d(0) get-d(48px) get-d(0);
+    @include respond(xl) {
+      padding: 350px 0 48px 0;
+    }
+  }
+  &__image-section--ipo-calendar {
+    padding: get-d(50px) get-d(120px) get-d(320px) get-d(120px);
+    @include respond(xl) {
+      padding: 50px 120px 330px 120px;
+    }
+  }
+  &__image-section--platform {
+    .case-eqvor__img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__image-section--outro {
+    background: #000000;
+  }
+}

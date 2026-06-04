@@ -1,0 +1,299 @@
+.case-dnd {
+  width: 100%;
+  overflow-x: clip;
+  font-family: $dnd-font-body;
+  color: $dnd-text-white;
+  background: $dnd-page-bg;
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  &__page {
+    width: 100%;
+    max-width: get-d($dnd-page-width);
+    margin: 0 auto;
+    @include respond(xl) {
+      max-width: 1440px;
+    }
+  }
+
+  &__img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+  }
+
+  &__image-section {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  &__s04 {
+    display: flex;
+    flex-direction: column;
+    div {
+      padding: get-d(6px) get-d(14px);
+      @include respond(xl) {
+        padding: 6px 14px;
+      }
+    }
+  }
+
+  &__s04-section {
+    width: 100%;
+  }
+
+  &__typo-section {
+    position: relative;
+    overflow: hidden;
+    margin: 0 get-d(-14px);
+    background: $dnd-page-bg;
+    @include respond(xl) {
+      margin: 0 -14px;
+    }
+  }
+
+  &__typo-bg {
+    display: block;
+    width: get-d(3023px);
+    margin-left: get-d(-179px);
+    height: auto;
+    @include respond(xl) {
+      width: 3023px;
+      margin-left: -179px;
+    }
+  }
+
+  &__typo-overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  &__typo-name,
+  &__typo-regular,
+  &__typo-medium,
+  &__typo-semibold {
+    position: absolute;
+    font-family: $dnd-font-body;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0;
+    background: linear-gradient(to bottom, #cfebfc, #e99aae);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  &__typo-name {
+    left: get-d(277px);
+    top: get-d(132px);
+    font-size: get-d(54px);
+    @include respond(xl) {
+      left: 277px;
+      top: 132px;
+      font-size: 54px;
+    }
+  }
+
+  &__typo-regular {
+    left: get-d(507px);
+    top: get-d(609px);
+    font-size: get-d(22px);
+    @include respond(xl) {
+      left: 507px;
+      top: 609px;
+      font-size: 22px;
+    }
+  }
+
+  &__typo-medium {
+    left: get-d(507px);
+    top: get-d(654px);
+    font-size: get-d(22px);
+    @include respond(xl) {
+      left: 507px;
+      top: 654px;
+      font-size: 22px;
+    }
+  }
+
+  &__typo-semibold {
+    left: get-d(507px);
+    top: get-d(699px);
+    font-size: get-d(22px);
+    @include respond(xl) {
+      left: 507px;
+      top: 699px;
+      font-size: 22px;
+    }
+  }
+
+  &__typo-vline {
+    position: absolute;
+    left: get-d(466px);
+    top: get-d(164px);
+    width: 1px;
+    height: get-d(223px);
+    background: #3f4452;
+    @include respond(xl) {
+      left: 466px;
+      top: 164px;
+      height: 223px;
+    }
+  }
+
+  &__typo-v530 {
+    position: absolute;
+    left: get-d(478px);
+    top: get-d(581px);
+    width: get-d(15px);
+    height: auto;
+    @include respond(xl) {
+      left: 478px;
+      top: 581px;
+      width: 15px;
+    }
+  }
+
+  &__typo-v531 {
+    position: absolute;
+    left: get-d(478px);
+    top: get-d(582px);
+    width: get-d(16px);
+    height: auto;
+    @include respond(xl) {
+      left: 478px;
+      top: 582px;
+      width: 16px;
+    }
+  }
+
+  &__typo-v532 {
+    position: absolute;
+    left: get-d(478px);
+    top: get-d(627px);
+    width: get-d(16px);
+    height: auto;
+    @include respond(xl) {
+      left: 478px;
+      top: 627px;
+      width: 16px;
+    }
+  }
+
+  &__card-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: get-d(14px);
+    @include respond(xl) {
+      gap: 14px;
+    }
+
+    > img {
+      min-width: 0;
+    }
+  }
+
+  &__card-col {
+    display: flex;
+    flex-direction: column;
+    gap: get-d(14px);
+    min-width: 0;
+    @include respond(xl) {
+      gap: 14px;
+    }
+  }
+
+  &__card-half {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: get-d(14px);
+    @include respond(xl) {
+      gap: 14px;
+    }
+  }
+
+  &__card-pair--works {
+    position: relative;
+  }
+
+  &__circle {
+    position: absolute;
+    display: block;
+    height: auto;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  &__circle--main {
+    left: get-d(149px);
+    top: get-d(-6px);
+    bottom: get-d(-6px);
+    width: get-d(1189px);
+    min-height: 110%;
+    @include respond(xl) {
+      left: 149px;
+      top: -6px;
+      bottom: -6px;
+      width: 1189px;
+    }
+  }
+
+  &__circle--sm-l {
+    left: get-d(-138px);
+    top: get-d(-151px);
+    width: get-d(679px);
+    @include respond(xl) {
+      left: -138px;
+      top: -151px;
+      width: 679px;
+    }
+  }
+
+  &__circle--sm-r {
+    left: get-d(871px);
+    top: get-d(-160px);
+    width: get-d(679px);
+    @include respond(xl) {
+      left: 871px;
+      top: -160px;
+      width: 679px;
+    }
+  }
+
+  &__circle--sm-br {
+    left: get-d(863px);
+    top: get-d(395px);
+    width: get-d(679px);
+    @include respond(xl) {
+      left: 863px;
+      top: 395px;
+      width: 679px;
+    }
+  }
+
+  &__mobile-layout {
+    display: none;
+  }
+
+  @include respond(md) {
+    &__page {
+      max-width: 100%;
+    }
+
+    &__desktop-layout {
+      display: none;
+    }
+
+    &__mobile-layout {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.case-dnd {
+  &__image-section--mob-1 {
+    display: flex;
+    justify-content: center;
+    background: $dnd-page-bg;
+
+    .case-dnd__img {
+      width: 375px;
+      max-width: 100%;
+      height: auto;
+
+      @include respond(xl) {
+        width: 375px;
+      }
+    }
+  }
+}
