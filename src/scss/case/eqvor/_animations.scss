@@ -1,0 +1,31 @@
+.case-eqvor {
+  &__image-section,
+  &__dual,
+  &__trio {
+    will-change: opacity, transform;
+  }
+
+  img {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+    &.is-loaded {
+      opacity: 1;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .case-eqvor {
+    img {
+      transition: none;
+    }
+
+    &__image-section,
+    &__dual,
+    &__trio {
+      opacity: 1 !important;
+      transform: none !important;
+    }
+  }
+}
