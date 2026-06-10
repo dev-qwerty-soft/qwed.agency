@@ -32,6 +32,7 @@ module.exports = (_, env) => {
       'case-cobble': './src/js/client/case-cobble/index.ts',
       'case-eqvor': './src/js/client/case-eqvor/index.ts',
       'case-dnd': './src/js/client/case-dnd/index.ts',
+      'case-edgeclear': './src/js/client/case-edgeclear/index.ts',
     },
     output: {
       filename: 'js/[name].min.js',
